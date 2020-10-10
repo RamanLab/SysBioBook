@@ -1,6 +1,6 @@
 ---
 name: typo
-about: Describe this issue template's purpose here.
+about: Use this for reporting typographical/grammatical errors in the book.
 title: "[typo] Chapter 1"
 labels: typo
 assignees: karthikraman
