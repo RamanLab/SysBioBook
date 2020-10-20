@@ -296,13 +296,7 @@ parameters, which are values which will be available to you in chrome.
 
 For instance, you might declare:
 
-```
-{{if .Site.Params.CopyrightHTML}}<footer>
-<div class="text-center">{{.Site.Params.CopyrightHTML | safeHtml}}</div>
-</footer>{{end}}
-```
-
-```MATLAB
+```yaml
 params:
   CopyrightHTML: "Copyright &#xA9; 2013 John Doe. All Rights Reserved."
   TwitterUser: "spf13"
