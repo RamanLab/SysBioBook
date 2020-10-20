@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://ramanlab.github.io/SysBioBook/"
 languageCode = "en-us"
 title = "An Introduction to Computational Systems Biology: Companion Website"
 publishDir = "docs"
