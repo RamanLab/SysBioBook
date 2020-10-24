@@ -1,41 +1,54 @@
 ---
-title: Introduction
+title: Home
 type: docs
 ---
 
-# Acerbo datus maxime
+# Companion Website
 
-{{< columns >}}
-## Astris ipse furtiva
-
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
-
-<--->
-
-## Suis quot vota
-
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
+This is the companion website for the book, "An Introduction to Computational Systems Biology", published by the CRC Press. It contains additional material and information on the book.
 
 
-## Tempora nisi nunc
+## Overview
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+This book delivers a comprehensive and insightful account of applying mathematical modelling approaches to very large biological systems and networks—a fundamental aspect of _computational systems biology_. The book covers key modelling paradigms in detail, while at the same time retaining a simplicity that will appeal to those from less quantitative fields. 
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
 
-## Locis suis novi cum suoque decidit eadem
+#### Key Features
+ - A hands-on approach to modelling
+ - Covers a broad spectrum of modelling, from static networks to dynamic models and constraint-based models
+ - Thoughtful exercises to test and enable understanding of concepts
+ - State-of-the-art chapters on exciting new developments, like community modelling and biological circuit design
+ - Emphasis on coding and software tools for systems biology
 
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+
+The book is highly multi-disciplinary and will appeal to biologists, engineers, computer scientists, mathematicians and others.
+
+## Table of Contents
+
+1. Introduction to modelling
+2. Introduction to graph theory
+3. Structure of networks
+4. Applications of network biology
+5. Introduction to dynamic modelling
+6. Parameter estimation
+7. Discrete dynamic models: Boolean networks
+8. Introduction to constraint-based modelling
+9. Extending constraint-based approaches
+10. Perturbations to metabolic networks
+11. Modelling cellular interactions
+12. Designing biological circuits
+13. Robustness and evolvability of biological systems
+14. Epilogue: The Road Ahead
+
+
+## Reviews
+
+
+<!-- Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+
+Here is some inline example: {{< katex >}}\pi^3(x){{< /katex >}}, rendered in the same line. And below is `display` example, having `display: block`
+{{< katex display >}}
+f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+{{< /katex >}}
+Text continues here.
+ -->
