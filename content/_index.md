@@ -1,4 +1,9 @@
 ---
+menu:
+  before:
+    name: blog
+    weight: 5
+
 title: Home
 type: docs
 weight: 1
