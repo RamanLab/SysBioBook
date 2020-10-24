@@ -3,167 +3,111 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/example/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/example/table-of-contents/with-toc/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/example/table-of-contents/without-toc/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/example/table-of-contents/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/example/collapsed/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>//ramanlab.github.io/SysBioBook/resources/appendices/</loc>
   </url>
   
   <url>
     <loc>//ramanlab.github.io/SysBioBook/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//ramanlab.github.io/SysBioBook/posts/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>//ramanlab.github.io/SysBioBook/resources/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/codes/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/lecture-videos/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/further-reading/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/author-info/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/errata-feedback/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/supplementary-exercises/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/updates/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/figure-slides/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/buttons/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/columns/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/details/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/expand/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/hints/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/katex/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/mermaid/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/section/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/section/page1/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/section/page2/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/section/page3/</loc>
+  </url>
+  
+  <url>
+    <loc>//ramanlab.github.io/SysBioBook/resources/shortcodes/tabs/</loc>
   </url>
   
   <url>
     <loc>//ramanlab.github.io/SysBioBook/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//ramanlab.github.io/SysBioBook/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/example/collapsed/3rd-level/4th-level/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/example/collapsed/3rd-level/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/example/hidden/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/buttons/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/columns/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/details/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/expand/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/hints/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/katex/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/mermaid/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/section/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/section/page1/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/section/page2/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/shortcodes/tabs/</loc>
-  </url>
-  
-  <url>
-    <loc>//ramanlab.github.io/SysBioBook/docs/</loc>
   </url>
   
 </urlset>

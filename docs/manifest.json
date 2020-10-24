@@ -1,6 +1,6 @@
 {
-  "name": "An Introduction to Computational Systems Biology: Companion Website",
-  "short_name": "An Introduction to Computational Systems Biology: Companion Website",
+  "name": "An Introduction to Computational Systems Biology",
+  "short_name": "An Introduction to Computational Systems Biology",
   "start_url": "/SysBioBook/",
   "scope": "/SysBioBook/",
   "display": "standalone",

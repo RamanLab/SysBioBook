@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on An Introduction to Computational Systems Biology</title>
-    <link>//ramanlab.github.io/SysBioBook/</link>
-    <description>Recent content in Home on An Introduction to Computational Systems Biology</description>
+    <title>An Introduction to Computational Systems Biology</title>
+    <link>//ramanlab.github.io/SysBioBook/resources/shortcodes/</link>
+    <description>Recent content on An Introduction to Computational Systems Biology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="//ramanlab.github.io/SysBioBook/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="//ramanlab.github.io/SysBioBook/resources/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>//ramanlab.github.io/SysBioBook/resources/shortcodes/buttons/</link>
@@ -76,33 +76,6 @@ Example #  {{&amp;lt; katex [display] [class=&amp;#34;text-center&amp;#34;] &amp
       <guid>//ramanlab.github.io/SysBioBook/resources/shortcodes/mermaid/</guid>
       <description>Mermaid Chart #  Mermaid is library for generating svg charts and diagrams from text.
 Example #  {{&amp;lt; mermaid [class=&amp;#34;text-center&amp;#34;]&amp;gt;}} sequenceDiagram Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you? alt is sick Bob-&amp;gt;&amp;gt;Alice: Not so good :( else is well Bob-&amp;gt;&amp;gt;Alice: Feeling fresh like a daisy end opt Extra response Bob-&amp;gt;&amp;gt;Alice: Thanks for asking end {{&amp;lt; /mermaid &amp;gt;}}     </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//ramanlab.github.io/SysBioBook/resources/shortcodes/section/page1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//ramanlab.github.io/SysBioBook/resources/shortcodes/section/page1/</guid>
-      <description>Page 1 #  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//ramanlab.github.io/SysBioBook/resources/shortcodes/section/page2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//ramanlab.github.io/SysBioBook/resources/shortcodes/section/page2/</guid>
-      <description>Page 2 #  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//ramanlab.github.io/SysBioBook/resources/shortcodes/section/page3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//ramanlab.github.io/SysBioBook/resources/shortcodes/section/page3/</guid>
-      <description>Page X #  Astris aipse furtiva #  Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut olivae sensit arma sorori deducit, inesset crudus, ego vetuere aliis, modo arsit? Utinam rapta fiducia valuere litora adicit cursu, ad facies</description>
     </item>
     
     <item>

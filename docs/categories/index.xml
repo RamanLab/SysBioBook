@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on An Introduction to Computational Systems Biology: Companion Website</title>
+    <title>Categories on An Introduction to Computational Systems Biology</title>
     <link>//ramanlab.github.io/SysBioBook/categories/</link>
-    <description>Recent content in Categories on An Introduction to Computational Systems Biology: Companion Website</description>
+    <description>Recent content in Categories on An Introduction to Computational Systems Biology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="//ramanlab.github.io/SysBioBook/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Development</title>
-      <link>//ramanlab.github.io/SysBioBook/categories/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>//ramanlab.github.io/SysBioBook/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>//ramanlab.github.io/SysBioBook/categories/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>//ramanlab.github.io/SysBioBook/categories/golang/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="//ramanlab.github.io/SysBioBook/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
