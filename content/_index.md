@@ -1,6 +1,7 @@
 ---
 title: Home
 type: docs
+weight: 1
 ---
 
 # Companion Website
