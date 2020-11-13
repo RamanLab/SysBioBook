@@ -11,7 +11,7 @@ weight: 1
 
 # Companion Website
 
-This is the companion website for the book, "An Introduction to Computational Systems Biology", published by the CRC Press. It contains additional material and information on the book.
+This is the companion website for the book, ["An Introduction to Computational Systems Biology"](https://www.routledge.com/An-Introduction-to-Computational-Systems-Biology-Systems-level-Modelling/Raman/p/book/9781138597327), published by [CRC Press](https://www.routledge.com/). It contains additional material and information on the book.
 
 
 ## Overview
