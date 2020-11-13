@@ -50,11 +50,10 @@ The book is highly multi-disciplinary and will appeal to biologists, engineers, 
 ## Reviews
 
 
-<!-- Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+_This is a very comprehensive read that provides a solid base in computational biology. The book is structured in 4 parts and 14 chapters which cover all the way from the more basic concepts to advanced material, including the state-of-the-art methodologies in synthetic and systems biology. This is a bedside book for those researchers embarking to do investigation in computational biology and a great office companion for anyone working on systems and synthetic biology._
 
-Here is some inline example: {{< katex >}}\pi^3(x){{< /katex >}}, rendered in the same line. And below is `display` example, having `display: block`
-{{< katex display >}}
-f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-{{< /katex >}}
-Text continues here.
- -->
+-- [Rodrigo Ledesma-Amaro](https://www.imperial.ac.uk/people/r.ledesma-amaro), Lecturer, [Imperial College London](https://www.imperial.ac.uk/)
+
+_This is a fantastic book.  It offers an elegant introduction to both classical and modern concepts in computational biology.  To the uninitiated, it is a terrific first read, bringing alive the glory of the past and the promise of the future.  To the interested, it handholds and offers a springboard to dive deep.  To the practitioner, it serves as a valuable resource bringing together in a panoramic view many diverse streams that adorn the landscape._
+
+-- [Narendra M. Dixit](https://chemeng.iisc.ac.in/chemeweb/faculty_narendra.htm), Professor, [Indian Institute of Science]()
