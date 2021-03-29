@@ -5,5 +5,5 @@ title = "An Introduction to Computational Systems Biology"
 publishDir = "docs"
 
 [params]
-  BookLogo = 'logo.jpg'
+  BookLogo = 'logo.png'
   BookSection = '*'

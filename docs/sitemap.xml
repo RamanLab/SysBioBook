@@ -1,61 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>//ramanlab.github.io/SysBioBook/resources/appendices/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/resources/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/resources/codes/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/resources/lecture-videos/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/resources/further-reading/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/author-info/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/errata-feedback/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/faq/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/resources/supplementary-exercises/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/updates/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/resources/figure-slides/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//ramanlab.github.io/SysBioBook/tags/</loc>
   </url>
-  
 </urlset>
