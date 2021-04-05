@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Perturbations to metabolic networks">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Chapter 10" />
+<meta property="og:description" content="Perturbations to metabolic networks" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-10/" />
+
+<title>Chapter 10 | An Introduction to Computational Systems Biology</title>
+<link rel="manifest" href="/SysBioBook/manifest.json">
+<link rel="icon" href="/SysBioBook/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/SysBioBook/book.min.ff12e6f676a04cc6e1c548b6da9fd164854a9daa9574d5e5a0a68fef3e325607.css" integrity="sha256-/xLm9nagTMbhxUi22p/RZIVKnaqVdNXloKaP7z4yVgc=">
+<script defer src="/SysBioBook/en.search.min.439be0a7e326adcf494e1af4aae4a0c0279549f516caba1e7d82c464d54be4dc.js" integrity="sha256-Q5vgp&#43;Mmrc9JThr0quSgwCeVSfUWyroefYLEZNVL5Nw="></script>
+<link rel="alternate" type="application/rss+xml" href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-10/index.xml" title="An Introduction to Computational Systems Biology" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="//ramanlab.github.io/SysBioBook/">
+    <span>An Introduction to Computational Systems Biology</span><br/>
+    <br/><img src="/SysBioBook/logo.png" alt="Logo" style="width:160px; height:auto;"/></a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/SysBioBook/" >
+        Home
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-fba7570249fb7a04f1bd47eaaeb61f3b" class="toggle" checked />
+    <label for="section-fba7570249fb7a04f1bd47eaaeb61f3b" class="flex justify-between">
+      <a  class="">Resources</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/appendices/" class="">Appendices</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/codes/" class="">Codes</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/lecture-videos/" class="">Lecture Videos</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-dc9ab43070dbf545ba14289be0a96762" class="toggle" checked />
+    <label for="section-dc9ab43070dbf545ba14289be0a96762" class="flex justify-between">
+      <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/" class="">Further Reading</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-01/" class="">Chapter 1</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-02/" class="">Chapter 2</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-03/" class="">Chapter 3</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-04/" class="">Chapter 4</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-05/" class="">Chapter 5</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-06/" class="">Chapter 6</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-07/" class="">Chapter 7</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-08/" class="">Chapter 8</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-09/" class="">Chapter 9</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-10/" class=" active">Chapter 10</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-11/" class="">Chapter 11</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-12/" class="">Chapter 12</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-13/" class="">Chapter 13</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-14/" class="">Chapter 14</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/appendix-a/" class="">Appendix A</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/appendix-b/" class="">Appendix B</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/appendix-c/" class="">Appendix C</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/appendix-d/" class="">Appendix D</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/appendix-e/" class="">Appendix E</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/supplementary-exercises/" class="">Supplementary Exercises</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/figure-slides/" class="">Figure Slides</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/author-info/" class="">About the Author</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/errata-feedback/" class="">Errata &amp; Feedback</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/faq/" class="">FAQs</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/updates/" class="">Updates</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/SysBioBook/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Chapter 10</strong>
+
+  <label for="toc-control">
+    
+    <img src="/SysBioBook/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents"></nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="chapter-10-perturbations-to-metabolic-networks">
+  Chapter 10: Perturbations to metabolic networks
+  <a class="anchor" href="#chapter-10-perturbations-to-metabolic-networks">#</a>
+</h1>
+<p><blockquote class="book-hint info">
+  <strong>Fast-SL: an efficient algorithm to identify synthetic lethal sets in metabolic networks</strong><br>
+<a href="http://doi.org/">Pratapa <em>et al</em>  (2015)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Genome-scale gene/reaction essentiality and synthetic lethality analysis</strong><br>
+<a href="http://doi.org/">Suthers <em>et al</em>  (2009)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Enumeration of Smallest Intervention Strategies in Genome-Scale Metabolic Networks</strong><br>
+<a href="http://doi.org/">von Kamp and Klamt (2014)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Global reconstruction of the human metabolic network based on genomic and bibliomic data</strong><br>
+<a href="http://doi.org/">Duarte <em>et al</em> (2007)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>A community-driven global reconstruction of human metabolism</strong><br>
+<a href="http://doi.org/">Thiele <em>et al</em> (2013)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Computational reconstruction of tissue-specific metabolic models: application to human liver metabolism</strong><br>
+<a href="http://doi.org/">Jerby <em>et al</em> (2010)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Insight into human alveolar macrophage and <em>M. tuberculosis</em> interactions via metabolic reconstructions</strong><br>
+<a href="http://doi.org/">Bordbar <em>et al</em> (2010)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>A multi-tissue type genome-scale metabolic network for analysis of whole-body systems physiology</strong><br>
+<a href="http://doi.org/">Bordbar <em>et al</em> (2011)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Reconstruction of Genome-Scale Active Metabolic Networks for 69 Human Cell Types and 16 Cancer Types Using INIT</strong><br>
+<a href="http://doi.org/">Agren <em>et al</em> (2012)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Predicting selective drug targets in cancer through metabolic networks</strong><br>
+<a href="http://doi.org/">Folger <em>et al</em> (2011)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Large-scale <em>in silico</em> modeling of metabolic interactions between cell types in the human brain</strong><br>
+<a href="http://doi.org/">Lewis <em>et al</em> (2010)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>A compendium of inborn errors of metabolism mapped onto the human metabolic network</strong><br>
+<a href="http://doi.org/">Sahoo <em>et al</em> (2012)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Predicting the impact of diet and enzymopathies on human small intestinal epithelial cells</strong><br>
+<a href="http://doi.org/">Sahoo and Thiele_ (2013)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>How Will Bioinformatics Influence Metabolic Engineering?</strong><br>
+<a href="http://doi.org/">Edwards and Palsson (1997)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Basic concepts and principles of stoichiometric modeling of metabolic networks</strong><br>
+<a href="http://doi.org/">Maarleveld <em>et al</em> (2013)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>The Convex Basis of the Left Null Space of the Stoichiometric Matrix Leads to the Definition of Metabolically Meaningful Pools</strong><br>
+<a href="http://doi.org/">Famili and Palsson (2003)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Systemic metabolic reactions are obtained by singular value decomposition of genome-scale stoichiometric matrices</strong><br>
+<a href="http://doi.org/">Famili and Palsson (2003)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Constraining the metabolic genotype–phenotype relationship using a phylogeny of <em>in silico</em> methods</strong><br>
+<a href="http://doi.org/">Lewis <em>et al</em> (2012)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Regulation of Gene Expression in Flux Balance Models of Metabolism</strong><br>
+<a href="http://doi.org/">Covert <em>et al</em> (2001)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Interpreting Expression Data with Metabolic Flux Models: Predicting <em>Mycobacterium tuberculosis</em> Mycolic Acid Production</strong><br>
+<a href="http://doi.org/">Colijn <em>et al</em> (2009)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Probabilistic integrative modeling of genome-scale metabolic and regulatory networks in <em>Escherichia coli</em> and <em>Mycobacterium tuberculosis</em></strong><br>
+<a href="http://doi.org/">Chandrasekharan and Price (2010)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Constraint-based models predict metabolic and associated cellular functions</strong><br>
+<a href="http://doi.org/">Bordbar <em>et al</em> (2014)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Identifying gene targets for the metabolic engineering of lycopene biosynthesis in <em>Escherichia coli</em></strong><br>
+<a href="http://doi.org/">Alper <em>et al</em> (2005)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Flux Balance Analysis of Mycolic Acid Pathway: Targets for Anti-Tubercular Drugs</strong><br>
+<a href="http://doi.org/">Raman <em>et al</em> (2005)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>targetTB: A target identification pipeline for <em>Mycobacterium tuberculosis</em> through an interactome, reactome and genome-scale structural analysis</strong><br>
+<a href="http://doi.org/">Raman <em>et al</em> (2008)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Applications of genome-scale metabolic reconstructions</strong><br>
+<a href="http://doi.org/">Oberhardt <em>et al</em> (2009)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>The application of flux balance analysis in systems biology</strong><br>
+<a href="http://doi.org/">Gianchandani <em>et al</em> (2010)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Genome-scale metabolic networks</strong><br>
+<a href="http://doi.org/">Terzer <em>et al</em> (2009)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Elementary flux modes in a nutshell: Properties, calculation and applications</strong><br>
+<a href="http://doi.org/">Zanghellini <em>et al</em> (2013)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Detection of elementary flux modes in biochemical networks: a promising tool for pathway analysis and metabolic engineering</strong><br>
+<a href="http://doi.org/">Schuster <em>et al</em> (1999)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Elementary mode analysis: a useful metabolic pathway analysis tool for characterizing cellular metabolism</strong><br>
+<a href="http://doi.org/">Trinh <em>et al</em> (2009)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Comparison of network-based pathway analysis methods</strong><br>
+<a href="http://doi.org/">Papin <em>et al</em> (2004)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>On Elementary Flux Modes in Biochemical Reaction Systems at Steady State</strong><br>
+<a href="http://doi.org/">Schuster and Hilgetag (1994)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Extreme Pathway Analysis of Human Red Blood Cell Metabolism</strong><br>
+<a href="http://doi.org/">Wiback and Palsson (2002)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>High-throughput metabolic flux analysis based on gas chromatography�mass spectrometry derived 13C constraints</strong><br>
+<a href="http://doi.org/">Fischer <em>et al</em> (2004)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>13C Metabolic Flux Analysis</strong><br>
+<a href="http://doi.org/">Wiechert (2001)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>13C-based metabolic flux analysis</strong><br>
+<a href="http://doi.org/">Zamboni <em>et al</em> (2009)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>How to measure metabolic fluxes: a taxonomic guide for 13C fluxomics</strong><br>
+<a href="http://doi.org/">Niedenfuehr <em>et al</em> (2015)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>13C Metabolic Flux Analysis for Systematic Metabolic Engineering of S. cerevisiae for Overproduction of Fatty Acids</strong><br>
+<a href="http://doi.org/">Ghosh <em>et al</em> (2016)</a>
+</blockquote>
+</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents"></nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

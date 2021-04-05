@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Introduction to constraint-based modelling">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Chapter 8" />
+<meta property="og:description" content="Introduction to constraint-based modelling" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-08/" />
+
+<title>Chapter 8 | An Introduction to Computational Systems Biology</title>
+<link rel="manifest" href="/SysBioBook/manifest.json">
+<link rel="icon" href="/SysBioBook/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/SysBioBook/book.min.ff12e6f676a04cc6e1c548b6da9fd164854a9daa9574d5e5a0a68fef3e325607.css" integrity="sha256-/xLm9nagTMbhxUi22p/RZIVKnaqVdNXloKaP7z4yVgc=">
+<script defer src="/SysBioBook/en.search.min.439be0a7e326adcf494e1af4aae4a0c0279549f516caba1e7d82c464d54be4dc.js" integrity="sha256-Q5vgp&#43;Mmrc9JThr0quSgwCeVSfUWyroefYLEZNVL5Nw="></script>
+<link rel="alternate" type="application/rss+xml" href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-08/index.xml" title="An Introduction to Computational Systems Biology" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="//ramanlab.github.io/SysBioBook/">
+    <span>An Introduction to Computational Systems Biology</span><br/>
+    <br/><img src="/SysBioBook/logo.png" alt="Logo" style="width:160px; height:auto;"/></a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/SysBioBook/" >
+        Home
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-fba7570249fb7a04f1bd47eaaeb61f3b" class="toggle" checked />
+    <label for="section-fba7570249fb7a04f1bd47eaaeb61f3b" class="flex justify-between">
+      <a  class="">Resources</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/appendices/" class="">Appendices</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/codes/" class="">Codes</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/lecture-videos/" class="">Lecture Videos</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-dc9ab43070dbf545ba14289be0a96762" class="toggle" checked />
+    <label for="section-dc9ab43070dbf545ba14289be0a96762" class="flex justify-between">
+      <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/" class="">Further Reading</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-01/" class="">Chapter 1</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-02/" class="">Chapter 2</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-03/" class="">Chapter 3</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-04/" class="">Chapter 4</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-05/" class="">Chapter 5</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-06/" class="">Chapter 6</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-07/" class="">Chapter 7</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-08/" class=" active">Chapter 8</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-09/" class="">Chapter 9</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-10/" class="">Chapter 10</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-11/" class="">Chapter 11</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-12/" class="">Chapter 12</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-13/" class="">Chapter 13</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/chapter-14/" class="">Chapter 14</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/appendix-a/" class="">Appendix A</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/appendix-b/" class="">Appendix B</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/appendix-c/" class="">Appendix C</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/appendix-d/" class="">Appendix D</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/further-reading/appendix-e/" class="">Appendix E</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/supplementary-exercises/" class="">Supplementary Exercises</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/resources/figure-slides/" class="">Figure Slides</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/author-info/" class="">About the Author</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/errata-feedback/" class="">Errata &amp; Feedback</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/faq/" class="">FAQs</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//ramanlab.github.io/SysBioBook/updates/" class="">Updates</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/SysBioBook/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Chapter 8</strong>
+
+  <label for="toc-control">
+    
+    <img src="/SysBioBook/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents"></nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="chapter-8-introduction-to-constraint-based-modelling">
+  Chapter 8: Introduction to constraint-based modelling
+  <a class="anchor" href="#chapter-8-introduction-to-constraint-based-modelling">#</a>
+</h1>
+<p><blockquote class="book-hint info">
+  <strong>A protocol for generating a high-quality genome-scale metabolic reconstruction</strong><br>
+<a href="http://doi.org/">Thiele and Palsson (2010)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>What is flux balance analysis?</strong><br>
+<a href="http://doi.org/">Orth <em>et al</em> (2010)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Advances in flux balance analysis</strong><br>
+<a href="http://doi.org/">Kauffman <em>et al</em> (2003)</a>
+</blockquote>
+
+<blockquote class="book-hint info">
+  <strong>Flux balance analysis of biological systems: applications and challenges</strong><br>
+<a href="http://doi.org/">Raman and Chandra (2009)</a>
+</blockquote>
+</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents"></nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
