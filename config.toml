@@ -7,3 +7,8 @@ publishDir = "docs"
 [params]
   BookLogo = 'logo.png'
   BookSection = '*'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
