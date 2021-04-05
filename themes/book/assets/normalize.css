@@ -340,6 +340,13 @@ template {
   display: none;
 }
 
+.inline-svg {
+  display: inline-block;
+  height: 1.15rem;
+  width: 1.15rem;
+  top: 0.15rem;
+  position: relative;
+}
 /**
  * Add the correct display in IE 10.
  */
