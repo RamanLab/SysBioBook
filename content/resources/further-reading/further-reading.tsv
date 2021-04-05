@@ -1,0 +1,156 @@
+Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
+1	Lazebnik Y	2002	"Can a biologist fix a radio?—Or, what I learned while studying apoptosis"	Cancer Cell	10.1016/s1535-6108(02)00133-2	"This insightful paper by Yuri Lazebnik discusses some very interesting points related to engineering vs. biology, and underlines the challenges associated with studying biological complexity."
+1	Hartwell**	1999	From molecular to modular cell biology			
+1	Perelson*	2002	Modelling viral and immune system dynamics			
+1			SIR Model on Wikipedia		http://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology	
+1			Numb3rs 1x03 - Vector (TV episode)		http://www.imdb.com/title/tt0663234/	
+2			VAX: Gamifying Epidemic Prevention		http://vax.herokuapp.com/game	
+2		1953	Leonhard Euler and the Koenigsberg Bridges			
+2	Hopkins	2018	The truth about Koenigsberg			
+2			UFL Sparse Matrix Collection		http://www.cise.ufl.edu/research/sparse/matrices/index.html	
+2			MATLAB Graph Functions Reference		http://in.mathworks.com/help/matlab/ref/graph.html	
+3	Barabasi and Oltvai**	2004	Network Biology			
+3	Duncan Watts		How Ideas Spread?		http://web.archive.org/web/20140531011749/https://www.credit-suisse.com/us/en/news-and-expertise/news/economy/global-trends.article.html/article/pwp/news-and-expertise/2013/11/en/how-ideas-spread.html	
+3	Pavlopoulos _et al_	2011	Using graph theory to analyze biological networks			
+3			Star Wars Social Network! (by Evelina Gabasova)		http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html	
+3		1998	Original paper on small world networks (Watts and Strogatz)*			
+3		2006	Extremely detailed paper on networks (reference!)			
+3		2003	Simple paper on complex networks (Wang and Chen)			
+3			How Network Theory Is Revealing Previously Unknown Patterns in Sports		http://www.technologyreview.com/view/530791/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/	
+3		1999	Original paper on scale-free networks (Barabasi and Albert)*			
+3	Newman (reference)	2003	Structure and Function of Complex Networks			
+3	Milo _et al_**	2002	Network Motifs			
+3			FANMOD: a tool for fast network motif detection**		http://theinf1.informatik.uni-jena.de/~wernicke/motifs/index.html	
+3	Dobrin _et al_	2004	Aggregation of topological motifs in the _Escherichia coli_ transcriptional regulatory network			
+3	Zhang _et al_	2005	"Motifs, themes and thematic maps of an integrated _Saccharomyces cerevisiae_ interaction network"			
+3	Shen-Orr _et al_	2002	Network motifs in the transcriptional regulation network of _Escherichia coli_			
+3	Barabasi and Albert*	2000	Error and attack tolerance of complex networks			
+3	Holme _et al_*	2002	Attack vulnerability of complex networks			
+4	Jeong _et al_**	2001	Lethality and centrality in protein networks			
+4	Miele _et al_**	2020	Nine quick tips for analyzing network data			
+4	Goh _et al_*	2007	The human disease network			
+4	Zhong _et al_*	2009	Edgetic perturbation models of human inherited disorders			
+4	Ideker and Krogan*	2012	Differential network biology			
+4	Azhagesan _et al_	2018	Network-based features enable prediction of essential genes across diverse organisms			
+4	Tripathi _et al_	2019	Adapting Community Detection Algorithms for Disease Module Identification in Heterogeneous Biological Networks			
+4			NetGenes Database		https://rbc-dsai-iitm.github.io/NetGenes/	
+4	Choobdar _et al_*	2019	Assessment of network module identification across complex diseases			
+4	Sankar_et al_**	2017	Predicting novel metabolic pathways through subgraph mining			
+4	Vishveshwara _et al_*	2002	Protein structure: insights from graph theory			
+4	Rao and Caflisch	2004	The Protein Folding Network			
+4	Rajasekaran _et al_	2017	A General Mechanism for the Propagation of Mutational Effects in Proteins			
+4	Gopi _et al_	2017	Toward a quantitative description of microscopic pathway heterogeneity in protein folding			
+4	Guimera and Sales-Pardo	2009	Missing and spurious interactions and the reconstruction of complex networks			
+4	Sandefur _et al_**	2013	Network representations and methods for the analysis of chemical and biochemical pathways			
+5	Sobie**	2011	An Introduction to Dynamical Systems			
+5	Mogilner _et al_*	2006	Quantitative Modeling in Cell Biology: What Is It Good for?			
+5	Voit	2013	Biochemical Systems Theory: A Review			
+6	Jaqaman and Danuser**	2006	Linking data to models: data regression			
+6	Azeloglu and Iyengar**	2015	Good practices for building dynamical models in systems biology			
+6	Villaverde and Banga*	2014	"Reverse engineering and identification in systems biology: strategies, perspectives and challenges"			
+6	Chun-Chou and Voit*	2009	Recent developments in parameter estimation and structure identification of biochemical and genomic systems			
+6	Moles _et al_	2003	Parameter Estimation in Biochemical Pathways: A Comparison of Global Optimization Methods			
+6	Lopez _et al_	2013	Programming biological models in Python using PySB			
+6		2008	Dynamical modeling and multi-experiment fitting with PottersWheel			
+6	Foster*	2001	Evolutionary Computation			
+6	Zi**	2011	Sensitivity analysis approaches applied to systems biology models			
+6	Melanie Mitchell	1995	An Introduction to Genetic Algorithms			
+6			GAs for Travelling Salesperson Problem		http://www.obitko.com/tutorials/genetic-algorithms/tsp-example.php	
+7	Karlebach and Shamir**	2008	Modelling and analysis of gene regulatory networks			
+7	Albert _et al_*	2008	Boolean network simulations for life scientists			
+7	Albert _et al_**	2004	Boolean Modeling of Genetic Regulatory Networks			
+7	Chaves _et al_**	2005	Robustness and fragility of Boolean models for genetic regulatory networks			
+7	Laubenbacher and Jarrah*	2009	Algebraic Models of Biochemical Networks			
+7	Faure _et al_*	2006	Dynamical analysis of a generic Boolean model for the control of the mammalian cell cycle			
+7			BooleSim**		https://rumo.biologie.hu-berlin.de/boolesim/	
+7			BooleanNet**		https://github.com/ialbert/booleannet	
+7	Li _et al_*	2006	Predicting Essential Components of Signal Transduction Networks: A Dynamic Model of Guard Cell Abscisic Acid Signaling			
+8	Thiele and Palsson**	2010	A protocol for generating a high-quality genome-scale metabolic reconstruction			
+8	Orth _et al_**	2010	What is flux balance analysis?			
+8	Kauffman _et al_**	2003	Advances in flux balance analysis			
+8	Raman and Chandra**	2009	Flux balance analysis of biological systems: applications and challenges			
+9	Segre _et al_**	2002	Analysis of optimality in natural and perturbed metabolic networks			
+9	O' Brien _et al_**	2015	Using Genome-scale Models to Predict Biological Capabilities			
+9	Shlomi _et al_*	2005	Regulatory on-off minimization of metabolic flux changes after genetic perturbations			
+9	Choi _et al_*	2010	_In Silico_ Identification of Gene Amplification Targets for Improvement of Lycopene Production			
+9	Boghigian _et al_*	2012	Computational identification of gene over-expression targets for metabolic engineering of taxadiene production			
+9	Joyce and Palsson**	2008	Predicting Gene Essentiality Using Genome-Scale _in silico_ Models			
+10	Pratapa _et al_ **	2015	Fast-SL: an efficient algorithm to identify synthetic lethal sets in metabolic networks			
+10	Suthers _et al_ *	2009	Genome-scale gene/reaction essentiality and synthetic lethality analysis			
+10	von Kamp and Klamt*	2014	Enumeration of Smallest Intervention Strategies in Genome-Scale Metabolic Networks			
+10	Duarte _et al_*	2007	Global reconstruction of the human metabolic network based on genomic and bibliomic data			
+10	Thiele _et al_*	2013	A community-driven global reconstruction of human metabolism			
+10	Jerby _et al_*	2010	Computational reconstruction of tissue-specific metabolic models: application to human liver metabolism			
+10	Bordbar _et al_*	2010	Insight into human alveolar macrophage and _M. tuberculosis_ interactions via metabolic reconstructions			
+10	Bordbar _et al_*	2011	A multi-tissue type genome-scale metabolic network for analysis of whole-body systems physiology			
+10	Agren _et al_*	2012	Reconstruction of Genome-Scale Active Metabolic Networks for 69 Human Cell Types and 16 Cancer Types Using INIT			
+10	Folger _et al_	2011	Predicting selective drug targets in cancer through metabolic networks			
+10	Lewis _et al_	2010	Large-scale _in silico_ modeling of metabolic interactions between cell types in the human brain			
+10	Sahoo _et al_	2012	A compendium of inborn errors of metabolism mapped onto the human metabolic network			
+10	Sahoo and Thiele_	2013	Predicting the impact of diet and enzymopathies on human small intestinal epithelial cells			
+10	Edwards and Palsson*	1997	How Will Bioinformatics Influence Metabolic Engineering?			
+10	Maarleveld _et al_**	2013	Basic concepts and principles of stoichiometric modeling of metabolic networks			
+10	Famili and Palsson*	2003	The Convex Basis of the Left Null Space of the Stoichiometric Matrix Leads to the Definition of Metabolically Meaningful Pools			
+10	Famili and Palsson*	2003	Systemic metabolic reactions are obtained by singular value decomposition of genome-scale stoichiometric matrices			
+10	Lewis _et al_*	2012	Constraining the metabolic genotype&ndash;phenotype relationship using a phylogeny of _in silico_ methods			
+10	Covert _et al_*	2001	Regulation of Gene Expression in Flux Balance Models of Metabolism			
+10	Colijn _et al_*	2009	Interpreting Expression Data with Metabolic Flux Models: Predicting _Mycobacterium tuberculosis_ Mycolic Acid Production			
+10	Chandrasekharan and Price*	2010	Probabilistic integrative modeling of genome-scale metabolic and regulatory networks in _Escherichia coli_ and _Mycobacterium tuberculosis_			
+10	Bordbar _et al_**	2014	Constraint-based models predict metabolic and associated cellular functions			
+10	Alper _et al_**	2005	Identifying gene targets for the metabolic engineering of lycopene biosynthesis in _Escherichia coli_			
+10	Raman _et al_**	2005	Flux Balance Analysis of Mycolic Acid Pathway: Targets for Anti-Tubercular Drugs			
+10	Raman _et al_*	2008	"targetTB: A target identification pipeline for _Mycobacterium tuberculosis_ through an interactome, reactome and genome-scale structural analysis"			
+10	Oberhardt _et al_**	2009	Applications of genome-scale metabolic reconstructions			
+10	Gianchandani _et al_*	2010	The application of flux balance analysis in systems biology			
+10	Terzer _et al_*	2009	Genome-scale metabolic networks			
+10	Zanghellini _et al_**	2013	"Elementary flux modes in a nutshell: Properties, calculation and applications"			
+10	Schuster _et al_**	1999	Detection of elementary flux modes in biochemical networks: a promising tool for pathway analysis and metabolic engineering			
+10	Trinh _et al_**	2009	Elementary mode analysis: a useful metabolic pathway analysis tool for characterizing cellular metabolism			
+10	Papin _et al_*	2004	Comparison of network-based pathway analysis methods			
+10	Schuster and Hilgetag*	1994	On Elementary Flux Modes in Biochemical Reaction Systems at Steady State			
+10	Wiback and Palsson*	2002	Extreme Pathway Analysis of Human Red Blood Cell Metabolism			
+10	Fischer _et al_**	2004	High-throughput metabolic flux analysis based on gas chromatography–mass spectrometry derived 13C constraints			
+10	Wiechert**	2001	13C Metabolic Flux Analysis			
+10	Zamboni _et al_*	2009	13C-based metabolic flux analysis			
+10	Niedenfuehr _et al_	2015	How to measure metabolic fluxes: a taxonomic guide for 13C fluxomics			
+10	Ghosh _et al_	2016	13C Metabolic Flux Analysis for Systematic Metabolic Engineering of S. cerevisiae for Overproduction of Fatty Acids			
+11	Forst**	2006	Host–pathogen systems biology			
+11	Perelson*	2002	Modelling Viral and Immune System Dynamics			
+11	Perelson*	1997	Immunology for physicists			
+11	Thakar and Albert*	2010	Boolean models of within-host immune interactions			
+11	Raghunathan _et al_*	2009	Constraint-based analysis of metabolic capacity of _Salmonella_ typhimurium during host-pathogen interaction			
+11	Raman _et al_**	2010	A systems perspective of host–pathogen interactions: predicting disease outcome in tuberculosis			
+11	Mukherjee _et al_**	2013	Current trends in modeling host–pathogen interactions			
+12	Hessel**		Introduction to Synthetic Biology		http://www.youtube.com/watch?v=niQ0kkgPxJk	
+12	Hessel**		"Synthetic Biology, Inventing the Future by Andrew Hessel*"		http://www.youtube.com/watch?v=iRO0-fMIW9I	
+12	Collins J J		Synthetic Biology: Honors Colloquium by JJ Collins*		http://www.youtube.com/watch?v=Nq1GVQUlfso	
+12	Church _et al_ (interview) **	2014	Realizing the potential of synthetic biology			
+12	Endy**	2005	Foundations for engineering biology			
+12	Esvelt and Wang**	2013	Genome-scale engineering for systems and synthetic biology			
+12	Purnick and Weiss**	2009	The second wave of synthetic biology: from modules to systems			
+13	Kitano**	2004	Biological Robustness			
+13	Csete and Doyle*	2004	"Bow ties, metabolism and disease"			
+13	Carlson and Doyle*	2002	Complexity and Robustness			
+13	Friedlander _et al_	2005	Evolution of Bow-Tie Architectures in Biology		10.1371/journal.pcbi.1004055	
+13	Wagner**	2008	Neutralism and selectionism: a network-based reconciliation			
+13	Ciliberti _et al_*	2007	Innovation and robustness in complex regulatory gene networks			
+13	Wagner*	2008	Robustness and evolvability: a paradox resolved			
+13	Wagner*		Andreas Wagner interview (Z&uuml;rich Minds)**		http://www.youtube.com/watch?v=wyQgCMZdv6E	
+14	Polonsky**	2012	The past 200 years in diabetes			
+14	McClenaghan	2007	Physiological regulation of the pancreatic &beta;-cell:functional insights for understanding and therapy of diabetes			
+14	Rosenfeld	2002	Insulin: discovery and controversy			
+14	Ajmera _et al_**	2013	The impact of mathematical modeling on the understanding of diabetes and related complications			
+14			Entelos PhysioLab Models		http://www.entelos.com/physiolab-models/	
+14	Cvijovic _et al_**	2014	Bridging the gaps in systems biology			
+14	Covert	2014	Simulating a Living Cell**			
+14	Karr _et al_*	2012	A Whole-Cell Computational Model Predicts Phenotype from Genotype			
+B	Feist _et al_**	2008	Reconstruction of biochemical networks in microorganisms			
+B	Shoemaker and Panchenko	2007	"Deciphering Protein-Protein Interactions, Part I (Experimental Techniques)"			
+B	Shoemaker and Panchenko	2007	"Deciphering Protein-Protein Interactions, Part II (Computational Techniques)"			
+B	Papin _et al_	2005	Reconstruction of cellular signalling networks and their properties			
+B	Karp and Caspi	2011	A survey of metabolic databases emphasizing the MetaCyc family			
+D		2009	SBGN**			
+E			Loren: Art of MATLAB**		http://blogs.mathworks.com/loren/	
+E			What Every Computer Scientist Should Know About Floating Point Arithmetic			
+E			Is Addition on a Computer Associative?**		http://blogs.mathworks.com/loren/2014/02/26/arithmetic-associativity-not-so-fast/	
+E			Wikipedia: Double-precision Floating-point Format**		https://en.wikipedia.org/wiki/Double-precision_floating-point_format##Double-precision_examples	
