@@ -8,28 +8,22 @@ description: "Introduction to modelling"
 # Chapter 1: Introduction to modelling
 
 {{< hint info >}}
-**Can a biologist fix a radio?-Or, what I learned while studying apoptosis**   
+**Can a biologist fix a radio?�Or, what I learned while studying apoptosis**   
 [Lazebnik Y (2002) _Cancer Cell_](http://doi.org/10.1016/s1535-6108(02)00133-2)
 
 This insightful paper by Yuri Lazebnik discusses some very interesting points related to engineering vs. biology, and underlines the challenges associated with studying biological complexity.
 {{< /hint >}}
 {{< hint info >}}
 **From molecular to modular cell biology**   
-[Hartwell (1999)](http://doi.org/)
+[Hartwell (1999)](http://doi.org/10.1038/35011540)
 
-
+A nice essay on modularity in biology, and a systems perspective, from Leland Hartwell, who went on to win the 2001 Nobel Prize in Physiology or Medicine.
 {{< /hint >}}
 {{< hint info >}}
 **Modelling viral and immune system dynamics**   
-[Perelson (2002)](http://doi.org/)
+[Perelson (2002)](http://doi.org/10.1038/nri700)
 
-
-{{< /hint >}}
-{{< hint danger >}}
-**SIR Model on Wikipedia**   
-[http://en.wikipedia.org/wiki/Compartmental._models_in_epidemiology](http://en.wikipedia.org/wiki/Compartmental._models_in_epidemiology)
-
-
+An authoritative review on modelling the dynamics of viral infections e.g. HIV/HCV.
 {{< /hint >}}
 {{< hint danger >}}
 **Numb3rs 1x03 - Vector (TV episode)**   

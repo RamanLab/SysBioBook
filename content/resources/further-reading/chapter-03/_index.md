@@ -9,7 +9,7 @@ description: "Structure of networks"
 
 {{< hint info >}}
 **Network Biology**   
-[Barabasi and Oltvai (2004)](http://doi.org/)
+[Barabasi and Oltvai (2004)](http://doi.org/10.1038/nrg1272)
 
 A classic review on network biology capturing a very good breadth of topics, ranging from network parameters all the way up to network perturbations.
 {{< /hint >}}
@@ -32,10 +32,10 @@ A nice review on graph theory applications in network biology.
 A fun exercise, studying the social networks in Star Wars movies!
 {{< /hint >}}
 {{< hint info >}}
-**Collective dynamics of �small-world� networks**   
+**Collective dynamics of 'small-world' networks**   
 [Watts and Strogatz (1998)](http://doi.org/)
 
-The original paper on small world networks (Watts and Strogatz)*
+The original paper on small world networks
 {{< /hint >}}
 {{< hint info >}}
 **Complex networks: Structure and dynamics**   
@@ -63,7 +63,7 @@ The original paper on scale-free networks.
 {{< /hint >}}
 {{< hint info >}}
 **Structure and Function of Complex Networks**   
-[Newman (reference) (2003)](http://doi.org/)
+[Newman (2003)](http://doi.org/)
 
 
 {{< /hint >}}

@@ -1,23 +1,24 @@
 Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
-1	Lazebnik Y	2002	"Can a biologist fix a radio?—Or, what I learned while studying apoptosis"	Cancer Cell	10.1016/s1535-6108(02)00133-2	"This insightful paper by Yuri Lazebnik discusses some very interesting points related to engineering vs. biology, and underlines the challenges associated with studying biological complexity."
-1	Hartwell**	1999	From molecular to modular cell biology		10.1038/35011540	"A nice essay on modularity in biology, and a systems perspective, from Leland Hartwell, who went on to win the 2001 Nobel Prize in Physiology or Medicine."
-1	Perelson*	2002	Modelling viral and immune system dynamics		10.1038/nri700	An authoritative review on modelling the dynamics of viral infections e.g. HIV/HCV.
+1	Lazebnik Y	2002	"Can a biologist fix a radio?-Or, what I learned while studying apoptosis"	Cancer Cell	10.1016/s1535-6108(02)00133-2	"This insightful paper by Yuri Lazebnik discusses some very interesting points related to engineering vs. biology, and underlines the challenges associated with studying biological complexity."
+1	Hartwell**	1999	From molecular to modular cell biology			
+1	Perelson*	2002	Modelling viral and immune system dynamics			
+1			SIR Model on Wikipedia		http://en.wikipedia.org/wiki/Compartmental._models_in_epidemiology	
 1			Numb3rs 1x03 - Vector (TV episode)		http://www.imdb.com/title/tt0663234/	"The protagonist in this show is a mathematician, who uses SIR modelling to help the FBI track down the spread of a virus in a city."
-2			VAX: Gamifying Epidemic Prevention		http://vax.herokuapp.com/game	"An engaging game, that uses network theory to model the spread of an epidemic. Players need to stop epidemic spread by vaccinating/quarantining the right 'nodes' (people) from the network."
-2		1953	Leonhard Euler and the Koenigsberg Bridges		10.1038/scientificamerican0753-66	A nice article recapitulating the history of the Koenigsberg bridges
+2			VAX: Gamifying Epidemic Prevention		http://vax.herokuapp.com/game	
+2		1953	Leonhard Euler and the Koenigsberg Bridges			A nice article recapitulating the history of the Koenigsberg bridges
 2	Hopkins	2018	The truth about Koenigsberg			Another article on the history of the bridges
-2			The SuiteSparse Matrix Collection		https://sparse.tamu.edu/	The SuiteSparse Matrix Collection (formerly the University of Florida Sparse Matrix Collection) is a widely used set of sparse matrix benchmarks collected from a wide range of applications.
+2			UFL Sparse Matrix Collection		http://www.cise.ufl.edu/research/sparse/matrices/index.html	
 2			MATLAB Graph Functions Reference		http://in.mathworks.com/help/matlab/ref/graph.html	MATLAB has a suite of functions for studying/analysing networks. These are described here.
-3	Barabasi and Oltvai**	2004	Network Biology		10.1038/nrg1272	"A classic review on network biology capturing a very good breadth of topics, ranging from network parameters all the way up to network perturbations."
+3	Barabasi and Oltvai**	2004	Network Biology			"A classic review on network biology capturing a very good breadth of topics, ranging from network parameters all the way up to network perturbations."
 3	Duncan Watts		How Ideas Spread?		http://web.archive.org/web/20140531011749/https://www.credit-suisse.com/us/en/news-and-expertise/news/economy/global-trends.article.html/article/pwp/news-and-expertise/2013/11/en/how-ideas-spread.html	"A very nice article by Duncan Watts, the proponent of the small-world network hypothesis."
 3	Pavlopoulos _et al._	2011	Using graph theory to analyze biological networks			A nice review on graph theory applications in network biology.
 3			Star Wars Social Network! (by Evelina Gabasova)		http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html	"A fun exercise, studying the social networks in Star Wars movies!"
-3	Watts and Strogatz	1998	Collective dynamics of 'small-world' networks			The original paper on small world networks
+3	Watts and Strogatz	1998	Collective dynamics of ‘small-world’ networks			The original paper on small world networks
 3	Boccalletti _et al._	2006	Complex networks: Structure and dynamics			Extremely detailed paper on networks (a mini book/reference!)
 3	Wang and Chen	2003	"Complex Networks: Small-World, Scale-Free and Beyond"			A lucid easy-to-read paper discussing network models
 3			How Network Theory Is Revealing Previously Unknown Patterns in Sports		http://www.technologyreview.com/view/530791/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/	An interesting read on the use of network science in sports.
 3	Barabasi and Albert	1999	Emergence of Scaling in Random Networks			The original paper on scale-free networks.
-3	Newman	2003	Structure and Function of Complex Networks			
+3	Newman (reference)	2003	Structure and Function of Complex Networks			
 3	Milo _et al._**	2002	Network Motifs			
 3			FANMOD: a tool for fast network motif detection**		http://theinf1.informatik.uni-jena.de/~wernicke/motifs/index.html	
 3	Dobrin _et al._	2004	Aggregation of topological motifs in the _Escherichia coli_ transcriptional regulatory network			
