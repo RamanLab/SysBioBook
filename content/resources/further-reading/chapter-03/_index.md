@@ -11,55 +11,55 @@ description: "Structure of networks"
 **Network Biology**   
 [Barabasi and Oltvai (2004)](http://doi.org/)
 
-
+A classic review on network biology capturing a very good breadth of topics, ranging from network parameters all the way up to network perturbations.
 {{< /hint >}}
 {{< hint danger >}}
 **How Ideas Spread?**   
 [http://web.archive.org/web/20140531011749/https://www.credit-suisse.com/us/en/news-and-expertise/news/economy/global-trends.article.html/article/pwp/news-and-expertise/2013/11/en/how-ideas-spread.html](http://web.archive.org/web/20140531011749/https://www.credit-suisse.com/us/en/news-and-expertise/news/economy/global-trends.article.html/article/pwp/news-and-expertise/2013/11/en/how-ideas-spread.html)
 
-
+A very nice article by Duncan Watts, the proponent of the small-world network hypothesis.
 {{< /hint >}}
 {{< hint info >}}
 **Using graph theory to analyze biological networks**   
-[Pavlopoulos _et al_ (2011)](http://doi.org/)
+[Pavlopoulos _et al._ (2011)](http://doi.org/)
 
-
+A nice review on graph theory applications in network biology.
 {{< /hint >}}
 {{< hint danger >}}
 **Star Wars Social Network! (by Evelina Gabasova)**   
 [http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html](http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html)
 
-
+A fun exercise, studying the social networks in Star Wars movies!
 {{< /hint >}}
 {{< hint info >}}
-**Original paper on small world networks (Watts and Strogatz)**   
-[ (1998)](http://doi.org/)
+**Collective dynamics of �small-world� networks**   
+[Watts and Strogatz (1998)](http://doi.org/)
 
-
+The original paper on small world networks (Watts and Strogatz)*
 {{< /hint >}}
 {{< hint info >}}
-**Extremely detailed paper on networks (reference!)**   
-[ (2006)](http://doi.org/)
+**Complex networks: Structure and dynamics**   
+[Boccalletti _et al._ (2006)](http://doi.org/)
 
-
+Extremely detailed paper on networks (a mini book/reference!)
 {{< /hint >}}
 {{< hint info >}}
-**Simple paper on complex networks (Wang and Chen)**   
-[ (2003)](http://doi.org/)
+**Complex Networks: Small-World, Scale-Free and Beyond**   
+[Wang and Chen (2003)](http://doi.org/)
 
-
+A lucid easy-to-read paper discussing network models
 {{< /hint >}}
 {{< hint danger >}}
 **How Network Theory Is Revealing Previously Unknown Patterns in Sports**   
 [http://www.technologyreview.com/view/530791/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/](http://www.technologyreview.com/view/530791/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/)
 
-
+An interesting read on the use of network science in sports.
 {{< /hint >}}
 {{< hint info >}}
-**Original paper on scale-free networks (Barabasi and Albert)**   
-[ (1999)](http://doi.org/)
+**Emergence of Scaling in Random Networks**   
+[Barabasi and Albert (1999)](http://doi.org/)
 
-
+The original paper on scale-free networks.
 {{< /hint >}}
 {{< hint info >}}
 **Structure and Function of Complex Networks**   
@@ -69,7 +69,7 @@ description: "Structure of networks"
 {{< /hint >}}
 {{< hint info >}}
 **Network Motifs**   
-[Milo _et al_ (2002)](http://doi.org/)
+[Milo _et al._ (2002)](http://doi.org/)
 
 
 {{< /hint >}}
@@ -81,19 +81,19 @@ description: "Structure of networks"
 {{< /hint >}}
 {{< hint info >}}
 **Aggregation of topological motifs in the _Escherichia coli_ transcriptional regulatory network**   
-[Dobrin _et al_ (2004)](http://doi.org/)
+[Dobrin _et al._ (2004)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **Motifs, themes and thematic maps of an integrated _Saccharomyces cerevisiae_ interaction network**   
-[Zhang _et al_ (2005)](http://doi.org/)
+[Zhang _et al._ (2005)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **Network motifs in the transcriptional regulation network of _Escherichia coli_**   
-[Shen-Orr _et al_ (2002)](http://doi.org/)
+[Shen-Orr _et al._ (2002)](http://doi.org/)
 
 
 {{< /hint >}}
@@ -105,7 +105,7 @@ description: "Structure of networks"
 {{< /hint >}}
 {{< hint info >}}
 **Attack vulnerability of complex networks**   
-[Holme _et al_ (2002)](http://doi.org/)
+[Holme _et al._ (2002)](http://doi.org/)
 
 
 {{< /hint >}}

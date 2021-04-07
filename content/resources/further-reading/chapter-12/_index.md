@@ -27,7 +27,7 @@ description: "Designing biological circuits"
 {{< /hint >}}
 {{< hint info >}}
 **Realizing the potential of synthetic biology**   
-[Church _et al_ (interview)  (2014)](http://doi.org/)
+[Church _et al._ (interview)  (2014)](http://doi.org/)
 
 
 {{< /hint >}}

@@ -33,13 +33,13 @@ description: "Parameter estimation"
 {{< /hint >}}
 {{< hint info >}}
 **Parameter Estimation in Biochemical Pathways: A Comparison of Global Optimization Methods**   
-[Moles _et al_ (2003)](http://doi.org/)
+[Moles _et al._ (2003)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **Programming biological models in Python using PySB**   
-[Lopez _et al_ (2013)](http://doi.org/)
+[Lopez _et al._ (2013)](http://doi.org/)
 
 
 {{< /hint >}}

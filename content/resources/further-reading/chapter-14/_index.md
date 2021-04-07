@@ -27,7 +27,7 @@ description: "Epilogue: The road ahead"
 {{< /hint >}}
 {{< hint info >}}
 **The impact of mathematical modeling on the understanding of diabetes and related complications**   
-[Ajmera _et al_ (2013)](http://doi.org/)
+[Ajmera _et al._ (2013)](http://doi.org/)
 
 
 {{< /hint >}}
@@ -39,7 +39,7 @@ description: "Epilogue: The road ahead"
 {{< /hint >}}
 {{< hint info >}}
 **Bridging the gaps in systems biology**   
-[Cvijovic _et al_ (2014)](http://doi.org/)
+[Cvijovic _et al._ (2014)](http://doi.org/)
 
 
 {{< /hint >}}
@@ -51,7 +51,7 @@ description: "Epilogue: The road ahead"
 {{< /hint >}}
 {{< hint info >}}
 **A Whole-Cell Computational Model Predicts Phenotype from Genotype**   
-[Karr _et al_ (2012)](http://doi.org/)
+[Karr _et al._ (2012)](http://doi.org/)
 
 
 {{< /hint >}}

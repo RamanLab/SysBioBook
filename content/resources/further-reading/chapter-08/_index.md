@@ -15,13 +15,13 @@ description: "Introduction to constraint-based modelling"
 {{< /hint >}}
 {{< hint info >}}
 **What is flux balance analysis?**   
-[Orth _et al_ (2010)](http://doi.org/)
+[Orth _et al._ (2010)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **Advances in flux balance analysis**   
-[Kauffman _et al_ (2003)](http://doi.org/)
+[Kauffman _et al._ (2003)](http://doi.org/)
 
 
 {{< /hint >}}

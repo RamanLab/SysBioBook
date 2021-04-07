@@ -15,7 +15,7 @@ description: "Introduction to dynamic modelling"
 {{< /hint >}}
 {{< hint info >}}
 **Quantitative Modeling in Cell Biology: What Is It Good for?**   
-[Mogilner _et al_ (2006)](http://doi.org/)
+[Mogilner _et al._ (2006)](http://doi.org/)
 
 
 {{< /hint >}}

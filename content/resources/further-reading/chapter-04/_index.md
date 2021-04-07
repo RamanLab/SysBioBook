@@ -9,25 +9,25 @@ description: "Applications of network biology"
 
 {{< hint info >}}
 **Lethality and centrality in protein networks**   
-[Jeong _et al_ (2001)](http://doi.org/)
+[Jeong _et al._ (2001)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **Nine quick tips for analyzing network data**   
-[Miele _et al_ (2020)](http://doi.org/)
+[Miele _et al._ (2020)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **The human disease network**   
-[Goh _et al_ (2007)](http://doi.org/)
+[Goh _et al._ (2007)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **Edgetic perturbation models of human inherited disorders**   
-[Zhong _et al_ (2009)](http://doi.org/)
+[Zhong _et al._ (2009)](http://doi.org/)
 
 
 {{< /hint >}}
@@ -39,13 +39,13 @@ description: "Applications of network biology"
 {{< /hint >}}
 {{< hint info >}}
 **Network-based features enable prediction of essential genes across diverse organisms**   
-[Azhagesan _et al_ (2018)](http://doi.org/)
+[Azhagesan _et al._ (2018)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **Adapting Community Detection Algorithms for Disease Module Identification in Heterogeneous Biological Networks**   
-[Tripathi _et al_ (2019)](http://doi.org/)
+[Tripathi _et al._ (2019)](http://doi.org/)
 
 
 {{< /hint >}}
@@ -57,19 +57,19 @@ description: "Applications of network biology"
 {{< /hint >}}
 {{< hint info >}}
 **Assessment of network module identification across complex diseases**   
-[Choobdar _et al_ (2019)](http://doi.org/)
+[Choobdar _et al._ (2019)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **Predicting novel metabolic pathways through subgraph mining**   
-[Sankar_et al_ (2017)](http://doi.org/)
+[Sankar_et al._ (2017)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **Protein structure: insights from graph theory**   
-[Vishveshwara _et al_ (2002)](http://doi.org/)
+[Vishveshwara _et al._ (2002)](http://doi.org/)
 
 
 {{< /hint >}}
@@ -81,13 +81,13 @@ description: "Applications of network biology"
 {{< /hint >}}
 {{< hint info >}}
 **A General Mechanism for the Propagation of Mutational Effects in Proteins**   
-[Rajasekaran _et al_ (2017)](http://doi.org/)
+[Rajasekaran _et al._ (2017)](http://doi.org/)
 
 
 {{< /hint >}}
 {{< hint info >}}
 **Toward a quantitative description of microscopic pathway heterogeneity in protein folding**   
-[Gopi _et al_ (2017)](http://doi.org/)
+[Gopi _et al._ (2017)](http://doi.org/)
 
 
 {{< /hint >}}
@@ -99,7 +99,7 @@ description: "Applications of network biology"
 {{< /hint >}}
 {{< hint info >}}
 **Network representations and methods for the analysis of chemical and biochemical pathways**   
-[Sandefur _et al_ (2013)](http://doi.org/)
+[Sandefur _et al._ (2013)](http://doi.org/)
 
 
 {{< /hint >}}

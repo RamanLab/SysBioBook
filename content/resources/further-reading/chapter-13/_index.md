@@ -27,7 +27,7 @@ description: "Robustness and evolvability of biological systems"
 {{< /hint >}}
 {{< hint info >}}
 **Evolution of Bow-Tie Architectures in Biology**   
-[Friedlander _et al_ (2005)](http://doi.org/10.1371/journal.pcbi.1004055)
+[Friedlander _et al._ (2005)](http://doi.org/10.1371/journal.pcbi.1004055)
 
 
 {{< /hint >}}
@@ -39,7 +39,7 @@ description: "Robustness and evolvability of biological systems"
 {{< /hint >}}
 {{< hint info >}}
 **Innovation and robustness in complex regulatory gene networks**   
-[Ciliberti _et al_ (2007)](http://doi.org/)
+[Ciliberti _et al._ (2007)](http://doi.org/)
 
 
 {{< /hint >}}

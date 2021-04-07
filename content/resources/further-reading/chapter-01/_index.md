@@ -27,7 +27,7 @@ This insightful paper by Yuri Lazebnik discusses some very interesting points re
 {{< /hint >}}
 {{< hint danger >}}
 **SIR Model on Wikipedia**   
-[http://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology](http://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology)
+[http://en.wikipedia.org/wiki/Compartmental._models_in_epidemiology](http://en.wikipedia.org/wiki/Compartmental._models_in_epidemiology)
 
 
 {{< /hint >}}
@@ -35,5 +35,5 @@ This insightful paper by Yuri Lazebnik discusses some very interesting points re
 **Numb3rs 1x03 - Vector (TV episode)**   
 [http://www.imdb.com/title/tt0663234/](http://www.imdb.com/title/tt0663234/)
 
-
+The protagonist in this show is a mathematician, who uses SIR modelling to help the FBI track down the spread of a virus in a city.
 {{< /hint >}}

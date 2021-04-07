@@ -9,7 +9,7 @@ description: "Reconstruction of biological networks"
 
 {{< hint info >}}
 **Reconstruction of biochemical networks in microorganisms**   
-[Feist _et al_ (2008)](http://doi.org/)
+[Feist _et al._ (2008)](http://doi.org/)
 
 
 {{< /hint >}}
@@ -27,7 +27,7 @@ description: "Reconstruction of biological networks"
 {{< /hint >}}
 {{< hint info >}}
 **Reconstruction of cellular signalling networks and their properties**   
-[Papin _et al_ (2005)](http://doi.org/)
+[Papin _et al._ (2005)](http://doi.org/)
 
 
 {{< /hint >}}
