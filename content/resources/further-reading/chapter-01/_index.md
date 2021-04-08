@@ -26,8 +26,7 @@ A nice essay on modularity in biology, and a systems perspective, from Leland Ha
 An authoritative review on modelling the dynamics of viral infections e.g. HIV/HCV.
 {{< /hint >}}
 {{< hint danger >}}
-**Numb3rs 1x03 - Vector (TV episode)**   
-[http://www.imdb.com/title/tt0663234/](http://www.imdb.com/title/tt0663234/)
+[**Numb3rs 1x03 - Vector (TV episode)**](http://www.imdb.com/title/tt0663234/)
 
 The protagonist in this show is a mathematician, who uses SIR modelling to help the FBI track down the spread of a virus in a city.
 {{< /hint >}}

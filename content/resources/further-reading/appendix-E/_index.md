@@ -8,8 +8,7 @@ description: "MATLAB for systems biology"
 # Chapter E: MATLAB for systems biology
 
 {{< hint danger >}}
-**Loren: Art of MATLAB**   
-[http://blogs.mathworks.com/loren/](http://blogs.mathworks.com/loren/)
+[**Loren: Art of MATLAB**](http://blogs.mathworks.com/loren/)
 
 
 {{< /hint >}}
@@ -20,14 +19,12 @@ description: "MATLAB for systems biology"
 
 {{< /hint >}}
 {{< hint danger >}}
-**Is Addition on a Computer Associative?**   
-[http://blogs.mathworks.com/loren/2014/02/26/arithmetic-associativity-not-so-fast/](http://blogs.mathworks.com/loren/2014/02/26/arithmetic-associativity-not-so-fast/)
+[**Is Addition on a Computer Associative?**](http://blogs.mathworks.com/loren/2014/02/26/arithmetic-associativity-not-so-fast/)
 
 
 {{< /hint >}}
 {{< hint danger >}}
-**Wikipedia: Double-precision Floating-point Format**   
-[https://en.wikipedia.org/wiki/Double-precision_floating-point_format##Double-precision_examples](https://en.wikipedia.org/wiki/Double-precision_floating-point_format##Double-precision_examples)
+[**Wikipedia: Double-precision Floating-point Format**](https://en.wikipedia.org/wiki/Double-precision_floating-point_format##Double-precision_examples)
 
 
 {{< /hint >}}

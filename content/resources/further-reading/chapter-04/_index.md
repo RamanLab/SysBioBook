@@ -50,8 +50,7 @@ description: "Applications of network biology"
 
 {{< /hint >}}
 {{< hint danger >}}
-**NetGenes Database**   
-[https://rbc-dsai-iitm.github.io/NetGenes/](https://rbc-dsai-iitm.github.io/NetGenes/)
+[**NetGenes Database**](https://rbc-dsai-iitm.github.io/NetGenes/)
 
 
 {{< /hint >}}

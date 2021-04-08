@@ -57,15 +57,19 @@ with open('further-reading.tsv', 'r', errors='replace') as infile:
             folder_name = "chapter-%02d" % int(chapter)
         with open('%s/_index.md' % folder_name, 'a') as outfile:
             if 'http' in url:
-                print('{{< hint danger >}}', file=outfile)
-                print('**%s**   ' % title, file=outfile)
                 if 'youtube' in url:
+                    print('{{< hint danger >}}', file=outfile)
+                    print('**%s**   ' % title, file=outfile)
                     print('{{< youtube %s >}}' % url.replace('http://www.youtube.com/watch?v=',''), file=outfile)
                 else:
+                    print('{{< hint danger >}}', file=outfile)
                     if year == '':
-                        print('[%s](%s)' % (url, url), file=outfile)
+                        # print('**%s**   ' % title, file=outfile)
+                        print('[**%s**](%s)' % (title, url), file=outfile)
                     else:
-                        print('[%s (%s)](%s)' % (url, year, url), file=outfile)
+                        # print('**%s**   ' % title, file=outfile)
+                        print('[**%s** (%s)](%s)' % (title, year, url), file=outfile)
+                        # print('[%s (%s)](%s)' % (url, year, url), file=outfile)
             else:
                 print('{{< hint info >}}', file=outfile)
                 print('**%s**   ' % title, file=outfile)

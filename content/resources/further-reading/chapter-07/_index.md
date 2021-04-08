@@ -44,14 +44,12 @@ description: "Discrete dynamic models: Boolean networks"
 
 {{< /hint >}}
 {{< hint danger >}}
-**BooleSim**   
-[https://rumo.biologie.hu-berlin.de/boolesim/](https://rumo.biologie.hu-berlin.de/boolesim/)
+[**BooleSim**](https://rumo.biologie.hu-berlin.de/boolesim/)
 
 
 {{< /hint >}}
 {{< hint danger >}}
-**BooleanNet**   
-[https://github.com/ialbert/booleannet](https://github.com/ialbert/booleannet)
+[**BooleanNet**](https://github.com/ialbert/booleannet)
 
 
 {{< /hint >}}

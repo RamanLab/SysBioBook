@@ -13,13 +13,13 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 3	Pavlopoulos _et al._	2011	Using graph theory to analyze biological networks			A nice review on graph theory applications in network biology.
 3			Star Wars Social Network! (by Evelina Gabasova)		http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html	"A fun exercise, studying the social networks in Star Wars movies!"
 3	Watts and Strogatz	1998	Collective dynamics of &lsquo;small-world&rsquo; networks			The original paper on small world networks
-3	Boccaletti _et al._	2006	Complex networks: Structure and dynamics			Extremely detailed paper on networks (a mini book/reference!)
-3	Wang and Chen	2003	"Complex Networks: Small-World, Scale-Free and Beyond"			A lucid easy-to-read paper discussing network models
+3	Boccaletti _et al._	2006	Complex networks: Structure and dynamics		10.1016/j.physrep.2005.10.009	Extremely detailed paper on networks (a mini book/reference!)
+3	Wang and Chen	2003	"Complex Networks: Small-World, Scale-Free and Beyond"		10.1109/MCAS.2003.1228503	A lucid easy-to-read paper discussing network models
 3			How Network Theory Is Revealing Previously Unknown Patterns in Sports		http://www.technologyreview.com/view/530791/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/	An interesting read on the use of network science in sports.
-3	Barabasi and Albert	1999	Emergence of Scaling in Random Networks			The original paper on scale-free networks.
-3	Newman	2003	Structure and Function of Complex Networks			
-3	Milo _et al._**	2002	Network Motifs			
-3			FANMOD: a tool for fast network motif detection**		http://theinf1.informatik.uni-jena.de/~wernicke/motifs/index.html	
+3	Barabasi and Albert	1999	Emergence of Scaling in Random Networks		10.1126/science.286.5439.509	The original paper on scale-free networks.
+3	Newman	2003	Structure and Function of Complex Networks		10.1137/s003614450342480	
+3	Milo _et al._**	2002	Network motifs: Simple building blocks of complex networks		10.1126/science.298.5594.824	
+3			FANMOD: a tool for fast network motif detection**		http://theinf1.informatik.uni-jena.de/~wernicke/motifs/index.html	An easy-to-use software tool for motif detection.
 3	Dobrin _et al._	2004	Aggregation of topological motifs in the _Escherichia coli_ transcriptional regulatory network			
 3	Zhang _et al._	2005	"Motifs, themes and thematic maps of an integrated _Saccharomyces cerevisiae_ interaction network"			
 3	Shen-Orr _et al._	2002	Network motifs in the transcriptional regulation network of _Escherichia coli_			

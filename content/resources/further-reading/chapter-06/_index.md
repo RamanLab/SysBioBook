@@ -68,8 +68,7 @@ description: "Parameter estimation"
 
 {{< /hint >}}
 {{< hint danger >}}
-**GAs for Travelling Salesperson Problem**   
-[http://www.obitko.com/tutorials/genetic-algorithms/tsp-example.php](http://www.obitko.com/tutorials/genetic-algorithms/tsp-example.php)
+[**GAs for Travelling Salesperson Problem**](http://www.obitko.com/tutorials/genetic-algorithms/tsp-example.php)
 
 
 {{< /hint >}}

@@ -32,8 +32,7 @@ description: "Epilogue: The road ahead"
 
 {{< /hint >}}
 {{< hint danger >}}
-**Entelos PhysioLab Models**   
-[http://www.entelos.com/physiolab-models/](http://www.entelos.com/physiolab-models/)
+[**Entelos PhysioLab Models**](http://www.entelos.com/physiolab-models/)
 
 
 {{< /hint >}}
