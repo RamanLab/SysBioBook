@@ -20,7 +20,7 @@ A very nice article by Duncan Watts, the proponent of the small-world network hy
 {{< /hint >}}
 {{< hint info >}}
 **Using graph theory to analyze biological networks**   
-[Pavlopoulos _et al._ (2011)](http://doi.org/)
+[Pavlopoulos _et al._ (2011)](http://doi.org/10.1186/1756-0381-4-10)
 
 A nice review on graph theory applications in network biology.
 {{< /hint >}}
@@ -31,9 +31,9 @@ A fun exercise, studying the social networks in Star Wars movies!
 {{< /hint >}}
 {{< hint info >}}
 **Collective dynamics of &lsquo;small-world&rsquo; networks**   
-[Watts and Strogatz (1998)](http://doi.org/)
+[Watts and Strogatz (1998)](http://doi.org/10.1038/30918)
 
-The original paper on small world networks
+The original paper on small world networks.
 {{< /hint >}}
 {{< hint info >}}
 **Complex networks: Structure and dynamics**   
@@ -45,7 +45,7 @@ Extremely detailed paper on networks (a mini book/reference!)
 **Complex Networks: Small-World, Scale-Free and Beyond**   
 [Wang and Chen (2003)](http://doi.org/10.1109/MCAS.2003.1228503)
 
-A lucid easy-to-read paper discussing network models
+A lucid easy-to-read paper discussing network models.
 {{< /hint >}}
 {{< hint danger >}}
 [**How Network Theory Is Revealing Previously Unknown Patterns in Sports**](http://www.technologyreview.com/view/530791/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/)
@@ -62,13 +62,19 @@ The original paper on scale-free networks.
 **Structure and Function of Complex Networks**   
 [Newman (2003)](http://doi.org/10.1137/s003614450342480)
 
+Another excellent review/mini-book on networks, covering a wide gamut of topics.
+{{< /hint >}}
+{{< hint info >}}
+**Network motifs in the transcriptional regulation network of _Escherichia coli_**   
+[Shen-Orr _et al._ (2002)](http://doi.org/10.1038/ng881)
 
+The classic paper defining the concept of network motifs.
 {{< /hint >}}
 {{< hint info >}}
 **Network motifs: Simple building blocks of complex networks**   
 [Milo _et al._ (2002)](http://doi.org/10.1126/science.298.5594.824)
 
-
+Another excellent paper building on the concept of network motifs.
 {{< /hint >}}
 {{< hint danger >}}
 [**FANMOD: a tool for fast network motif detection**](http://theinf1.informatik.uni-jena.de/~wernicke/motifs/index.html)
@@ -77,31 +83,25 @@ An easy-to-use software tool for motif detection.
 {{< /hint >}}
 {{< hint info >}}
 **Aggregation of topological motifs in the _Escherichia coli_ transcriptional regulatory network**   
-[Dobrin _et al._ (2004)](http://doi.org/)
+[Dobrin _et al._ (2004)](http://doi.org/10.1186/1471-2105-5-10)
 
-
+An insightful analysis of the organisation of _E. coli_ transcriptional regulatory networks: motifs, clusters and superclusters.
 {{< /hint >}}
 {{< hint info >}}
 **Motifs, themes and thematic maps of an integrated _Saccharomyces cerevisiae_ interaction network**   
-[Zhang _et al._ (2005)](http://doi.org/)
+[Zhang _et al._ (2005)](http://doi.org/10.1186/jbiol23)
 
-
-{{< /hint >}}
-{{< hint info >}}
-**Network motifs in the transcriptional regulation network of _Escherichia coli_**   
-[Shen-Orr _et al._ (2002)](http://doi.org/)
-
-
+Discusses the concept of &lsquot;network themes&rsquot;&mdash;classes of higher-order recurring interconnection patterns encompassing multiple occurrences of network motifs.
 {{< /hint >}}
 {{< hint info >}}
 **Error and attack tolerance of complex networks**   
-[Barabasi and Albert (2000)](http://doi.org/)
+[Barabasi and Albert (2000)](http://doi.org/10.1038/35019019)
 
-
+The classic paper illustrating the robustness of scale-free networks to random failures, and susceptibility to targeted attacks.
 {{< /hint >}}
 {{< hint info >}}
 **Attack vulnerability of complex networks**   
-[Holme _et al._ (2002)](http://doi.org/)
+[Holme _et al._ (2002)](http://doi.org/10.1103/physreve.65.056109)
 
-
+An elaborate analysis of four different attack strategies on a variety of complex networks, based on degree/betweenness centrality.
 {{< /hint >}}

@@ -4,27 +4,27 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 1	Perelson*	2002	Modelling viral and immune system dynamics		10.1038/nri700	An authoritative review on modelling the dynamics of viral infections e.g. HIV/HCV.
 1			Numb3rs 1x03 - Vector (TV episode)		http://www.imdb.com/title/tt0663234/	"The protagonist in this show is a mathematician, who uses SIR modelling to help the FBI track down the spread of a virus in a city."
 2			VAX: Gamifying Epidemic Prevention		http://vax.herokuapp.com/game	"An engaging game, that uses network theory to model the spread of an epidemic. Players need to stop epidemic spread by vaccinating/quarantining the right 'nodes' (people) from the network."
-2		1953	Leonhard Euler and the Koenigsberg Bridges		10.1038/scientificamerican0753-66	A nice article recapitulating the history of the Koenigsberg bridges
-2	Hopkins	2018	The truth about Koenigsberg			Another article on the history of the bridges
+2		1953	Leonhard Euler and the Koenigsberg Bridges		10.1038/scientificamerican0753-66	A nice article recapitulating the history of the Koenigsberg bridges.
+2	Hopkins	2018	The truth about Koenigsberg		10.1080/07468342.2004.11922073	Another article on the history of the bridges.
 2			The SuiteSparse Matrix Collection		https://sparse.tamu.edu/	The SuiteSparse Matrix Collection (formerly the University of Florida Sparse Matrix Collection) is a widely used set of sparse matrix benchmarks collected from a wide range of applications.
-2			MATLAB Graph Functions Reference		http://in.mathworks.com/help/matlab/ref/graph.html	MATLAB has a suite of functions for studying/analysing networks. These are described here.
+2			MATLAB Graph Functions Reference		http://in.mathworks.com/help/matlab/ref/graph.html	MATLAB has a suite of functions for studying/analysing networks; these are described here.
 3	Barabasi and Oltvai**	2004	Network Biology		10.1038/nrg1272	"A classic review on network biology capturing a very good breadth of topics, ranging from network parameters all the way up to network perturbations."
 3	Duncan Watts		How Ideas Spread?		http://web.archive.org/web/20140531011749/https://www.credit-suisse.com/us/en/news-and-expertise/news/economy/global-trends.article.html/article/pwp/news-and-expertise/2013/11/en/how-ideas-spread.html	"A very nice article by Duncan Watts, the proponent of the small-world network hypothesis."
-3	Pavlopoulos _et al._	2011	Using graph theory to analyze biological networks			A nice review on graph theory applications in network biology.
+3	Pavlopoulos _et al._	2011	Using graph theory to analyze biological networks		10.1186/1756-0381-4-10	A nice review on graph theory applications in network biology.
 3			Star Wars Social Network! (by Evelina Gabasova)		http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html	"A fun exercise, studying the social networks in Star Wars movies!"
-3	Watts and Strogatz	1998	Collective dynamics of &lsquo;small-world&rsquo; networks			The original paper on small world networks
+3	Watts and Strogatz	1998	Collective dynamics of &lsquo;small-world&rsquo; networks		10.1038/30918	The original paper on small world networks.
 3	Boccaletti _et al._	2006	Complex networks: Structure and dynamics		10.1016/j.physrep.2005.10.009	Extremely detailed paper on networks (a mini book/reference!)
-3	Wang and Chen	2003	"Complex Networks: Small-World, Scale-Free and Beyond"		10.1109/MCAS.2003.1228503	A lucid easy-to-read paper discussing network models
+3	Wang and Chen	2003	"Complex Networks: Small-World, Scale-Free and Beyond"		10.1109/MCAS.2003.1228503	A lucid easy-to-read paper discussing network models.
 3			How Network Theory Is Revealing Previously Unknown Patterns in Sports		http://www.technologyreview.com/view/530791/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/	An interesting read on the use of network science in sports.
 3	Barabasi and Albert	1999	Emergence of Scaling in Random Networks		10.1126/science.286.5439.509	The original paper on scale-free networks.
-3	Newman	2003	Structure and Function of Complex Networks		10.1137/s003614450342480	
-3	Milo _et al._**	2002	Network motifs: Simple building blocks of complex networks		10.1126/science.298.5594.824	
+3	Newman	2003	Structure and Function of Complex Networks		10.1137/s003614450342480	"Another excellent review/mini-book on networks, covering a wide gamut of topics."
+3	Shen-Orr _et al._	2002	Network motifs in the transcriptional regulation network of _Escherichia coli_		10.1038/ng881	The classic paper defining the concept of network motifs.
+3	Milo _et al._**	2002	Network motifs: Simple building blocks of complex networks		10.1126/science.298.5594.824	Another excellent paper building on the concept of network motifs.
 3			FANMOD: a tool for fast network motif detection**		http://theinf1.informatik.uni-jena.de/~wernicke/motifs/index.html	An easy-to-use software tool for motif detection.
-3	Dobrin _et al._	2004	Aggregation of topological motifs in the _Escherichia coli_ transcriptional regulatory network			
-3	Zhang _et al._	2005	"Motifs, themes and thematic maps of an integrated _Saccharomyces cerevisiae_ interaction network"			
-3	Shen-Orr _et al._	2002	Network motifs in the transcriptional regulation network of _Escherichia coli_			
-3	Barabasi and Albert*	2000	Error and attack tolerance of complex networks			
-3	Holme _et al._*	2002	Attack vulnerability of complex networks			
+3	Dobrin _et al._	2004	Aggregation of topological motifs in the _Escherichia coli_ transcriptional regulatory network		10.1186/1471-2105-5-10	"An insightful analysis of the organisation of _E. coli_ transcriptional regulatory networks: motifs, clusters and superclusters."
+3	Zhang _et al._	2005	"Motifs, themes and thematic maps of an integrated _Saccharomyces cerevisiae_ interaction network"		10.1186/jbiol23	Discusses the concept of &lsquot;network themes&rsquot;&mdash;classes of higher-order recurring interconnection patterns encompassing multiple occurrences of network motifs.
+3	Barabasi and Albert*	2000	Error and attack tolerance of complex networks		10.1038/35019019	"The classic paper illustrating the robustness of scale-free networks to random failures, and susceptibility to targeted attacks."
+3	Holme _et al._*	2002	Attack vulnerability of complex networks		10.1103/physreve.65.056109	"An elaborate analysis of four different attack strategies on a variety of complex networks, based on degree/betweenness centrality."
 4	Jeong _et al._**	2001	Lethality and centrality in protein networks			
 4	Miele _et al._**	2020	Nine quick tips for analyzing network data			
 4	Goh _et al._*	2007	The human disease network			

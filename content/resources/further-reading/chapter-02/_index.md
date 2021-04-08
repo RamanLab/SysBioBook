@@ -16,13 +16,13 @@ An engaging game, that uses network theory to model the spread of an epidemic. P
 **Leonhard Euler and the Koenigsberg Bridges**   
 [ (1953)](http://doi.org/10.1038/scientificamerican0753-66)
 
-A nice article recapitulating the history of the Koenigsberg bridges
+A nice article recapitulating the history of the Koenigsberg bridges.
 {{< /hint >}}
 {{< hint info >}}
 **The truth about Koenigsberg**   
-[Hopkins (2018)](http://doi.org/)
+[Hopkins (2018)](http://doi.org/10.1080/07468342.2004.11922073)
 
-Another article on the history of the bridges
+Another article on the history of the bridges.
 {{< /hint >}}
 {{< hint danger >}}
 [**The SuiteSparse Matrix Collection**](https://sparse.tamu.edu/)
@@ -32,5 +32,5 @@ The SuiteSparse Matrix Collection (formerly the University of Florida Sparse Mat
 {{< hint danger >}}
 [**MATLAB Graph Functions Reference**](http://in.mathworks.com/help/matlab/ref/graph.html)
 
-MATLAB has a suite of functions for studying/analysing networks. These are described here.
+MATLAB has a suite of functions for studying/analysing networks;. these are described here.
 {{< /hint >}}
