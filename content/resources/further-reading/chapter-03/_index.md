@@ -32,14 +32,14 @@ A nice review on graph theory applications in network biology.
 A fun exercise, studying the social networks in Star Wars movies!
 {{< /hint >}}
 {{< hint info >}}
-**Collective dynamics of 'small-world' networks**   
+**Collective dynamics of &lsquo;small-world&rsquo; networks**   
 [Watts and Strogatz (1998)](http://doi.org/)
 
 The original paper on small world networks
 {{< /hint >}}
 {{< hint info >}}
 **Complex networks: Structure and dynamics**   
-[Boccalletti _et al._ (2006)](http://doi.org/)
+[Boccaletti _et al._ (2006)](http://doi.org/)
 
 Extremely detailed paper on networks (a mini book/reference!)
 {{< /hint >}}

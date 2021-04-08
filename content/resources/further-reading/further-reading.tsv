@@ -1,5 +1,5 @@
 Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
-1	Lazebnik Y	2002	"Can a biologist fix a radio?—Or, what I learned while studying apoptosis"	Cancer Cell	10.1016/s1535-6108(02)00133-2	"This insightful paper by Yuri Lazebnik discusses some very interesting points related to engineering vs. biology, and underlines the challenges associated with studying biological complexity."
+1	Lazebnik Y	2002	"Can a biologist fix a radio?&mdash;Or, what I learned while studying apoptosis"	Cancer Cell	10.1016/s1535-6108(02)00133-2	"This insightful paper by Yuri Lazebnik discusses some very interesting points related to engineering vs. biology, and underlines the challenges associated with studying biological complexity."
 1	Hartwell**	1999	From molecular to modular cell biology		10.1038/35011540	"A nice essay on modularity in biology, and a systems perspective, from Leland Hartwell, who went on to win the 2001 Nobel Prize in Physiology or Medicine."
 1	Perelson*	2002	Modelling viral and immune system dynamics		10.1038/nri700	An authoritative review on modelling the dynamics of viral infections e.g. HIV/HCV.
 1			Numb3rs 1x03 - Vector (TV episode)		http://www.imdb.com/title/tt0663234/	"The protagonist in this show is a mathematician, who uses SIR modelling to help the FBI track down the spread of a virus in a city."
@@ -12,8 +12,8 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 3	Duncan Watts		How Ideas Spread?		http://web.archive.org/web/20140531011749/https://www.credit-suisse.com/us/en/news-and-expertise/news/economy/global-trends.article.html/article/pwp/news-and-expertise/2013/11/en/how-ideas-spread.html	"A very nice article by Duncan Watts, the proponent of the small-world network hypothesis."
 3	Pavlopoulos _et al._	2011	Using graph theory to analyze biological networks			A nice review on graph theory applications in network biology.
 3			Star Wars Social Network! (by Evelina Gabasova)		http://evelinag.com/blog/2015/12-15-star-wars-social-network/index.html	"A fun exercise, studying the social networks in Star Wars movies!"
-3	Watts and Strogatz	1998	Collective dynamics of 'small-world' networks			The original paper on small world networks
-3	Boccalletti _et al._	2006	Complex networks: Structure and dynamics			Extremely detailed paper on networks (a mini book/reference!)
+3	Watts and Strogatz	1998	Collective dynamics of &lsquo;small-world&rsquo; networks			The original paper on small world networks
+3	Boccaletti _et al._	2006	Complex networks: Structure and dynamics			Extremely detailed paper on networks (a mini book/reference!)
 3	Wang and Chen	2003	"Complex Networks: Small-World, Scale-Free and Beyond"			A lucid easy-to-read paper discussing network models
 3			How Network Theory Is Revealing Previously Unknown Patterns in Sports		http://www.technologyreview.com/view/530791/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/	An interesting read on the use of network science in sports.
 3	Barabasi and Albert	1999	Emergence of Scaling in Random Networks			The original paper on scale-free networks.

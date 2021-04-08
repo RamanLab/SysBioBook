@@ -8,7 +8,7 @@ description: "Introduction to modelling"
 # Chapter 1: Introduction to modelling
 
 {{< hint info >}}
-**Can a biologist fix a radio?�Or, what I learned while studying apoptosis**   
+**Can a biologist fix a radio?&mdash;Or, what I learned while studying apoptosis**   
 [Lazebnik Y (2002) _Cancer Cell_](http://doi.org/10.1016/s1535-6108(02)00133-2)
 
 This insightful paper by Yuri Lazebnik discusses some very interesting points related to engineering vs. biology, and underlines the challenges associated with studying biological complexity.
