@@ -32,5 +32,5 @@ The SuiteSparse Matrix Collection (formerly the University of Florida Sparse Mat
 {{< hint danger >}}
 [**MATLAB Graph Functions Reference**](http://in.mathworks.com/help/matlab/ref/graph.html)
 
-MATLAB has a suite of functions for studying/analysing networks;. these are described here.
+MATLAB has a suite of functions for studying/analysing networks; these are described here.
 {{< /hint >}}

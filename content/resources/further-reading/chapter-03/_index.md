@@ -91,7 +91,7 @@ An insightful analysis of the organisation of _E. coli_ transcriptional regulato
 **Motifs, themes and thematic maps of an integrated _Saccharomyces cerevisiae_ interaction network**   
 [Zhang _et al._ (2005)](http://doi.org/10.1186/jbiol23)
 
-Discusses the concept of &lsquot;network themes&rsquot;&mdash;classes of higher-order recurring interconnection patterns encompassing multiple occurrences of network motifs.
+Discusses the concept of &lsquo;network themes&rsquo;&mdash;classes of higher-order recurring interconnection patterns encompassing multiple occurrences of network motifs.
 {{< /hint >}}
 {{< hint info >}}
 **Error and attack tolerance of complex networks**   
