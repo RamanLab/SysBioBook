@@ -1,0 +1,103 @@
+1	1	1	Introduction	Introduction	What are models?	Why model?		21:26:00	https://youtu.be/aI4xR32gJBQ
+1	1	2	Introduction to Modelling	Why model biological systems?				24:03:00	https://youtu.be/V643mrBYhpk
+1	1	3	Introduction to Modelling	Examples of Models	Challenges in modelling biological systems	Discussion: Modelling Spread of Infectious Diseases		13:34:00	https://youtu.be/VqMTD2DnkRU
+1	1	4	Fundamentals of Mathematical Modelling	The Modelling Process	Scope / Assumptions	Types of Models		17:59:00	https://youtu.be/Ut1-WbidmIc
+1	1	5	Fundamentals of Mathematical Modelling	Model Analysis and Diagnosis	Model Applications			18:49:00	https://youtu.be/E2q9iRfdWKM
+1	1	6	Fundamentals of Mathematical Modelling	Example Model: SIR				15:21:00	https://youtu.be/AVkQ5szVTlo
+1	1	7	Some Example Models					5:51:00	https://youtu.be/tRj_XWXVZsc
+1	1	8	Representation of Biological Networks	How to represent biological networks?	SBGN			8:53:00	https://youtu.be/a0dT_bTGyyg
+2	2	13	Introduction to Networks	History of Graph Theory	Types of Graphs			14:31:00	https://youtu.be/WYC6mIdqmhU
+2	2	14	Introduction to Networks	More Types of Graphs	Representing Metabolic Networks	Aside: Sparse Matrices		20:58:00	https://youtu.be/i-lqnpWPRqY
+2	2	15	Introduction to Network Biology	Why Graphs?	Basic Network Parameters			25:02:00	https://youtu.be/o0TKeZYK0Hw
+3	2	16	Introduction to Network Biology	Centrality Measures	Closeness Centrality	Betweenness Centrality 		25:52:00	https://youtu.be/ufurE4tiv18
+3	2	17	Introduction to Network Biology	Connected Components	Network Motifs (Quick Intro)			10:31:00	https://youtu.be/xLA_BBmywyA
+3	2	18	Network Biology	Network Concepts Review				13:11:00	https://youtu.be/7Ts4oq6xMc4
+3	2	19	Network Models	Random (\ER) Networks				8:10:00	https://youtu.be/cG90x2xVoMU
+3	2	20	Network Models	Small-World (Watts--Strogatz) Networks	Power law Networks			27:58:00	https://youtu.be/661lbq4sJVQ
+3	3	21	Biological Networks	Centrality--lethality hypothesis	Assortativity			15:15:00	https://youtu.be/tccJ1A74htw
+3	3	22	Network Perturbations	Perturbations				14:50:00	https://youtu.be/C6PJMRupwpA
+3	3	23	Community Detection	Communities in Networks	Modularity			21:42:00	https://youtu.be/Jck7WTLQxM8
+3	3	24	Network Motifs	What are Motifs?	Randomising a Network	Biological significance		21:53:00	https://youtu.be/ZhjQlc8kfBM
+3	3	25	Lab: Cytoscape	Cytoscape Introduction	STRING Database	Loading and Visualising Networks	NetworkAnalyzer	23:41:00	https://youtu.be/Dvglj17P1sY
+3	3	26	Lab: Cytoscape	Simple Network Walkthrough	Other Tools			19:30:00	https://youtu.be/zxA3eI5uSXc
+3	3	27	Lab: Network Biology	MATLAB Boost Graph Library (BGL)	Regular lattice	Rewiring a regular lattice		23:54:00	https://youtu.be/4Jau8nAgf6w
+3	4	28	Network Biology: Recap	Network Parameters	Network Models	Communities	Motifs	37:27:00	https://youtu.be/z6yQdSRZmZA
+3	4	29	Lab: Network Models \& Perturbations	Network Models				7:16:00	https://youtu.be/m50xWUnkAS4
+3	4	30	Lab: Network Models \& Perturbations	Network Perturbations	Profiling (MATLAB)			46:21:00	https://youtu.be/MBt7BYuG2xM
+5	5	35	Introduction to Dynamic Modelling	Dynamic Modelling				10:54:00	https://youtu.be/M_0a7rnSAEA
+5	5	36	Introduction to Dynamic Modelling	Michaelis--Menten Kinetics	An Example System			22:54:00	https://youtu.be/gKoNs18MS7w
+5	5	37	Introduction to Dynamic Modelling	Solving ODEs				9:11:00	https://youtu.be/BXDpS3IRjUQ
+5	5	38	Lab: Solving ODEs in MATLAB	Simple iterative code	ODE solvers in MATLAB (e.g. ode15s)			19:50:00	https://youtu.be/pCF3Z0qzAlU
+5	5	39	Lab: Example Biological Model	Sustained Oscillations in Glycolysis				17:42:00	https://youtu.be/bsw2EkZWSOs
+6	5	40	Parameter Estimation	Biochemical Systems Theory	Optimisation: What is a good fit?			12:45:00	https://youtu.be/wt5ASO9PyeU
+6	5	41	Parameter Estimation	Setting up the Optimisation Problem				16:59:00	https://youtu.be/gZRLaHu4lQc
+6	5	42	Parameter Estimation	Data-driven Mechanistic Modelling: Flowchart				20:06:00	https://youtu.be/TBS5NAUQV24
+6	5	43	Methods for Parameter Estimation	Introduction	Generic Recipe for Direct Search Algorithms			23:57:00	https://youtu.be/FRC9uRG08LA
+6	5	44	Direct Search Methods	Stochastic Search Algorithms	Simulated Annealing	Genetic Algorithms		23:14:00	https://youtu.be/vQHNW5vVT-k
+6	6	45	Genetic Algorithms	Other Applications for GAs				12:14:00	https://youtu.be/r4sRqf89jmY
+6	6	46	Genetic Algorithms	Representation Challenges \& Examples	Some Illustrations			21:02:00	https://youtu.be/W-RVXiBYdAA
+6	6	47	Other Evolutionary Algorithms	Differential Evolution	Implementing EAs	When to use EAs?	Curse of Dimensionality	21:24:00	https://youtu.be/7Y8q-Altqzs
+6	6	48	PyGMO	Introduction to PyGMO	PyGMO Algorithms and Examples	Multi-objective Optimisation		16:00:00	https://youtu.be/jJxloSeOuxc
+6	6	49	Dynamic Modelling Recap					11:58:00	https://youtu.be/UiYYHBGX9X4
+6	6	50	Lab: Parameter Estimation	Computing the Objective Function	\texttt{fminsearch}			30:36:00	https://youtu.be/3pF8MuAsmxw
+7	11	86	Modelling Gene Regulatory Networks	Logical Models: Boolean Networks				13:47:00	https://youtu.be/Ly9BHuJAsis
+7	11	87	Modelling Gene Regulatory Networks	Examples				15:59:00	https://youtu.be/IyubjrMXNIw
+7	11	88	Modelling Gene Regulatory Networks	Continuous Models				14:23:00	https://youtu.be/lq3ic8evlQQ
+7	11	89	Lab: Modelling Gene Regulatory Networks	BooleSim (JavaScript)				21:59:00	https://youtu.be/8eR_wYYDOhA
+7	11	90	Lab: Modelling Gene Regulatory Networks	BooleanNet (Python)				16:47:00	https://youtu.be/MaRi445dUBk
+8	7	56	Constraint-based Modelling of Metabolic Networks	Introduction	Constraints on Biological Systems	Stoichiometric Matrix		22:53:00	https://youtu.be/PlpJShHvNfQ
+8	7	57	Flux Balance Analysis	Steady-state Mass Balance	Constraints	Optimisation (LP)		21:21:00	https://youtu.be/giwq6tdW7M8
+8	7	58	Flux Balance Analysis	The Objective Function	Illustration of FBA			21:39:00	https://youtu.be/yr-yFr-vKus
+8	7	59	Flux Balance Analysis	Choice of Objective Function	Alternate Optima in FBA			17:58:00	https://youtu.be/9K2oKY2VE1Y
+8	7	62	Lab: FBA using MATLAB	Understanding and Solving FBA using \texttt{linprog}	COBRA Model Structure	FBA using COBRA Toolbox		24:19:00	https://youtu.be/UwgGudl-ggE
+8	8	64	Lab: COBRA Toolbox	\texttt{optimizeCbModel}	Exchange Reactions	Varying Glucose Uptake Rates		46:28:00	https://youtu.be/Rem73-W3J60
+8	8	65	Understanding FBA	Gaps	Dead-end Metabolites	Blocked Reactions		15:08:00	https://youtu.be/dLqlkDuNprE
+8	8	66	Understanding FBA	Troubleshooting FBA	ATP Maintenance Flux	Flux Variability Analysis		16:34:00	https://youtu.be/ftFOhUVi9LQ
+9	7	60	Other Constraint-Based Approaches	Minimisation of Metabolic Adjustment				17:41:00	https://youtu.be/hf8UWDz9ySQ
+9	7	61	Other Constraint-Based Approaches	Regulatory On-Off Minimisation				12:02:00	https://youtu.be/GNfQNtjPGbI
+9	9	73	Elementary Modes	Definitions	Simple Examples			16:19:00	https://youtu.be/YL0yKrSSPKg
+9	9	74	Elementary Modes	Another Example				13:09:00	https://youtu.be/93biARhaJrc
+9	10	82	$^{13}$C-Metabolic Flux Analysis using Mass Spectrometry	Introduction to $^{13}C$-MFA				11:27:00	https://youtu.be/IF9yJFA2VEs
+9	10	83	$^{13}$C-Metabolic Flux Analysis using Mass Spectrometry	Methodology	GC-MS Analysis			11:55:00	https://youtu.be/gLneCgIngmc
+9	10	84	$^{13}$C-Metabolic Flux Analysis using Mass Spectrometry	Data Analysis	An Example			12:31:00	https://youtu.be/TAFE2kE-sdE
+9	10	85	Lab: $^{13}$C-Metabolic Flux Analysis using Mass Spectrometry	Recap	Simple Exercises			32:27:00	https://youtu.be/P-rgJGSe4os
+10	8	63	Perturbations to Metabolic Networks: Deletions	Gene Deletions	Reaction Deletions	Gene-Protein-Reaction Associations		12:50:00	https://youtu.be/vrEihJOzLvU
+10	8	67	Perturbations to Metabolic Networks: Over-expression	FSEOF				15:36:00	https://youtu.be/7An2bF0RvVk
+10	8	68	Perturbations to Metabolic Networks: Synthetic Lethals	Synthetic Lethals				13:07:00	https://youtu.be/0oCo35ZJ8CA
+10	8	69	Perturbations to Metabolic Networks: Synthetic Lethals	Fast-SL Algorithm				16:16:00	https://youtu.be/EAoiGqUejeU
+10	8	70	Constraint-based Modelling of Metabolic Networks	Limitations of Constraint-Based Approaches				10:54:00	https://youtu.be/ArfUd58E-vw
+10	9	71	Lab: Gene Deletions	Gene Deletions using COBRA Toolbox	Escher	Single and Double Deletions		30:39:00	https://youtu.be/EP5ur-JgtXo
+10	9	72	Integrating Regulatory Information into Constraint-Based Models	rFBA	E-Flux			17:53:00	https://youtu.be/8w6EPc_Lovw
+10	9	75	Constraint-based Modelling of Metabolic Networks: Applications	Introduction	Drug Target Identification: Mycolic Acid Pathway in TB			15:04:00	https://youtu.be/5k-6L59op7Q
+10	9	76	Constraint-based Modelling of Metabolic Networks: Applications	Metabolic Engineering: Lycopene Biosynthesis				8:30:00	https://youtu.be/8-gQu56ZrNE
+10	9	77	Constraint-based Modelling of Metabolic Networks: Applications	targetTB				17:12:00	https://youtu.be/A6NGUEuJiNU
+10	9	78	Lab: Gene Deletions	Single Reaction Deletion	Minimal Reactome			25:25:00	https://youtu.be/o3B0wCi8NGs
+10	10	79	Constraint-based Modelling of Metabolic Networks: Recap	Stoichiometric Matrix	Constraints	Choice of Objective Function		16:03:00	https://youtu.be/xIFIFkNAnK4
+10	10	80	Constraint-based Modelling of Metabolic Networks: Recap	Perturbations				17:57:00	https://youtu.be/w6565rQuR8Q
+10	10	81	Constraint-based Modelling of Metabolic Networks: Recap	FSEOF	Synthetic Lethals			15:34:00	https://youtu.be/BFVO2Ckdp94
+11	11	91	Computational Modelling of Host--Pathogen Interactions	Overview of Methods	How do we model Mtb-Human Interactions?	Reconstructing the Model		15:29:00	https://youtu.be/Y_6Su4yAGrY
+11	11	92	Computational Modelling of Host--Pathogen Interactions	Simulations				12:36:00	https://youtu.be/5LvJlkFThjY
+12	12	99	Introduction to Synthetic Biology	Parts	Modules	Combining Modules	Challenges	32:20:00	https://youtu.be/lcnrXK-yKN8
+13	11	93	Robustness in Biological Systems	Overview				15:16:00	https://youtu.be/7SBsoP8OhPM
+13	11	94	Robustness in Biological Systems: Mechanisms	System Control	Redundancy	Modularity and Decoupling	Hierarchies and Protocols	10:47:00	https://youtu.be/tQtL3tqhLwE
+13	11	95	Robustness in Biological Systems: Organising Principles	Bow-Tie structure				15:04:00	https://youtu.be/KzcyeXGt5hE
+13	11	96	Robustness in Biological Systems: Trade-offs	"Robustness, Fragility and Complexity"	Highly Optimised Tolerance	Robustness and Evolvability		10:12:00	https://youtu.be/Ms-KGrXug_s
+13	12	97	Robustness and Evolvability	Parametric Robustness	`Topological' Robustness	Evolvability		11:29:00	https://youtu.be/6OsxFTpCGWE
+13	12	98	Robustness and Evolvability	Neutral Networks	Genotype--Phenotype Mapping			24:50:00	https://youtu.be/BCPdYGiuIVY
+14	6	51	Guest Lecture: Modelling in Drug Development	Introduction	Drug development today: process and challenges			18:28:00	https://youtu.be/eH_GcKEUw_8
+14	6	52	Guest Lecture: Modelling in Drug Development	Modelling in Drug Development				19:13:00	https://youtu.be/xieemVq9tAA
+14	6	53	Guest Lecture: Quantitative Systems Pharmacology	Introduction to QSP				29:35:00	https://youtu.be/lQc6orcoJ0s
+14	6	54	Guest Lecture: Quantitative Systems Pharmacology	Case study: QSP model of diabetes				6:03:00	https://youtu.be/gtnNOzIJFOI
+14	6	55	Guest Lecture: Quantitative Systems Pharmacology	What next for QSP	Q \& A			12:16:00	https://youtu.be/OeC4FzDyJq0
+14	12	100	Advanced Topics	Ensemble Modelling				13:46:00	https://youtu.be/ZUdRpl2V3To
+14	12	101	Advanced Topics	Design Principles				11:31:00	https://youtu.be/UWp4a6PbQgg
+14	12	102	Advanced Topics	Bridging the Gaps in Systems Biology	DREAM Challenges	Whole-cell Modelling	Retroactivity	27:07:00	https://youtu.be/VwoQOlJ0guk
+14	12	103	Course Recap					13:12:00	https://youtu.be/NiBSy1XPvfU
+B	4	31	Reconstruction of Gene Regulatory Networks	Reconstruction of Gene Regulatory Networks	What is a GRN?	Algorithms for reconstruction (overview)	Synthetic lethality	32:49:00	https://youtu.be/33agmuUoJIg
+B	4	32	Reconstruction of Protein Networks	Rosetta Stone	Phylogenetic Profiling		Correlated Mutations	16:35:00	https://youtu.be/yyf-mEQ2QCI
+B	4	33	Reconstruction of Signalling Networks	Basic Concepts	Reconstruction			12:42:00	https://youtu.be/Y5m-ftzsKzk
+B	4	34	Reconstruction of Metabolic Networks	Basic Concepts	Reconstruction	Representations		14:23:00	https://youtu.be/zKnOOyZN6Yc
+E	1	9	Lab: MATLAB Basics	Basics of MATLAB				12:45:00	https://youtu.be/xlOUFBW5Zjs
+E	1	10	Lab: MATLAB Basics	Indexing				8:35:00	https://youtu.be/v_PEQM1ArEc
+E	1	11	Lab: MATLAB Basics	Matrices \& Functions				22:00:00	https://youtu.be/9Ns3buIiCbE
+E	1	12	Lab: MATLAB Basics	Floating Point Arithmetic				13:49:00	https://youtu.be/g-LGxQFZn-s

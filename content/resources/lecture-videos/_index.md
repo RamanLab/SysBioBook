@@ -1,6 +1,7 @@
 ---
 weight: 3
 bookFlatSection: false
+bookCollapseSection: true
 title: "Lecture Videos"
 ---
 
@@ -10,3 +11,4 @@ A Massive Open Online Course on Computational Systems Biology, which is in part,
 
 The lectures (including hands-on lab sessions), totalling over 30 hours of content, are also available on [YouTube](https://www.youtube.com/playlist?list=PLHkR7OTZy5OPhDKvFJ_Xc-PuQFw4-oCZ4).
 
+{{<section>}}
