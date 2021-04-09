@@ -41,8 +41,15 @@ for chapter in CHAPTER_NAMES:
         print('description: "%s"' % CHAPTER_NAMES[chapter], file=outfile)
         print('---', file=outfile)
         print('', file=outfile)
+        print("# Lecture Videos", file=outfile)
+        print("", file=outfile)
+        print("A Massive Open Online Course on Computational Systems Biology, which is in part, a basis for this book, is also available, through the Indian educational platforms, [NPTEL (National Programme on Technology Enhanced Learning)](https://nptel.ac.in/) and [SWAYAM](https://swayam.gov.in/). ", file=outfile)
+        print("", file=outfile)
+        print("The lectures (including hands-on lab sessions), totalling over 30 hours of content, are also available on [YouTube](https://www.youtube.com/playlist?list=PLHkR7OTZy5OPhDKvFJ_Xc-PuQFw4-oCZ4).", file=outfile)
+        print("", file=outfile)
         print('# Chapter %s: %s' % (chapter, CHAPTER_NAMES[chapter]), file=outfile)
         print('', file=outfile)
+
 
 with open('lecture-videos.tsv', 'r', errors='replace') as infile:
     lines = infile.readlines()
