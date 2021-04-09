@@ -46,7 +46,7 @@ for chapter in CHAPTER_NAMES:
 
 with open('lecture-videos.tsv', 'r', errors='replace') as infile:
     lines = infile.readlines()
-    for line in lines[1:]:
+    for line in lines:
         chapter, week, vidnum, title, topic1, topic2, topic3, topic4, duration, url = line.strip('\n').split('\t')
         title = title.strip('"*')
         if chapter in ["A", "B", "C", "D", "E"]:
@@ -56,9 +56,7 @@ with open('lecture-videos.tsv', 'r', errors='replace') as infile:
         with open('%s/_index.md' % folder_name, 'a') as outfile:
             print('{{< hint info >}}', file=outfile)
             print('**%s** (%s)  ' % (title, duration[:-3]), file=outfile)
-            print(title)
             for topic in [topic1, topic2, topic3, topic4]:
-                print(topic)
                 if topic != "":
                     print(" - %s" % topic, file=outfile)
             print('{{< youtube %s >}}' % url.replace('https://youtu.be/',''), file=outfile)

@@ -8,6 +8,13 @@ description: "Introduction to modelling"
 # Chapter 1: Introduction to modelling
 
 {{< hint info >}}
+**Introduction** (21:26)  
+ - Introduction
+ - What are models?
+ - Why model?
+{{< youtube aI4xR32gJBQ >}}
+{{< /hint >}}
+{{< hint info >}}
 **Introduction to Modelling** (24:03)  
  - Why model biological systems?
 {{< youtube V643mrBYhpk >}}
