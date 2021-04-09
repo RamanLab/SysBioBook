@@ -66,6 +66,12 @@ with open('lecture-videos.tsv', 'r', errors='replace') as infile:
             for topic in [topic1, topic2, topic3, topic4]:
                 if topic != "":
                     print(" - %s" % topic, file=outfile)
-            print('{{< youtube %s >}}' % url.replace('https://youtu.be/',''), file=outfile)
+            if 't=' in url:
+                url = url.replace('https://youtu.be/','')
+                yid = url.split('?')[0]
+                tstart = url.split('=')[1]
+                print('{{< youtubestart %s %d >}}' % (yid, int(tstart)), file=outfile)
+            else:
+                print('{{< youtube %s >}}' % url.replace('https://youtu.be/',''), file=outfile)
             print('{{< /hint >}}', file=outfile)
 
