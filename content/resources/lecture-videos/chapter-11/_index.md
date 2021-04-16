@@ -18,10 +18,10 @@ The lectures (including hands-on lab sessions), totalling over 30 hours of conte
  - Overview of Methods
  - How do we model Mtb-Human Interactions?
  - Reconstructing the Model
-{{< youtube Y_6Su4yAGrY >}}
+{{< videoken Y_6Su4yAGrY >}}
 {{< /hint >}}
 {{< hint info >}}
 **Computational Modelling of Host--Pathogen Interactions** (12:36)  
  - Simulations
-{{< youtube 5LvJlkFThjY >}}
+{{< videoken 5LvJlkFThjY >}}
 {{< /hint >}}

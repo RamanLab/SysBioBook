@@ -16,20 +16,20 @@ The lectures (including hands-on lab sessions), totalling over 30 hours of conte
 {{< hint info >}}
 **Lab: MATLAB Basics** (12:45)  
  - Basics of MATLAB
-{{< youtube xlOUFBW5Zjs >}}
+{{< videoken xlOUFBW5Zjs >}}
 {{< /hint >}}
 {{< hint info >}}
 **Lab: MATLAB Basics** (8:35)  
  - Indexing
-{{< youtube v_PEQM1ArEc >}}
+{{< videoken v_PEQM1ArEc >}}
 {{< /hint >}}
 {{< hint info >}}
 **Lab: MATLAB Basics** (22:00)  
  - Matrices \& Functions
-{{< youtube 9Ns3buIiCbE >}}
+{{< videoken 9Ns3buIiCbE >}}
 {{< /hint >}}
 {{< hint info >}}
 **Lab: MATLAB Basics** (13:49)  
  - Floating Point Arithmetic
-{{< youtube g-LGxQFZn-s >}}
+{{< videoken g-LGxQFZn-s >}}
 {{< /hint >}}

@@ -72,6 +72,6 @@ with open('lecture-videos.tsv', 'r', errors='replace') as infile:
                 tstart = url.split('=')[1]
                 print('{{< youtubestart %s %d >}}' % (yid, int(tstart)), file=outfile)
             else:
-                print('{{< youtube %s >}}' % url.replace('https://youtu.be/',''), file=outfile)
+                print('{{< videoken %s >}}' % url.replace('https://youtu.be/',''), file=outfile)
             print('{{< /hint >}}', file=outfile)
 

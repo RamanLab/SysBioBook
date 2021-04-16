@@ -16,25 +16,25 @@ The lectures (including hands-on lab sessions), totalling over 30 hours of conte
 {{< hint info >}}
 **Modelling Gene Regulatory Networks** (13:47)  
  - Logical Models: Boolean Networks
-{{< youtube Ly9BHuJAsis >}}
+{{< videoken Ly9BHuJAsis >}}
 {{< /hint >}}
 {{< hint info >}}
 **Modelling Gene Regulatory Networks** (15:59)  
  - Examples
-{{< youtube IyubjrMXNIw >}}
+{{< videoken IyubjrMXNIw >}}
 {{< /hint >}}
 {{< hint info >}}
 **Modelling Gene Regulatory Networks** (14:23)  
  - Continuous Models
-{{< youtube lq3ic8evlQQ >}}
+{{< videoken lq3ic8evlQQ >}}
 {{< /hint >}}
 {{< hint info >}}
 **Lab: Modelling Gene Regulatory Networks** (21:59)  
  - BooleSim (JavaScript)
-{{< youtube 8eR_wYYDOhA >}}
+{{< videoken 8eR_wYYDOhA >}}
 {{< /hint >}}
 {{< hint info >}}
 **Lab: Modelling Gene Regulatory Networks** (16:47)  
  - BooleanNet (Python)
-{{< youtube MaRi445dUBk >}}
+{{< videoken MaRi445dUBk >}}
 {{< /hint >}}

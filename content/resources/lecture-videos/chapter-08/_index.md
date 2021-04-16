@@ -18,52 +18,52 @@ The lectures (including hands-on lab sessions), totalling over 30 hours of conte
  - Introduction
  - Constraints on Biological Systems
  - Stoichiometric Matrix
-{{< youtube PlpJShHvNfQ >}}
+{{< videoken PlpJShHvNfQ >}}
 {{< /hint >}}
 {{< hint info >}}
 **Flux Balance Analysis** (21:21)  
  - Steady-state Mass Balance
  - Constraints
  - Optimisation (LP)
-{{< youtube giwq6tdW7M8 >}}
+{{< videoken giwq6tdW7M8 >}}
 {{< /hint >}}
 {{< hint info >}}
 **Flux Balance Analysis** (21:39)  
  - The Objective Function
  - Illustration of FBA
-{{< youtube yr-yFr-vKus >}}
+{{< videoken yr-yFr-vKus >}}
 {{< /hint >}}
 {{< hint info >}}
 **Flux Balance Analysis** (17:58)  
  - Choice of Objective Function
  - Alternate Optima in FBA
-{{< youtube 9K2oKY2VE1Y >}}
+{{< videoken 9K2oKY2VE1Y >}}
 {{< /hint >}}
 {{< hint info >}}
 **Lab: FBA using MATLAB** (24:19)  
  - Understanding and Solving FBA using \texttt{linprog}
  - COBRA Model Structure
  - FBA using COBRA Toolbox
-{{< youtube UwgGudl-ggE >}}
+{{< videoken UwgGudl-ggE >}}
 {{< /hint >}}
 {{< hint info >}}
 **Lab: COBRA Toolbox** (46:28)  
  - \texttt{optimizeCbModel}
  - Exchange Reactions
  - Varying Glucose Uptake Rates
-{{< youtube Rem73-W3J60 >}}
+{{< videoken Rem73-W3J60 >}}
 {{< /hint >}}
 {{< hint info >}}
 **Understanding FBA** (15:08)  
  - Gaps
  - Dead-end Metabolites
  - Blocked Reactions
-{{< youtube dLqlkDuNprE >}}
+{{< videoken dLqlkDuNprE >}}
 {{< /hint >}}
 {{< hint info >}}
 **Understanding FBA** (16:34)  
  - Troubleshooting FBA
  - ATP Maintenance Flux
  - Flux Variability Analysis
-{{< youtube ftFOhUVi9LQ >}}
+{{< videoken ftFOhUVi9LQ >}}
 {{< /hint >}}

@@ -19,25 +19,25 @@ The lectures (including hands-on lab sessions), totalling over 30 hours of conte
  - What is a GRN?
  - Algorithms for reconstruction (overview)
  - Synthetic lethality
-{{< youtube 33agmuUoJIg >}}
+{{< videoken 33agmuUoJIg >}}
 {{< /hint >}}
 {{< hint info >}}
 **Reconstruction of Protein Networks** (16:35)  
  - Rosetta Stone
  - Phylogenetic Profiling
  - Correlated Mutations
-{{< youtube yyf-mEQ2QCI >}}
+{{< videoken yyf-mEQ2QCI >}}
 {{< /hint >}}
 {{< hint info >}}
 **Reconstruction of Signalling Networks** (12:42)  
  - Basic Concepts
  - Reconstruction
-{{< youtube Y5m-ftzsKzk >}}
+{{< videoken Y5m-ftzsKzk >}}
 {{< /hint >}}
 {{< hint info >}}
 **Reconstruction of Metabolic Networks** (14:23)  
  - Basic Concepts
  - Reconstruction
  - Representations
-{{< youtube zKnOOyZN6Yc >}}
+{{< videoken zKnOOyZN6Yc >}}
 {{< /hint >}}

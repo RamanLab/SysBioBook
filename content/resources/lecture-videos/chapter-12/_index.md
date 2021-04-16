@@ -19,5 +19,5 @@ The lectures (including hands-on lab sessions), totalling over 30 hours of conte
  - Modules
  - Combining Modules
  - Challenges
-{{< youtube lcnrXK-yKN8 >}}
+{{< videoken lcnrXK-yKN8 >}}
 {{< /hint >}}
