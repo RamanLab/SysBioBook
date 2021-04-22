@@ -14,7 +14,7 @@ An engaging game, that uses network theory to model the spread of an epidemic. P
 {{< /hint >}}
 {{< hint info >}}
 **Leonhard Euler and the Koenigsberg Bridges**   
-[ (1953)](http://doi.org/10.1038/scientificamerican0753-66)
+[Euler (1953) _Scientific American_](http://doi.org/10.1038/scientificamerican0753-66)
 
 A nice article recapitulating the history of the Koenigsberg bridges.
 {{< /hint >}}

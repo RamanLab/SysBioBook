@@ -15,13 +15,13 @@ This insightful paper by Yuri Lazebnik discusses some very interesting points re
 {{< /hint >}}
 {{< hint info >}}
 **From molecular to modular cell biology**   
-[Hartwell (1999)](http://doi.org/10.1038/35011540)
+[Hartwell (1999) _Nature_](http://doi.org/10.1038/35011540)
 
 A nice essay on modularity in biology, and a systems perspective, from Leland Hartwell, who went on to win the 2001 Nobel Prize in Physiology or Medicine.
 {{< /hint >}}
 {{< hint info >}}
 **Modelling viral and immune system dynamics**   
-[Perelson (2002)](http://doi.org/10.1038/nri700)
+[Perelson (2002) _Nature Reviews Immunology_](http://doi.org/10.1038/nri700)
 
 An authoritative review on modelling the dynamics of viral infections e.g. HIV/HCV.
 {{< /hint >}}
