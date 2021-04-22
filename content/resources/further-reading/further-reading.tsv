@@ -1,11 +1,11 @@
 Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
-1	Lazebnik Y	2002	"Can a biologist fix a radio?&mdash;Or, what I learned while studying apoptosis"	Cancer Cell	10.1016/s1535-6108(02)00133-2	"This insightful paper by Yuri Lazebnik discusses some very interesting points related to engineering vs. biology, and underlines the challenges associated with studying biological complexity."
+1	Lazebnik	2002	"Can a biologist fix a radio?&mdash;Or, what I learned while studying apoptosis"	Cancer Cell	10.1016/s1535-6108(02)00133-2	"This insightful paper by Yuri Lazebnik discusses some very interesting points related to engineering vs. biology, and underlines the challenges associated with studying biological complexity."
 1	Hartwell**	1999	From molecular to modular cell biology	Nature	10.1038/35011540	"A nice essay on modularity in biology, and a systems perspective, from Leland Hartwell, who went on to win the 2001 Nobel Prize in Physiology or Medicine."
 1	Perelson*	2002	Modelling viral and immune system dynamics	Nature Reviews Immunology	10.1038/nri700	An authoritative review on modelling the dynamics of viral infections e.g. HIV/HCV.
 1			Numb3rs 1x03 - Vector (TV episode)		http://www.imdb.com/title/tt0663234/	"The protagonist in this show is a mathematician, who uses SIR modelling to help the FBI track down the spread of a virus in a city."
 2			VAX: Gamifying Epidemic Prevention		http://vax.herokuapp.com/game	"An engaging game, that uses network theory to model the spread of an epidemic. Players need to stop epidemic spread by vaccinating/quarantining the right 'nodes' (people) from the network."
 2	Euler	1953	Leonhard Euler and the Koenigsberg Bridges	Scientific American	10.1038/scientificamerican0753-66	A nice article recapitulating the history of the Koenigsberg bridges.
-2	Hopkins	2018	The truth about Koenigsberg		10.1080/07468342.2004.11922073	Another article on the history of the bridges.
+2	Hopkins and Wilson	2018	The truth about Koenigsberg	The College Mathematics Journal 	10.1080/07468342.2004.11922073	Another article on the history of the bridges.
 2			The SuiteSparse Matrix Collection		https://sparse.tamu.edu/	The SuiteSparse Matrix Collection (formerly the University of Florida Sparse Matrix Collection) is a widely used set of sparse matrix benchmarks collected from a wide range of applications.
 2			MATLAB Graph Functions Reference		http://in.mathworks.com/help/matlab/ref/graph.html	MATLAB has a suite of functions for studying/analysing networks; these are described here.
 3	Barabasi and Oltvai**	2004	Network Biology	Nature Reviews Genetics	10.1038/nrg1272	"A classic review on network biology capturing a very good breadth of topics, ranging from network parameters all the way up to network perturbations."
@@ -25,35 +25,36 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 3	Zhang _et al._	2005	"Motifs, themes and thematic maps of an integrated _Saccharomyces cerevisiae_ interaction network"	Journal of Biology	10.1186/jbiol23	Discusses the concept of &lsquo;network themes&rsquo;&mdash;classes of higher-order recurring interconnection patterns encompassing multiple occurrences of network motifs.
 3	Barabasi and Albert*	2000	Error and attack tolerance of complex networks	Nature	10.1038/35019019	"The classic paper illustrating the robustness of scale-free networks to random failures, and susceptibility to targeted attacks."
 3	Holme _et al._*	2002	Attack vulnerability of complex networks	Physical Review E	10.1103/physreve.65.056109	"An elaborate analysis of four different attack strategies on a variety of complex networks, based on degree/betweenness centrality."
-4	Jeong _et al._**	2001	Lethality and centrality in protein networks			
-4	Miele _et al._**	2020	Nine quick tips for analyzing network data			
-4	Goh _et al._*	2007	The human disease network			
-4	Zhong _et al._*	2009	Edgetic perturbation models of human inherited disorders			
-4	Ideker and Krogan*	2012	Differential network biology			
-4	Azhagesan _et al._	2018	Network-based features enable prediction of essential genes across diverse organisms			
+4	Jeong _et al._**	2001	Lethality and centrality in protein networks			The classic paper (with the classic colourful protein interaction network image!) showing how highly connected proteins in a network are much more likely to be essential for (yeast) survival.
+4	Miele _et al._**	2020	Nine quick tips for analyzing network data			"A good article emphasising important ""good practices"" for analysing network data."
+4	Goh _et al._*	2007	The human disease network			"An excellent paper detailing the construction and analysis of bi-partite graphs to study diseases, symptoms, and genes."
+4	Zhong _et al._*	2009	Edgetic perturbation models of human inherited disorders			"The classic paper on ""edgetics""."
+4	Ideker and Krogan*	2012	Differential network biology			"The classic paper describing DiNA, and its application to study some example disease conditions."
+4	Azhagesan _et al._	2018	Network-based features enable prediction of essential genes across diverse organisms			Emphasises the remarkable utility of network-based features in predicting essential genes in interactomes.
+4	Raman _et al._	2014	The organisational structure of protein networks: revisiting the centrality&mdash;lethality hypothesis	Systems and Synthetic Biology	10.1007/s11693-013-9123-5	"Re-examines the centrality&mdash;lethality hypothesis from the perspective of essentiality data from DEG, and interactomes from STRING."
 4	Tripathi _et al._	2019	Adapting Community Detection Algorithms for Disease Module Identification in Heterogeneous Biological Networks			
-4			NetGenes Database		https://rbc-dsai-iitm.github.io/NetGenes/	
-4	Choobdar _et al._*	2019	Assessment of network module identification across complex diseases			
-4	Sankar_et al._**	2017	Predicting novel metabolic pathways through subgraph mining			
-4	Vishveshwara _et al._*	2002	Protein structure: insights from graph theory			
-4	Rao and Caflisch	2004	The Protein Folding Network			
-4	Rajasekaran _et al._	2017	A General Mechanism for the Propagation of Mutational Effects in Proteins			
-4	Gopi _et al._	2017	Toward a quantitative description of microscopic pathway heterogeneity in protein folding			
-4	Guimera and Sales-Pardo	2009	Missing and spurious interactions and the reconstruction of complex networks			
-4	Sandefur _et al._**	2013	Network representations and methods for the analysis of chemical and biochemical pathways			
-5	Sobie**	2011	An Introduction to Dynamical Systems			
-5	Mogilner _et al._*	2006	Quantitative Modeling in Cell Biology: What Is It Good for?			
-5	Voit	2013	Biochemical Systems Theory: A Review			
-6	Jaqaman and Danuser**	2006	Linking data to models: data regression			
-6	Azeloglu and Iyengar**	2015	Good practices for building dynamical models in systems biology			
-6	Villaverde and Banga*	2014	"Reverse engineering and identification in systems biology: strategies, perspectives and challenges"			
-6	Chun-Chou and Voit*	2009	Recent developments in parameter estimation and structure identification of biochemical and genomic systems			
-6	Moles _et al._	2003	Parameter Estimation in Biochemical Pathways: A Comparison of Global Optimization Methods			
-6	Lopez _et al._	2013	Programming biological models in Python using PySB			
-6		2008	Dynamical modeling and multi-experiment fitting with PottersWheel			
-6	Foster*	2001	Evolutionary Computation			
-6	Zi**	2011	Sensitivity analysis approaches applied to systems biology models			
-6	Melanie Mitchell	1995	An Introduction to Genetic Algorithms			
+4			NetGenes Database		https://rbc-dsai-iitm.github.io/NetGenes/	"Predicts essential genes across 2700+ organisms, capturing local, global and neighbourhood properties of STRING interactomes to extract features."
+4	Choobdar _et al._*	2019	Assessment of network module identification across complex diseases			"A detailed assessment of numerous algorithms for community detection, as applied to identify disease modules in multiple types of networks."
+4	Sankar_et al._**	2017	Predicting novel metabolic pathways through subgraph mining			A method for retrosynthesis that uses only structural information to predict and rank possible biotransformations.
+4	Vishveshwara _et al._*	2002	Protein structure: insights from graph theory			One of the classic papers describing the application of graph theory to represent and understand protein structures.
+4	Rao and Caflisch	2004	The Protein Folding Network			A detailed study of the network properties of protein folding pathways.
+4	Rajasekaran _et al._	2017	A General Mechanism for the Propagation of Mutational Effects in Proteins			"A study that integrates data from published NMR experiments, molecular dynamics simulations and network theory to model the allosteric effects of point mutations."
+4	Gopi _et al._	2017	Toward a quantitative description of microscopic pathway heterogeneity in protein folding			An extraordinary paper that applies numerous tools from network theory to shed light on possible microstates in protein folding pathways.
+4	Guimera and Sales-Pardo	2009	Missing and spurious interactions and the reconstruction of complex networks			A very interesting study on link prediction in networks.
+4	Sandefur _et al._**	2013	Network representations and methods for the analysis of chemical and biochemical pathways			"A nice review on various biological networks and their analyses, including chemical and biochemical reaction networks."
+5	Sobie**	2011	An Introduction to Dynamical Systems			A nice introduction to dynamical systems.
+5	Mogilner _et al._*	2006	Quantitative Modeling in Cell Biology: What Is It Good for?			"A simple and easy-to-read review, with some lucid examples of dynamic modelling, applied to biology."
+5	Voit	2013	Biochemical Systems Theory: A Review			A nice overview of BST (Biochemical Systems Theory).
+6	Jaqaman and Danuser**	2006	Linking data to models: data regression			An excellent reference on parameter estimation / regression that makes many critical points.
+6	Azeloglu and Iyengar**	2015	Good practices for building dynamical models in systems biology			"A critical analysis of possible pitfalls in dynamical modelling, with a detailed flowchart for rigorous model development."
+6	Villaverde and Banga*	2014	"Reverse engineering and identification in systems biology: strategies, perspectives and challenges"			A nice survey of some important topics related to reverse engineering and system identification in systems biology.
+6	Chun-Chou and Voit*	2009	Recent developments in parameter estimation and structure identification of biochemical and genomic systems			A useful overview of parameter estimation in biological systems.
+6	Moles _et al._	2003	Parameter Estimation in Biochemical Pathways: A Comparison of Global Optimization Methods			A critical comparison of methods for parameter estimation.
+6	Lopez _et al._	2013	Programming biological models in Python using PySB			"Describes PySB, a new approach to create models _as_ programs."
+6	Maiwald and Timmer	2008	Dynamical modeling and multi-experiment fitting with PottersWheel			"PottersWheel is a MATLAB toolbox for numerically fast mechanistic mathematical modeling, and can be applied to any ODE system."
+6	Foster*	2001	Evolutionary Computation			An excellent overview of evolutionary computation.
+6	Zi**	2011	Sensitivity analysis approaches applied to systems biology models			A very nice overview of sensitivity analysis for systems biology.
+6	Melanie Mitchell	1995	An Introduction to Genetic Algorithms			A lucid introduction to genetic algorithms.
 6			GAs for Travelling Salesperson Problem		http://www.obitko.com/tutorials/genetic-algorithms/tsp-example.php	
 7	Karlebach and Shamir**	2008	Modelling and analysis of gene regulatory networks			
 7	Albert _et al._*	2008	Boolean network simulations for life scientists			
