@@ -32,7 +32,7 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 4	Ideker and Krogan*	2012	Differential network biology			"The classic paper describing DiNA, and its application to study some example disease conditions."
 4	Azhagesan _et al._	2018	Network-based features enable prediction of essential genes across diverse organisms			Emphasises the remarkable utility of network-based features in predicting essential genes in interactomes.
 4	Raman _et al._	2014	The organisational structure of protein networks: revisiting the centrality&mdash;lethality hypothesis	Systems and Synthetic Biology	10.1007/s11693-013-9123-5	"Re-examines the centrality&mdash;lethality hypothesis from the perspective of essentiality data from DEG, and interactomes from STRING."
-4	Tripathi _et al._	2019	Adapting Community Detection Algorithms for Disease Module Identification in Heterogeneous Biological Networks			
+4	Tripathi _et al._	2019	Adapting Community Detection Algorithms for Disease Module Identification in Heterogeneous Biological Networks			Discusses multiple strategies to identify disease-relevant modules from biological networks.
 4			NetGenes Database		https://rbc-dsai-iitm.github.io/NetGenes/	"Predicts essential genes across 2700+ organisms, capturing local, global and neighbourhood properties of STRING interactomes to extract features."
 4	Choobdar _et al._*	2019	Assessment of network module identification across complex diseases			"A detailed assessment of numerous algorithms for community detection, as applied to identify disease modules in multiple types of networks."
 4	Sankar_et al._**	2017	Predicting novel metabolic pathways through subgraph mining			A method for retrosynthesis that uses only structural information to predict and rank possible biotransformations.
@@ -55,30 +55,30 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 6	Foster*	2001	Evolutionary Computation			An excellent overview of evolutionary computation.
 6	Zi**	2011	Sensitivity analysis approaches applied to systems biology models			A very nice overview of sensitivity analysis for systems biology.
 6	Melanie Mitchell	1995	An Introduction to Genetic Algorithms			A lucid introduction to genetic algorithms.
-6			GAs for Travelling Salesperson Problem		http://www.obitko.com/tutorials/genetic-algorithms/tsp-example.php	
-7	Karlebach and Shamir**	2008	Modelling and analysis of gene regulatory networks			
-7	Albert _et al._*	2008	Boolean network simulations for life scientists			
-7	Albert _et al._**	2004	Boolean Modeling of Genetic Regulatory Networks			
-7	Chaves _et al._**	2005	Robustness and fragility of Boolean models for genetic regulatory networks			
-7	Laubenbacher and Jarrah*	2009	Algebraic Models of Biochemical Networks			
-7	Faure _et al._*	2006	Dynamical analysis of a generic Boolean model for the control of the mammalian cell cycle			
-7			BooleSim**		https://rumo.biologie.hu-berlin.de/boolesim/	
-7			BooleanNet**		https://github.com/ialbert/booleannet	
-7	Li _et al._*	2006	Predicting Essential Components of Signal Transduction Networks: A Dynamic Model of Guard Cell Abscisic Acid Signaling			
-8	Thiele and Palsson**	2010	A protocol for generating a high-quality genome-scale metabolic reconstruction			
-8	Orth _et al._**	2010	What is flux balance analysis?			
-8	Kauffman _et al._**	2003	Advances in flux balance analysis			
-8	Raman and Chandra**	2009	Flux balance analysis of biological systems: applications and challenges			
-9	Segre _et al._**	2002	Analysis of optimality in natural and perturbed metabolic networks			
-9	O' Brien _et al._**	2015	Using Genome-scale Models to Predict Biological Capabilities			
-9	Shlomi _et al._*	2005	Regulatory on-off minimization of metabolic flux changes after genetic perturbations			
-9	Choi _et al._*	2010	_In Silico_ Identification of Gene Amplification Targets for Improvement of Lycopene Production			
-9	Boghigian _et al._*	2012	Computational identification of gene over-expression targets for metabolic engineering of taxadiene production			
-9	Joyce and Palsson**	2008	Predicting Gene Essentiality Using Genome-Scale _in silico_ Models			
-10	Pratapa _et al._ **	2015	Fast-SL: an efficient algorithm to identify synthetic lethal sets in metabolic networks			
-10	Suthers _et al._ *	2009	Genome-scale gene/reaction essentiality and synthetic lethality analysis			
-10	von Kamp and Klamt*	2014	Enumeration of Smallest Intervention Strategies in Genome-Scale Metabolic Networks			
-10	Duarte _et al._*	2007	Global reconstruction of the human metabolic network based on genomic and bibliomic data			
+6			GAs for Travelling Salesperson Problem		http://www.obitko.com/tutorials/genetic-algorithms/tsp-example.php	"Discusses GAs to solve TSP, including a tutorial with interactive Java Applets."
+7	Karlebach and Shamir**	2008	Modelling and analysis of gene regulatory networks			An excellent review detailing multiple methods for modelling gene regulatory networks.
+7	Albert _et al._*	2008	Boolean network simulations for life scientists			Describes the BooleanNet tool.
+7	Albert _et al._**	2004	Boolean Modeling of Genetic Regulatory Networks			"A classic paper on modelling genetic regulatory networks, with application to _Drosophila melanogaster_ segment polarity genes."
+7	Chaves _et al._**	2005	Robustness and fragility of Boolean models for genetic regulatory networks			"Integrates stochasticity nicely, into Boolean modelling."
+7	Laubenbacher and Jarrah*	2009	Algebraic Models of Biochemical Networks			Discusses generalisations of Boolean networks (algebraic models).
+7	Faure _et al._*	2006	Dynamical analysis of a generic Boolean model for the control of the mammalian cell cycle			"A lucid paper, explaining how the cell cycle can be well-modelled using Boolean networks."
+7			BooleSim**		https://rumo.biologie.hu-berlin.de/boolesim/	"BooleSim tool, which can be tinkered around with just a web browser."
+7			BooleanNet**		https://github.com/ialbert/booleannet	"BooleanNet, a Python-based tool for Boolean Network analysis."
+7	Li _et al._*	2006	Predicting Essential Components of Signal Transduction Networks: A Dynamic Model of Guard Cell Abscisic Acid Signaling			Another excellent illustration of using Boolean networks to model cellular signalling/regulation.
+8	Thiele and Palsson**	2010	A protocol for generating a high-quality genome-scale metabolic reconstruction			The classic paper discussing a detailed 96-step protocol for careful manual curation and reconstruction of a constraint-based model.
+8	Orth _et al._**	2010	What is flux balance analysis?			A classic pedagogical piece introducing flux balance analysis.
+8	Kauffman _et al._**	2003	Advances in flux balance analysis			The classic review on FBA.
+8	Raman and Chandra**	2009	Flux balance analysis of biological systems: applications and challenges			"A simple review on constraint-based modelling approaches, with an illustration of a simple FBA."
+9	Segre _et al._**	2002	Analysis of optimality in natural and perturbed metabolic networks			The classic paper on quadratic programming applied to COBRA: Minimisation of Metabolic Adjustment (MoMA).
+9	O' Brien _et al._**	2015	Using Genome-scale Models to Predict Biological Capabilities			An excellent review covering various applications of metabolic modelling.
+9	Shlomi _et al._*	2005	Regulatory on-off minimization of metabolic flux changes after genetic perturbations			"This paper describes ROOM, an MILP-based method for constraint-based analysis of metabolic networks."
+9	Choi _et al._*	2010	_In Silico_ Identification of Gene Amplification Targets for Improvement of Lycopene Production			"This paper describes FSEOF, for identifying over-expression targets in metabolic networks, for metabolic engineering."
+9	Boghigian _et al._*	2012	Computational identification of gene over-expression targets for metabolic engineering of taxadiene production			A nice illustration of computational approaches to identify over-expression targets for metabolic engineering.
+9	Joyce and Palsson**	2008	Predicting Gene Essentiality Using Genome-Scale _in silico_ Models			"A nice review, detailing the strengths and limitations of constraint-based modelling, especially for predicting gene deletions/phenotypes."
+10	Pratapa _et al._ **	2015	Fast-SL: an efficient algorithm to identify synthetic lethal sets in metabolic networks			"Describes a novel and rapid method for identifying synthetic lethals in metabolic networks, by cutting through the search space."
+10	Suthers _et al._ *	2009	Genome-scale gene/reaction essentiality and synthetic lethality analysis			"Describes SL-Finder, an MILP-based method to identify synthetic lethals."
+10	von Kamp and Klamt*	2014	Enumeration of Smallest Intervention Strategies in Genome-Scale Metabolic Networks			"Describes MCSEnumerator, an efficient MILP-based method to identify synthetic lethals."
+10	Duarte _et al._*	2007	Global reconstruction of the human metabolic network based on genomic and bibliomic data			"The classic reconstruction of human metabolic network, ""Recon 1"""
 10	Thiele _et al._*	2013	A community-driven global reconstruction of human metabolism			
 10	Jerby _et al._*	2010	Computational reconstruction of tissue-specific metabolic models: application to human liver metabolism			
 10	Bordbar _et al._*	2010	Insight into human alveolar macrophage and _M. tuberculosis_ interactions via metabolic reconstructions			

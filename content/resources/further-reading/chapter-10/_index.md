@@ -11,25 +11,25 @@ description: "Perturbations to metabolic networks"
 **Fast-SL: an efficient algorithm to identify synthetic lethal sets in metabolic networks**   
 [Pratapa _et al._  (2015)](http://doi.org/)
 
-
+Describes a novel and rapid method for identifying synthetic lethals in metabolic networks, by cutting through the search space.
 {{< /hint >}}
 {{< hint info >}}
 **Genome-scale gene/reaction essentiality and synthetic lethality analysis**   
 [Suthers _et al._  (2009)](http://doi.org/)
 
-
+Describes SL-Finder, an MILP-based method to identify synthetic lethals.
 {{< /hint >}}
 {{< hint info >}}
 **Enumeration of Smallest Intervention Strategies in Genome-Scale Metabolic Networks**   
 [von Kamp and Klamt (2014)](http://doi.org/)
 
-
+Describes MCSEnumerator, an efficient MILP-based method to identify synthetic lethals.
 {{< /hint >}}
 {{< hint info >}}
 **Global reconstruction of the human metabolic network based on genomic and bibliomic data**   
 [Duarte _et al._ (2007)](http://doi.org/)
 
-
+The classic reconstruction of human metabolic network, ""Recon 1
 {{< /hint >}}
 {{< hint info >}}
 **A community-driven global reconstruction of human metabolism**   
