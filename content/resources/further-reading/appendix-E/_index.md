@@ -10,21 +10,21 @@ description: "MATLAB for systems biology"
 {{< hint danger >}}
 [**Loren: Art of MATLAB**](http://blogs.mathworks.com/loren/)
 
-
+A very nice blog on the 'Art' of MATLAB, by MATLAB developer Loren Shure.
 {{< /hint >}}
 {{< hint info >}}
 **What Every Computer Scientist Should Know About Floating Point Arithmetic**   
-[ ()](http://doi.org/)
+[Goldberg (1991)](http://doi.org/)
 
-
+A highly cited classic on what every computer scientist, why everyone, must know about floating-point arithmetic!
 {{< /hint >}}
 {{< hint danger >}}
 [**Is Addition on a Computer Associative?**](http://blogs.mathworks.com/loren/2014/02/26/arithmetic-associativity-not-so-fast/)
 
-
+A nice blog article illustrating some classic pitfalls in floating-point arithmetic.
 {{< /hint >}}
 {{< hint danger >}}
 [**Wikipedia: Double-precision Floating-point Format**](https://en.wikipedia.org/wiki/Double-precision_floating-point_format##Double-precision_examples)
 
-
+Wikipedia entry on the floating-point format.
 {{< /hint >}}

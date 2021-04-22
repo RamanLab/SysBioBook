@@ -82,12 +82,12 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 10	Thiele _et al._*	2013	A community-driven global reconstruction of human metabolism			The Recon 2 human metabolic model.
 10	Jerby _et al._*	2010	Computational reconstruction of tissue-specific metabolic models: application to human liver metabolism			Tissue-specific metabolic reconstruction.
 10	Bordbar _et al._*	2010	Insight into human alveolar macrophage and _M. tuberculosis_ interactions via metabolic reconstructions			Modelling host&ndash;pathogen interactions using metabolic modelling.
-10	Bordbar _et al._*	2011	A multi-tissue type genome-scale metabolic network for analysis of whole-body systems physiology			"Tissue-specific metabolic reconstruction, for Recon 1, moelling adipocytes, hepatocytes, and myocytes."
+10	Bordbar _et al._*	2011	A multi-tissue type genome-scale metabolic network for analysis of whole-body systems physiology			"Tissue-specific metabolic reconstruction, for Recon 1, modelling adipocytes, hepatocytes, and myocytes."
 10	Agren _et al._*	2012	Reconstruction of Genome-Scale Active Metabolic Networks for 69 Human Cell Types and 16 Cancer Types Using INIT			Excellent example of context-specific metabolic reconstructions.
 10	Folger _et al._	2011	Predicting selective drug targets in cancer through metabolic networks			The first genome-scale metabolic model of cancer metabolism.
 10	Lewis _et al._	2010	Large-scale _in silico_ modeling of metabolic interactions between cell types in the human brain			"A workflow that integrates gene expression data, proteomics data and literature-based manual curation to model human metabolism within and between different types of cells."
 10	Sahoo _et al._	2012	A compendium of inborn errors of metabolism mapped onto the human metabolic network			A comprehensive knowledgebase of inborn errors of metabolism.
-10	Sahoo and Thiele_	2013	Predicting the impact of diet and enzymopathies on human small intestinal epithelial cells			This paper defined fifty metabolic tasks to evalute model functionalities.
+10	Sahoo and Thiele_	2013	Predicting the impact of diet and enzymopathies on human small intestinal epithelial cells			This paper defined fifty metabolic tasks to evaluate model functionalities.
 10	Edwards and Palsson*	1997	How Will Bioinformatics Influence Metabolic Engineering?			"A classic review, discussing computational approaches for metabolic engineering."
 10	Maarleveld _et al._**	2013	Basic concepts and principles of stoichiometric modeling of metabolic networks			An excellent review covering the breadth of metabolic modelling.
 10	Famili and Palsson*	2003	The Convex Basis of the Left Null Space of the Stoichiometric Matrix Leads to the Definition of Metabolically Meaningful Pools			A nice paper providing detailed insights into stoichiometric matrix and the convex basis of the metabolic solution spaces.

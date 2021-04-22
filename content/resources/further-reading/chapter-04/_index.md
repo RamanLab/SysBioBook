@@ -68,7 +68,7 @@ A detailed assessment of numerous algorithms for community detection, as applied
 {{< /hint >}}
 {{< hint info >}}
 **Predicting novel metabolic pathways through subgraph mining**   
-[Sankar_et al._ (2017)](http://doi.org/)
+[Sankar _et al._ (2017)](http://doi.org/)
 
 A method for retrosynthesis that uses only structural information to predict and rank possible biotransformations.
 {{< /hint >}}

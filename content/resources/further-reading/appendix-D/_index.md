@@ -8,8 +8,8 @@ description: "Software tools compendium"
 # Chapter D: Software tools compendium
 
 {{< hint info >}}
-**SBGN**   
-[ (2009)](http://doi.org/)
+**The Systems Biology Graphical Notation**   
+[Le Novere _et al._ (2009)](http://doi.org/)
 
-
+The classic paper detailing the SBGN framework.
 {{< /hint >}}
