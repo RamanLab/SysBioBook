@@ -35,7 +35,7 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 4	Tripathi _et al._	2019	Adapting Community Detection Algorithms for Disease Module Identification in Heterogeneous Biological Networks			Discusses multiple strategies to identify disease-relevant modules from biological networks.
 4			NetGenes Database		https://rbc-dsai-iitm.github.io/NetGenes/	"Predicts essential genes across 2700+ organisms, capturing local, global and neighbourhood properties of STRING interactomes to extract features."
 4	Choobdar _et al._*	2019	Assessment of network module identification across complex diseases			"A detailed assessment of numerous algorithms for community detection, as applied to identify disease modules in multiple types of networks."
-4	Sankar_et al._**	2017	Predicting novel metabolic pathways through subgraph mining			A method for retrosynthesis that uses only structural information to predict and rank possible biotransformations.
+4	Sankar _et al._**	2017	Predicting novel metabolic pathways through subgraph mining			A method for retrosynthesis that uses only structural information to predict and rank possible biotransformations.
 4	Vishveshwara _et al._*	2002	Protein structure: insights from graph theory			One of the classic papers describing the application of graph theory to represent and understand protein structures.
 4	Rao and Caflisch	2004	The Protein Folding Network			A detailed study of the network properties of protein folding pathways.
 4	Rajasekaran _et al._	2017	A General Mechanism for the Propagation of Mutational Effects in Proteins			"A study that integrates data from published NMR experiments, molecular dynamics simulations and network theory to model the allosteric effects of point mutations."
@@ -79,78 +79,77 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 10	Suthers _et al._ *	2009	Genome-scale gene/reaction essentiality and synthetic lethality analysis			"Describes SL-Finder, an MILP-based method to identify synthetic lethals."
 10	von Kamp and Klamt*	2014	Enumeration of Smallest Intervention Strategies in Genome-Scale Metabolic Networks			"Describes MCSEnumerator, an efficient MILP-based method to identify synthetic lethals."
 10	Duarte _et al._*	2007	Global reconstruction of the human metabolic network based on genomic and bibliomic data			"The classic reconstruction of human metabolic network, ""Recon 1"""
-10	Thiele _et al._*	2013	A community-driven global reconstruction of human metabolism			
-10	Jerby _et al._*	2010	Computational reconstruction of tissue-specific metabolic models: application to human liver metabolism			
-10	Bordbar _et al._*	2010	Insight into human alveolar macrophage and _M. tuberculosis_ interactions via metabolic reconstructions			
-10	Bordbar _et al._*	2011	A multi-tissue type genome-scale metabolic network for analysis of whole-body systems physiology			
-10	Agren _et al._*	2012	Reconstruction of Genome-Scale Active Metabolic Networks for 69 Human Cell Types and 16 Cancer Types Using INIT			
-10	Folger _et al._	2011	Predicting selective drug targets in cancer through metabolic networks			
-10	Lewis _et al._	2010	Large-scale _in silico_ modeling of metabolic interactions between cell types in the human brain			
-10	Sahoo _et al._	2012	A compendium of inborn errors of metabolism mapped onto the human metabolic network			
-10	Sahoo and Thiele_	2013	Predicting the impact of diet and enzymopathies on human small intestinal epithelial cells			
-10	Edwards and Palsson*	1997	How Will Bioinformatics Influence Metabolic Engineering?			
-10	Maarleveld _et al._**	2013	Basic concepts and principles of stoichiometric modeling of metabolic networks			
-10	Famili and Palsson*	2003	The Convex Basis of the Left Null Space of the Stoichiometric Matrix Leads to the Definition of Metabolically Meaningful Pools			
-10	Famili and Palsson*	2003	Systemic metabolic reactions are obtained by singular value decomposition of genome-scale stoichiometric matrices			
-10	Lewis _et al._*	2012	Constraining the metabolic genotype&ndash;phenotype relationship using a phylogeny of _in silico_ methods			
-10	Covert _et al._*	2001	Regulation of Gene Expression in Flux Balance Models of Metabolism			
-10	Colijn _et al._*	2009	Interpreting Expression Data with Metabolic Flux Models: Predicting _Mycobacterium tuberculosis_ Mycolic Acid Production			
-10	Chandrasekharan and Price*	2010	Probabilistic integrative modeling of genome-scale metabolic and regulatory networks in _Escherichia coli_ and _Mycobacterium tuberculosis_			
-10	Bordbar _et al._**	2014	Constraint-based models predict metabolic and associated cellular functions			
-10	Alper _et al._**	2005	Identifying gene targets for the metabolic engineering of lycopene biosynthesis in _Escherichia coli_			
-10	Raman _et al._**	2005	Flux Balance Analysis of Mycolic Acid Pathway: Targets for Anti-Tubercular Drugs			
-10	Raman _et al._*	2008	"targetTB: A target identification pipeline for _Mycobacterium tuberculosis_ through an interactome, reactome and genome-scale structural analysis"			
-10	Oberhardt _et al._**	2009	Applications of genome-scale metabolic reconstructions			
-10	Gianchandani _et al._*	2010	The application of flux balance analysis in systems biology			
-10	Terzer _et al._*	2009	Genome-scale metabolic networks			
-10	Zanghellini _et al._**	2013	"Elementary flux modes in a nutshell: Properties, calculation and applications"			
-10	Schuster _et al._**	1999	Detection of elementary flux modes in biochemical networks: a promising tool for pathway analysis and metabolic engineering			
-10	Trinh _et al._**	2009	Elementary mode analysis: a useful metabolic pathway analysis tool for characterizing cellular metabolism			
-10	Papin _et al._*	2004	Comparison of network-based pathway analysis methods			
-10	Schuster and Hilgetag*	1994	On Elementary Flux Modes in Biochemical Reaction Systems at Steady State			
-10	Wiback and Palsson*	2002	Extreme Pathway Analysis of Human Red Blood Cell Metabolism			
-10	Fischer _et al._**	2004	High-throughput metabolic flux analysis based on gas chromatography–mass spectrometry derived 13C constraints			
-10	Wiechert**	2001	13C Metabolic Flux Analysis			
-10	Zamboni _et al._*	2009	13C-based metabolic flux analysis			
-10	Niedenfuehr _et al._	2015	How to measure metabolic fluxes: a taxonomic guide for 13C fluxomics			
-10	Ghosh _et al._	2016	13C Metabolic Flux Analysis for Systematic Metabolic Engineering of S. cerevisiae for Overproduction of Fatty Acids			
-11	Forst**	2006	Host–pathogen systems biology			
-11	Perelson*	2002	Modelling Viral and Immune System Dynamics			
-11	Perelson*	1997	Immunology for physicists			
-11	Thakar and Albert*	2010	Boolean models of within-host immune interactions			
-11	Raghunathan _et al._*	2009	Constraint-based analysis of metabolic capacity of _Salmonella_ typhimurium during host-pathogen interaction			
-11	Raman _et al._**	2010	A systems perspective of host–pathogen interactions: predicting disease outcome in tuberculosis			
-11	Mukherjee _et al._**	2013	Current trends in modeling host–pathogen interactions			
-12	Hessel**		Introduction to Synthetic Biology		http://www.youtube.com/watch?v=niQ0kkgPxJk	
-12	Hessel**		"Synthetic Biology, Inventing the Future by Andrew Hessel*"		http://www.youtube.com/watch?v=iRO0-fMIW9I	
-12	Collins J J		Synthetic Biology: Honors Colloquium by JJ Collins*		http://www.youtube.com/watch?v=Nq1GVQUlfso	
-12	Church _et al._ (interview) **	2014	Realizing the potential of synthetic biology			
-12	Endy**	2005	Foundations for engineering biology			
-12	Esvelt and Wang**	2013	Genome-scale engineering for systems and synthetic biology			
-12	Purnick and Weiss**	2009	The second wave of synthetic biology: from modules to systems			
-13	Kitano**	2004	Biological Robustness			
-13	Csete and Doyle*	2004	"Bow ties, metabolism and disease"			
-13	Carlson and Doyle*	2002	Complexity and Robustness			
-13	Friedlander _et al._	2005	Evolution of Bow-Tie Architectures in Biology		10.1371/journal.pcbi.1004055	
-13	Wagner**	2008	Neutralism and selectionism: a network-based reconciliation			
-13	Ciliberti _et al._*	2007	Innovation and robustness in complex regulatory gene networks			
-13	Wagner*	2008	Robustness and evolvability: a paradox resolved			
-13	Wagner*		Andreas Wagner interview (Z&uuml;rich Minds)**		http://www.youtube.com/watch?v=wyQgCMZdv6E	
-14	Polonsky**	2012	The past 200 years in diabetes			
-14	McClenaghan	2007	Physiological regulation of the pancreatic &beta;-cell:functional insights for understanding and therapy of diabetes			
-14	Rosenfeld	2002	Insulin: discovery and controversy			
-14	Ajmera _et al._**	2013	The impact of mathematical modeling on the understanding of diabetes and related complications			
-14			Entelos PhysioLab Models		http://www.entelos.com/physiolab-models/	
-14	Cvijovic _et al._**	2014	Bridging the gaps in systems biology			
-14	Covert	2014	Simulating a Living Cell**			
-14	Karr _et al._*	2012	A Whole-Cell Computational Model Predicts Phenotype from Genotype			
-B	Feist _et al._**	2008	Reconstruction of biochemical networks in microorganisms			
-B	Shoemaker and Panchenko	2007	"Deciphering Protein-Protein Interactions, Part I (Experimental Techniques)"			
-B	Shoemaker and Panchenko	2007	"Deciphering Protein-Protein Interactions, Part II (Computational Techniques)"			
-B	Papin _et al._	2005	Reconstruction of cellular signalling networks and their properties			
-B	Karp and Caspi	2011	A survey of metabolic databases emphasizing the MetaCyc family			
-D		2009	SBGN**			
-E			Loren: Art of MATLAB**		http://blogs.mathworks.com/loren/	
-E			What Every Computer Scientist Should Know About Floating Point Arithmetic			
-E			Is Addition on a Computer Associative?**		http://blogs.mathworks.com/loren/2014/02/26/arithmetic-associativity-not-so-fast/	
-E			Wikipedia: Double-precision Floating-point Format**		https://en.wikipedia.org/wiki/Double-precision_floating-point_format##Double-precision_examples	
+10	Thiele _et al._*	2013	A community-driven global reconstruction of human metabolism			The Recon 2 human metabolic model.
+10	Jerby _et al._*	2010	Computational reconstruction of tissue-specific metabolic models: application to human liver metabolism			Tissue-specific metabolic reconstruction.
+10	Bordbar _et al._*	2010	Insight into human alveolar macrophage and _M. tuberculosis_ interactions via metabolic reconstructions			Modelling host&ndash;pathogen interactions using metabolic modelling.
+10	Bordbar _et al._*	2011	A multi-tissue type genome-scale metabolic network for analysis of whole-body systems physiology			"Tissue-specific metabolic reconstruction, for Recon 1, moelling adipocytes, hepatocytes, and myocytes."
+10	Agren _et al._*	2012	Reconstruction of Genome-Scale Active Metabolic Networks for 69 Human Cell Types and 16 Cancer Types Using INIT			Excellent example of context-specific metabolic reconstructions.
+10	Folger _et al._	2011	Predicting selective drug targets in cancer through metabolic networks			The first genome-scale metabolic model of cancer metabolism.
+10	Lewis _et al._	2010	Large-scale _in silico_ modeling of metabolic interactions between cell types in the human brain			"A workflow that integrates gene expression data, proteomics data and literature-based manual curation to model human metabolism within and between different types of cells."
+10	Sahoo _et al._	2012	A compendium of inborn errors of metabolism mapped onto the human metabolic network			A comprehensive knowledgebase of inborn errors of metabolism.
+10	Sahoo and Thiele_	2013	Predicting the impact of diet and enzymopathies on human small intestinal epithelial cells			This paper defined fifty metabolic tasks to evalute model functionalities.
+10	Edwards and Palsson*	1997	How Will Bioinformatics Influence Metabolic Engineering?			"A classic review, discussing computational approaches for metabolic engineering."
+10	Maarleveld _et al._**	2013	Basic concepts and principles of stoichiometric modeling of metabolic networks			An excellent review covering the breadth of metabolic modelling.
+10	Famili and Palsson*	2003	The Convex Basis of the Left Null Space of the Stoichiometric Matrix Leads to the Definition of Metabolically Meaningful Pools			A nice paper providing detailed insights into stoichiometric matrix and the convex basis of the metabolic solution spaces.
+10	Famili and Palsson*	2003	Systemic metabolic reactions are obtained by singular value decomposition of genome-scale stoichiometric matrices			SVD analysis of the stoichiometric matrix.
+10	Lewis _et al._*	2012	Constraining the metabolic genotype&ndash;phenotype relationship using a phylogeny of _in silico_ methods			A detailed review of the entire family of COBRA methods (with a beautiful method phylogeny picture).
+10	Covert _et al._*	2001	Regulation of Gene Expression in Flux Balance Models of Metabolism			The classic paper on rFBA.
+10	Colijn _et al._*	2009	Interpreting Expression Data with Metabolic Flux Models: Predicting _Mycobacterium tuberculosis_ Mycolic Acid Production			Describes the E-Flux method for integration of regulatory information.
+10	Chandrasekharan and Price*	2010	Probabilistic integrative modeling of genome-scale metabolic and regulatory networks in _Escherichia coli_ and _Mycobacterium tuberculosis_			Describes the PROM approach for integration of regulatory information from gene expression datasets.
+10	Bordbar _et al._**	2014	Constraint-based models predict metabolic and associated cellular functions			An excellent review on constraint-based models and their applications.
+10	Alper _et al._**	2005	Identifying gene targets for the metabolic engineering of lycopene biosynthesis in _Escherichia coli_			"A classic application of FBA for metabolic engineering, including identification of a triple knock-out for improving lycopene production."
+10	Raman _et al._**	2005	Flux Balance Analysis of Mycolic Acid Pathway: Targets for Anti-Tubercular Drugs			A classic application of FBA for drug target identification by modelling the mycolic acid pathway in _Mycobacterium tuberculosis_.
+10	Raman _et al._*	2008	"targetTB: A target identification pipeline for _Mycobacterium tuberculosis_ through an interactome, reactome and genome-scale structural analysis"			A rigorous pipeline for drug target identification in _Mycobacterium tuberculosis_.
+10	Oberhardt _et al._**	2009	Applications of genome-scale metabolic reconstructions			"A detailed review, discussing various classes of applications of constraint-based modelling."
+10	Gianchandani _et al._*	2010	The application of flux balance analysis in systems biology			"A nice and simple overview of FBA and related methods, with applications."
+10	Terzer _et al._*	2009	Genome-scale metabolic networks			A very nice review on various aspects of metabolic network reconstruction and simulation.
+10	Zanghellini _et al._**	2013	"Elementary flux modes in a nutshell: Properties, calculation and applications"			"A neat introduction to EFM analysis, using a ""metro map"" analogy."
+10	Schuster _et al._**	1999	Detection of elementary flux modes in biochemical networks: a promising tool for pathway analysis and metabolic engineering			An excellent paper on EFMs.
+10	Trinh _et al._**	2009	Elementary mode analysis: a useful metabolic pathway analysis tool for characterizing cellular metabolism			"A nice review detailing EFMs, especially their applications for metabolic engineering."
+10	Papin _et al._*	2004	Comparison of network-based pathway analysis methods			A neat illustration of EFM vs. EPA analyses.
+10	Schuster and Hilgetag*	1994	On Elementary Flux Modes in Biochemical Reaction Systems at Steady State			The classic paper on EFMs.
+10	Wiback and Palsson*	2002	Extreme Pathway Analysis of Human Red Blood Cell Metabolism			"Discusses EPA, for studying human RBC metabolism."
+10	Fischer _et al._**	2004	High-throughput metabolic flux analysis based on gas chromatography–mass spectrometry derived 13C constraints			A classic paper giving a clear rundown of 13C-MFA.
+10	Wiechert**	2001	13C Metabolic Flux Analysis			A classic review on 13C-MFA.
+10	Zamboni _et al._*	2009	13C-based metabolic flux analysis			A detailed protocol paper elucidating the 13C-MFA approach.
+10	Niedenfuehr _et al._	2015	How to measure metabolic fluxes: a taxonomic guide for 13C fluxomics			Another excellent review on 13C-MFA.
+10	Ghosh _et al._	2016	13C Metabolic Flux Analysis for Systematic Metabolic Engineering of _S. cerevisiae_ for Overproduction of Fatty Acids			A nice illustration of flux analysis for improving production of fatty acids in yeast.
+11	Forst**	2006	Host&ndash;pathogen systems biology			A nice review on host&ndash;pathogen systems biology.
+11	Perelson*	2002	Modelling Viral and Immune System Dynamics	Nature Reviews Immunology	10.1038/nri700	An authoritative review on modelling the dynamics of viral infections e.g. HIV/HCV.
+11	Perelson*	1997	Immunology for physicists			"A detailed review of an extraordinary variety of models of the immune system, from a physicist's perspective."
+11	Thakar and Albert*	2010	Boolean models of within-host immune interactions			An excellent application of Boolean network modelling to study host&ndash;pathogen interactions.
+11	Raghunathan _et al._*	2009	Constraint-based analysis of metabolic capacity of _Salmonella_ typhimurium during host-pathogen interaction			A nice application of constraint-based modelling to study host&ndash;pathogen interactions.
+11	Raman _et al._**	2010	A systems perspective of host&ndash;pathogen interactions: predicting disease outcome in tuberculosis			"A detailed systems-level model of TB infection, capturing a large number of interactions between the pathogen and the host immune system."
+11	Mukherjee _et al._**	2013	Current trends in modeling host&ndash;pathogen interactions			Another nice review on host&ndash;pathogen systems biology.
+12	Hessel**		Introduction to Synthetic Biology		http://www.youtube.com/watch?v=niQ0kkgPxJk	"A fun over-simplified introduction to synthetic biology, paralleling it with computers."
+12	Hessel**		"Synthetic Biology, Inventing the Future by Andrew Hessel*"		http://www.youtube.com/watch?v=iRO0-fMIW9I	"A nice interview of Andrew Hessel, on synthetic biology."
+12	Collins J J		Synthetic Biology: Honors Colloquium by JJ Collins*		http://www.youtube.com/watch?v=Nq1GVQUlfso	"An excellent talk by JJ Collins, one of the most renowned scientists in synthetic biology."
+12	Church _et al._ (interview) **	2014	Realizing the potential of synthetic biology			A nice interview-type article on synthetic biology.
+12	Endy**	2005	Foundations for engineering biology			A nice engaging review of synthetic biology.
+12	Esvelt and Wang**	2013	Genome-scale engineering for systems and synthetic biology			An excellent review of technologies and methodologies for genome editing in synthetic biology.
+12	Purnick and Weiss**	2009	The second wave of synthetic biology: from modules to systems			A nice overview of multiple synthetic biology circuits.
+13	Kitano**	2004	Biological Robustness			A classic review of concepts of biological robustness.
+13	Csete and Doyle*	2004	"Bow ties, metabolism and disease"			A nice discussion of bow ties in biological systems.
+13	Carlson and Doyle*	2002	Complexity and Robustness			A detailed piece on highly optimised tolerance.
+13	Friedlander _et al._	2005	Evolution of Bow-Tie Architectures in Biology		10.1371/journal.pcbi.1004055	"A very interesting paper, showing how bow-ties can evolve spontaneously under certain conditions/constraints."
+13	Wagner**	2008	Neutralism and selectionism: a network-based reconciliation			"A wonderful treatise on neutralism vs. selectionism, from a 'neutral' network perspective."
+13	Ciliberti _et al._*	2007	Innovation and robustness in complex regulatory gene networks			"Robustness, evolvability and innovation, as studied in a gene regulatory network system."
+13	Wagner*	2008	Robustness and evolvability: a paradox resolved			"The classic paper, beautifully reconciling the seemingly paradoxical relationship between robustness and evolvability."
+13	Wagner*		Andreas Wagner interview (Z&uuml;rich Minds)**		http://www.youtube.com/watch?v=wyQgCMZdv6E	"An interview of Andreas Wagner, discussing robustness, evolvability, and innovation."
+14	Polonsky**	2012	The past 200 years in diabetes			An interesting perspective on two centuries of diabetes.
+14	McClenaghan	2007	Physiological regulation of the pancreatic &beta;-cell: functional insights for understanding and therapy of diabetes			"A detailed overview of pancreatic &beta;-cell regulation, with insights into drug targets and mechanisms."
+14	Rosenfeld	2002	Insulin: discovery and controversy			An interesting read on insulin.
+14	Ajmera _et al._**	2013	The impact of mathematical modeling on the understanding of diabetes and related complications			A solid review on applications of QSP for diabetes modelling.
+14	Covert	2014	Simulating a Living Cell**			An easy-to-read review on whole-cell modelling.
+14	Karr _et al._*	2012	A Whole-Cell Computational Model Predicts Phenotype from Genotype			The classic whole-cell model of _Mycoplasma genitalium_.
+14	Cvijovic _et al._**	2014	Bridging the gaps in systems biology			A nice overview of the field of systems biology.
+B	Feist _et al._**	2008	Reconstruction of biochemical networks in microorganisms			A nice review on network reconstruction.
+B	Shoemaker and Panchenko	2007	"Deciphering Protein-Protein Interactions, Part I (Experimental Techniques)"			A detailed review on experimental approaches to study protein&ndash;protein interactions.
+B	Shoemaker and Panchenko	2007	"Deciphering Protein-Protein Interactions, Part II (Computational Techniques)"			A detailed review on computational approaches to study protein&ndash;protein interactions.
+B	Papin _et al._	2005	Reconstruction of cellular signalling networks and their properties			A nice review on reconstruction of signalling networks.
+B	Karp and Caspi	2011	A survey of metabolic databases emphasizing the MetaCyc family			A detailed overview of MetaCyc family of metabolic network databases.
+D	Le Novere _et al._	2009	The Systems Biology Graphical Notation			The classic paper detailing the SBGN framework.
+E			Loren: Art of MATLAB**		http://blogs.mathworks.com/loren/	"A very nice blog on the 'Art' of MATLAB, by MATLAB developer Loren Shure."
+E	Goldberg	1991	What Every Computer Scientist Should Know About Floating Point Arithmetic			"A highly cited classic on what every computer scientist, why everyone, must know about floating-point arithmetic!"
+E			Is Addition on a Computer Associative?**		http://blogs.mathworks.com/loren/2014/02/26/arithmetic-associativity-not-so-fast/	A nice blog article illustrating some classic pitfalls in floating-point arithmetic.
+E			Wikipedia: Double-precision Floating-point Format**		https://en.wikipedia.org/wiki/Double-precision_floating-point_format##Double-precision_examples	Wikipedia entry on the floating-point format.
