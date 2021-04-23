@@ -61,9 +61,8 @@ An excellent overview of evolutionary computation.
 
 A very nice overview of sensitivity analysis for systems biology.
 {{< /hint >}}
-{{< hint info >}}
-**An Introduction to Genetic Algorithms**   
-[Melanie Mitchell (1995)](http://doi.org/10.5555/522098)
+{{< hint danger >}}
+[**An Introduction to Genetic Algorithms, by Melanie Mitchell** (1995)](https://mitpress.mit.edu/books/introduction-genetic-algorithms)
 
 A lucid introduction to genetic algorithms.
 {{< /hint >}}
