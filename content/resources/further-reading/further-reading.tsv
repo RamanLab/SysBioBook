@@ -137,19 +137,19 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 13	Wagner*	2008	Robustness and evolvability: a paradox resolved	Proceedings of the Royal Society B: Biological Sciences	10.1098/rspb.2007.1137	"The classic paper, beautifully reconciling the seemingly paradoxical relationship between robustness and evolvability."
 13	Wagner*		Andreas Wagner interview (Z&uuml;rich Minds)**		http://www.youtube.com/watch?v=wyQgCMZdv6E	"An interview of Andreas Wagner, discussing robustness, evolvability, and innovation."
 14	Polonsky**	2012	The past 200 years in diabetes	The New England Journal of Medicine	10.1056/NEJMra1110560	An interesting perspective on two centuries of diabetes.
-14	McClenaghan	2007	Physiological regulation of the pancreatic &beta;-cell: functional insights for understanding and therapy of diabetes	#N/A	#N/A	"A detailed overview of pancreatic &beta;-cell regulation, with insights into drug targets and mechanisms."
-14	Rosenfeld	2002	Insulin: discovery and controversy	#N/A	#N/A	An interesting read on insulin.
+14	McClenaghan	2007	Physiological regulation of the pancreatic &beta;-cell: functional insights for understanding and therapy of diabetes	Experimental Physiology	10.1113/expphysiol.2006.034835	"A detailed overview of pancreatic &beta;-cell regulation, with insights into drug targets and mechanisms."
+14	Rosenfeld	2002	Insulin: discovery and controversy	Clinical Chemistry 	10.1093/clinchem/48.12.2270	An interesting read on insulin.
 14	Ajmera _et al._**	2013	The impact of mathematical modeling on the understanding of diabetes and related complications	CPT: Pharmacometrics \& Systems Pharmacology	10.1038/psp.2013.30	A solid review on applications of QSP for diabetes modelling.
 14	Covert	2014	Simulating a Living Cell**	Sci Am	10.1038/scientificamerican0114-44	An easy-to-read review on whole-cell modelling.
 14	Karr _et al._*	2012	A Whole-Cell Computational Model Predicts Phenotype from Genotype	Cell	10.1016/j.cell.2012.05.044	The classic whole-cell model of _Mycoplasma genitalium_.
 14	Cvijovic _et al._**	2014	Bridging the gaps in systems biology	Molecular Genetics and Genomics	10.1007/s00438-014-0843-3	A nice overview of the field of systems biology.
 B	Feist _et al._**	2008	Reconstruction of biochemical networks in microorganisms	Nature reviews. Microbiology	10.1038/nrmicro1949	A nice review on network reconstruction.
-B	Shoemaker and Panchenko	2007	"Deciphering Protein-Protein Interactions, Part I (Experimental Techniques)"	PLoS Comput Biol	10.1371/journal.pcbi.0030042	A detailed review on experimental approaches to study protein&ndash;protein interactions.
-B	Shoemaker and Panchenko	2007	"Deciphering Protein-Protein Interactions, Part II (Computational Techniques)"	#N/A	#N/A	A detailed review on computational approaches to study protein&ndash;protein interactions.
+B	Shoemaker and Panchenko	2007	"Deciphering Protein-Protein Interactions, Part I (Experimental Techniques)"	PLoS Computational Biology	10.1371/journal.pcbi.0030042	A detailed review on experimental approaches to study protein&ndash;protein interactions.
+B	Shoemaker and Panchenko	2007	"Deciphering Protein-Protein Interactions, Part II (Computational Techniques)"	PLoS Computational Biology	10.1371/journal.pcbi.0030043	A detailed review on computational approaches to study protein&ndash;protein interactions.
 B	Papin _et al._	2005	Reconstruction of cellular signalling networks and their properties	Nature Reviews Molecular Cell Biology	10.1038/nrm1570	A nice review on reconstruction of signalling networks.
 B	Karp and Caspi	2011	A survey of metabolic databases emphasizing the MetaCyc family	Archives of toxicology	10.1007/s00204-011-0705-2	A detailed overview of MetaCyc family of metabolic network databases.
 D	Le Novere _et al._	2009	The Systems Biology Graphical Notation	Nature Biotechnology	10.1038/nbt.1558	The classic paper detailing the SBGN framework.
 E			Loren: Art of MATLAB**		http://blogs.mathworks.com/loren/	"A very nice blog on the 'Art' of MATLAB, by MATLAB developer Loren Shure."
-E	Goldberg	1991	What Every Computer Scientist Should Know About Floating Point Arithmetic	#N/A	#N/A	"A highly cited classic on what every computer scientist, why everyone, must know about floating-point arithmetic!"
+E	Goldberg	1991	What Every Computer Scientist Should Know About Floating Point Arithmetic	ACM Computing Surveys	doi.org/10.1145/103162.103163	"A highly cited classic on what every computer scientist, why everyone, must know about floating-point arithmetic!"
 E			Is Addition on a Computer Associative?**		http://blogs.mathworks.com/loren/2014/02/26/arithmetic-associativity-not-so-fast/	A nice blog article illustrating some classic pitfalls in floating-point arithmetic.
 E			Wikipedia: Double-precision Floating-point Format**		https://en.wikipedia.org/wiki/Double-precision_floating-point_format##Double-precision_examples	Wikipedia entry on the floating-point format.
