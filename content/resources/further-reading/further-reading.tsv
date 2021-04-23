@@ -5,7 +5,7 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 1			Numb3rs 1x03 - Vector (TV episode)		http://www.imdb.com/title/tt0663234/	"The protagonist in this show is a mathematician, who uses SIR modelling to help the FBI track down the spread of a virus in a city."
 2			VAX: Gamifying Epidemic Prevention		http://vax.herokuapp.com/game	"An engaging game, that uses network theory to model the spread of an epidemic. Players need to stop epidemic spread by vaccinating/quarantining the right 'nodes' (people) from the network."
 2	Euler	1953	Leonhard Euler and the Koenigsberg Bridges	Scientific American	10.1038/scientificamerican0753-66	A nice article recapitulating the history of the Koenigsberg bridges.
-2	Hopkins and Wilson	2018	The truth about Koenigsberg	The College Mathematics Journal 	10.1080/07468342.2004.11922073	Another article on the history of the bridges.
+2	Hopkins and Wilson	2018	The truth about Koenigsberg	The College Mathematics Journal	10.1080/07468342.2004.11922073	Another article on the history of the bridges.
 2			The SuiteSparse Matrix Collection		https://sparse.tamu.edu/	The SuiteSparse Matrix Collection (formerly the University of Florida Sparse Matrix Collection) is a widely used set of sparse matrix benchmarks collected from a wide range of applications.
 2			MATLAB Graph Functions Reference		http://in.mathworks.com/help/matlab/ref/graph.html	MATLAB has a suite of functions for studying/analysing networks; these are described here.
 3	Barabasi and Oltvai**	2004	Network Biology	Nature Reviews Genetics	10.1038/nrg1272	"A classic review on network biology capturing a very good breadth of topics, ranging from network parameters all the way up to network perturbations."
@@ -15,7 +15,7 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 3	Watts and Strogatz	1998	Collective dynamics of &lsquo;small-world&rsquo; networks	Nature	10.1038/30918	The original paper on small world networks.
 3	Boccaletti _et al._	2006	Complex networks: Structure and dynamics	Physics Reports	10.1016/j.physrep.2005.10.009	Extremely detailed paper on networks (a mini book/reference!)
 3	Wang and Chen	2003	"Complex Networks: Small-World, Scale-Free and Beyond"	IEEE Circuits and Systems Magazine	10.1109/MCAS.2003.1228503	A lucid easy-to-read paper discussing network models.
-3			How Network Theory Is Revealing Previously Unknown Patterns in Sports		http://www.technologyreview.com/view/530791/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/	An interesting read on the use of network science in sports.
+3			How Network Theory Is Revealing Previously Unknown Patterns in Sports		https://www.technologyreview.com/2014/09/15/12542/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/	An interesting read on the use of network science in sports.
 3	Barabasi and Albert	1999	Emergence of Scaling in Random Networks	Science	10.1126/science.286.5439.509	The original paper on scale-free networks.
 3	Newman	2003	Structure and Function of Complex Networks	SIAM Review	10.1137/s003614450342480	"Another excellent review/mini-book on networks, covering a wide gamut of topics."
 3	Shen-Orr _et al._	2002	Network motifs in the transcriptional regulation network of _Escherichia coli_	Nature Genetics	10.1038/ng881	The classic paper defining the concept of network motifs.
@@ -87,7 +87,7 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 10	Folger _et al._	2011	Predicting selective drug targets in cancer through metabolic networks	Molecular Systems Biology	10.1038/msb.2011.35	The first genome-scale metabolic model of cancer metabolism.
 10	Lewis _et al._	2010	Large-scale _in silico_ modeling of metabolic interactions between cell types in the human brain	Nature Biotechnology	10.1038/nbt.1711	"A workflow that integrates gene expression data, proteomics data and literature-based manual curation to model human metabolism within and between different types of cells."
 10	Sahoo _et al._	2012	A compendium of inborn errors of metabolism mapped onto the human metabolic network	Molecular bioSystems	10.1039/c2mb25075f	A comprehensive knowledgebase of inborn errors of metabolism.
-10	Sahoo and Thiele_	2013	Predicting the impact of diet and enzymopathies on human small intestinal epithelial cells	Human Molecular Genetics	10.1093/hmg/ddt119	This paper defined fifty metabolic tasks to evaluate model functionalities.
+10	Sahoo and Thiele	2013	Predicting the impact of diet and enzymopathies on human small intestinal epithelial cells	Human Molecular Genetics	10.1093/hmg/ddt119	This paper defined fifty metabolic tasks to evaluate model functionalities.
 10	Edwards and Palsson*	1997	How Will Bioinformatics Influence Metabolic Engineering?	Biotechnology and Bioengineering	10.1002/(sici)1097-0290(19980420)58:2/3<162::aid-bit8>3.0.co;2-j	"A classic review, discussing computational approaches for metabolic engineering."
 10	Maarleveld _et al._**	2013	Basic concepts and principles of stoichiometric modeling of metabolic networks	Biotechnology Journal	10.1002/biot.201200291	An excellent review covering the breadth of metabolic modelling.
 10	Famili and Palsson*	2003	The Convex Basis of the Left Null Space of the Stoichiometric Matrix Leads to the Definition of Metabolically Meaningful Pools	Biophysical Journal	10.1016/S0006-3495(03)74450-6	A nice paper providing detailed insights into stoichiometric matrix and the convex basis of the metabolic solution spaces.
@@ -110,7 +110,7 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 10	Schuster and Hilgetag*	1994	On Elementary Flux Modes in Biochemical Reaction Systems at Steady State	Journal of Biological Systems	10.1142/S0218339094000131	The classic paper on EFMs.
 10	Wiback and Palsson*	2002	Extreme Pathway Analysis of Human Red Blood Cell Metabolism	Biophysical journal	10.1016/s0006-3495(02)75210-7	"Discusses EPA, for studying human RBC metabolism."
 10	Fischer _et al._**	2004	High-throughput metabolic flux analysis based on gas chromatography–mass spectrometry derived 13C constraints	Analytical Biochemistry	10.1016/j.ab.2003.10.036	A classic paper giving a clear rundown of 13C-MFA.
-10	Wiechert**	2001	13C Metabolic Flux Analysis	Metabolic Engineering	10.1006mben.2001.0187	A classic review on 13C-MFA.
+10	Wiechert**	2001	13C Metabolic Flux Analysis	Metabolic Engineering	10.1006/mben.2001.0187	A classic review on 13C-MFA.
 10	Zamboni _et al._*	2009	13C-based metabolic flux analysis	Nature Protocols	10.1038/nprot.2009.58	A detailed protocol paper elucidating the 13C-MFA approach.
 10	Niedenfuehr _et al._	2015	How to measure metabolic fluxes: a taxonomic guide for 13C fluxomics	Current Opinion in Biotechnology	10.1016/j.copbio.2014.12.003	Another excellent review on 13C-MFA.
 10	Ghosh _et al._	2016	13C Metabolic Flux Analysis for Systematic Metabolic Engineering of _S. cerevisiae_ for Overproduction of Fatty Acids	Frontiers in Bioengineering and Biotechnology	10.3389/fbioe.2016.00076	A nice illustration of flux analysis for improving production of fatty acids in yeast.
@@ -130,7 +130,7 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 12	Purnick and Weiss**	2009	The second wave of synthetic biology: from modules to systems	Nature Reviews Molecular Cell Biology	10.1038/nrm2698	A nice overview of multiple synthetic biology circuits.
 13	Kitano**	2004	Biological Robustness	Nature Reviews Genetics	10.1038/nrg1471	A classic review of concepts of biological robustness.
 13	Csete and Doyle*	2004	"Bow ties, metabolism and disease"	Trends in Biotechnology	10.1016/j.tibtech.2004.07.007	A nice discussion of bow ties in biological systems.
-13	Carlson and Doyle*	2002	Complexity and Robustness	Proceedings of the National Academy of Sciences USA	10.1073pnas.012582499	A detailed piece on highly optimised tolerance.
+13	Carlson and Doyle*	2002	Complexity and Robustness	Proceedings of the National Academy of Sciences USA	10.1073/pnas.012582499	A detailed piece on highly optimised tolerance.
 13	Friedlander _et al._	2005	Evolution of Bow-Tie Architectures in Biology	PLoS Computational Biology	10.1371/journal.pcbi.1004055	"A very interesting paper, showing how bow-ties can evolve spontaneously under certain conditions/constraints."
 13	Wagner**	2008	Neutralism and selectionism: a network-based reconciliation	Nature Reviews Genetics	10.1038/nrg2473	"A wonderful treatise on neutralism vs. selectionism, from a 'neutral' network perspective."
 13	Ciliberti _et al._*	2007	Innovation and robustness in complex regulatory gene networks	Proceedings of the National Academy of Sciences USA	10.1073/pnas.0705396104	"Robustness, evolvability and innovation, as studied in a gene regulatory network system."
@@ -138,7 +138,7 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 13	Wagner*		Andreas Wagner interview (Z&uuml;rich Minds)**		http://www.youtube.com/watch?v=wyQgCMZdv6E	"An interview of Andreas Wagner, discussing robustness, evolvability, and innovation."
 14	Polonsky**	2012	The past 200 years in diabetes	The New England Journal of Medicine	10.1056/NEJMra1110560	An interesting perspective on two centuries of diabetes.
 14	McClenaghan	2007	Physiological regulation of the pancreatic &beta;-cell: functional insights for understanding and therapy of diabetes	Experimental Physiology	10.1113/expphysiol.2006.034835	"A detailed overview of pancreatic &beta;-cell regulation, with insights into drug targets and mechanisms."
-14	Rosenfeld	2002	Insulin: discovery and controversy	Clinical Chemistry 	10.1093/clinchem/48.12.2270	An interesting read on insulin.
+14	Rosenfeld	2002	Insulin: discovery and controversy	Clinical Chemistry	10.1093/clinchem/48.12.2270	An interesting read on insulin.
 14	Ajmera _et al._**	2013	The impact of mathematical modeling on the understanding of diabetes and related complications	CPT: Pharmacometrics &amp; Systems Pharmacology	10.1038/psp.2013.30	A solid review on applications of QSP for diabetes modelling.
 14	Covert	2014	Simulating a Living Cell**	Scientific American	10.1038/scientificamerican0114-44	An easy-to-read review on whole-cell modelling.
 14	Karr _et al._*	2012	A Whole-Cell Computational Model Predicts Phenotype from Genotype	Cell	10.1016/j.cell.2012.05.044	The classic whole-cell model of _Mycoplasma genitalium_.

@@ -21,7 +21,7 @@ A detailed overview of pancreatic &beta;-cell regulation, with insights into dru
 {{< /hint >}}
 {{< hint info >}}
 **Insulin: discovery and controversy**   
-[Rosenfeld (2002) _Clinical Chemistry _](http://doi.org/10.1093/clinchem/48.12.2270)
+[Rosenfeld (2002) _Clinical Chemistry_](http://doi.org/10.1093/clinchem/48.12.2270)
 
 An interesting read on insulin.
 {{< /hint >}}

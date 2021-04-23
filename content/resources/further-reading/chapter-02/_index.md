@@ -20,7 +20,7 @@ A nice article recapitulating the history of the Koenigsberg bridges.
 {{< /hint >}}
 {{< hint info >}}
 **The truth about Koenigsberg**   
-[Hopkins and Wilson (2018) _The College Mathematics Journal _](http://doi.org/10.1080/07468342.2004.11922073)
+[Hopkins and Wilson (2018) _The College Mathematics Journal_](http://doi.org/10.1080/07468342.2004.11922073)
 
 Another article on the history of the bridges.
 {{< /hint >}}

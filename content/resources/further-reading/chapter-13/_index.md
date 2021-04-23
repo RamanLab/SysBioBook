@@ -21,7 +21,7 @@ A nice discussion of bow ties in biological systems.
 {{< /hint >}}
 {{< hint info >}}
 **Complexity and Robustness**   
-[Carlson and Doyle (2002) _Proceedings of the National Academy of Sciences USA_](http://doi.org/10.1073pnas.012582499)
+[Carlson and Doyle (2002) _Proceedings of the National Academy of Sciences USA_](http://doi.org/10.1073/pnas.012582499)
 
 A detailed piece on highly optimised tolerance.
 {{< /hint >}}

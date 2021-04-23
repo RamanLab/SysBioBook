@@ -48,7 +48,7 @@ Extremely detailed paper on networks (a mini book/reference!)
 A lucid easy-to-read paper discussing network models.
 {{< /hint >}}
 {{< hint danger >}}
-[**How Network Theory Is Revealing Previously Unknown Patterns in Sports**](http://www.technologyreview.com/view/530791/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/)
+[**How Network Theory Is Revealing Previously Unknown Patterns in Sports**](https://www.technologyreview.com/2014/09/15/12542/how-network-theory-is-revealing-previously-unknown-patterns-in-sports/)
 
 An interesting read on the use of network science in sports.
 {{< /hint >}}

@@ -81,7 +81,7 @@ A comprehensive knowledgebase of inborn errors of metabolism.
 {{< /hint >}}
 {{< hint info >}}
 **Predicting the impact of diet and enzymopathies on human small intestinal epithelial cells**   
-[Sahoo and Thiele_ (2013) _Human Molecular Genetics_](http://doi.org/10.1093/hmg/ddt119)
+[Sahoo and Thiele (2013) _Human Molecular Genetics_](http://doi.org/10.1093/hmg/ddt119)
 
 This paper defined fifty metabolic tasks to evaluate model functionalities.
 {{< /hint >}}
@@ -219,7 +219,7 @@ A classic paper giving a clear rundown of 13C-MFA.
 {{< /hint >}}
 {{< hint info >}}
 **13C Metabolic Flux Analysis**   
-[Wiechert (2001) _Metabolic Engineering_](http://doi.org/10.1006mben.2001.0187)
+[Wiechert (2001) _Metabolic Engineering_](http://doi.org/10.1006/mben.2001.0187)
 
 A classic review on 13C-MFA.
 {{< /hint >}}
