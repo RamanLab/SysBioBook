@@ -54,7 +54,7 @@ Chapter	Paper Author	Year	Paper Title	Journal	DOI/URL	Blurb
 6	Maiwald and Timmer	2008	Dynamical modeling and multi-experiment fitting with PottersWheel	Bioinformatics	10.1093/bioinformatics/btn350	"PottersWheel is a MATLAB toolbox for numerically fast mechanistic mathematical modeling, and can be applied to any ODE system."
 6	Foster*	2001	Evolutionary Computation	Nature Reviews Genetics	10.1038/35076523	An excellent overview of evolutionary computation.
 6	Zi**	2011	Sensitivity analysis approaches applied to systems biology models	IET Systems Biology	10.1049/iet-syb.2011.0015	A very nice overview of sensitivity analysis for systems biology.
-6	Melanie Mitchell	1995	An Introduction to Genetic Algorithms		10.5555/522098	A lucid introduction to genetic algorithms.
+6	Melanie Mitchell	1995	"An Introduction to Genetic Algorithms, by Melanie Mitchell"		https://mitpress.mit.edu/books/introduction-genetic-algorithms	A lucid introduction to genetic algorithms.
 6			GAs for Travelling Salesperson Problem		http://www.obitko.com/tutorials/genetic-algorithms/tsp-example.php	"Discusses GAs to solve TSP, including a tutorial with interactive Java Applets."
 7	Karlebach and Shamir**	2008	Modelling and analysis of gene regulatory networks	Nature Reviews Molecular Cell Biology	10.1038/nrm2503	An excellent review detailing multiple methods for modelling gene regulatory networks.
 7	Albert _et al._*	2008	Boolean network simulations for life scientists	Source Code for Biology and Medicine	10.1186/1751-0473-3-16	Describes the BooleanNet tool.
