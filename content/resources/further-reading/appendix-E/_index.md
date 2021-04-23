@@ -14,7 +14,7 @@ A very nice blog on the 'Art' of MATLAB, by MATLAB developer Loren Shure.
 {{< /hint >}}
 {{< hint info >}}
 **What Every Computer Scientist Should Know About Floating Point Arithmetic**   
-[Goldberg (1991)](http://doi.org/)
+[Goldberg (1991) _ACM Computing Surveys_](http://doi.org/10.1145/103162.103163)
 
 A highly cited classic on what every computer scientist, why everyone, must know about floating-point arithmetic!
 {{< /hint >}}
