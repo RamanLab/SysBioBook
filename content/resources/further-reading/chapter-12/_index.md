@@ -27,25 +27,25 @@ An excellent talk by JJ Collins, one of the most renowned scientists in syntheti
 {{< /hint >}}
 {{< hint info >}}
 **Realizing the potential of synthetic biology**   
-[Church _et al._ (interview)  (2014)](http://doi.org/)
+[Church _et al._ (interview)  (2014) _Nature Reviews Molecular Cell Biology_](http://doi.org/10.1038/nrm3767)
 
 A nice interview-type article on synthetic biology.
 {{< /hint >}}
 {{< hint info >}}
 **Foundations for engineering biology**   
-[Endy (2005)](http://doi.org/)
+[Endy (2005) _Nature_](http://doi.org/10.1038/nature04342)
 
 A nice engaging review of synthetic biology.
 {{< /hint >}}
 {{< hint info >}}
 **Genome-scale engineering for systems and synthetic biology**   
-[Esvelt and Wang (2013)](http://doi.org/)
+[Esvelt and Wang (2013) _Molecular systems biology_](http://doi.org/10.1038/msb.2012.66)
 
 An excellent review of technologies and methodologies for genome editing in synthetic biology.
 {{< /hint >}}
 {{< hint info >}}
 **The second wave of synthetic biology: from modules to systems**   
-[Purnick and Weiss (2009)](http://doi.org/)
+[Purnick and Weiss (2009) _Nature Reviews Molecular Cell Biology_](http://doi.org/10.1038/nrm2698)
 
 A nice overview of multiple synthetic biology circuits.
 {{< /hint >}}
