@@ -30,3 +30,9 @@ An authoritative review on modelling the dynamics of viral infections e.g. HIV/H
 
 The protagonist in this show is a mathematician, who uses SIR modelling to help the FBI track down the spread of a virus in a city.
 {{< /hint >}}
+{{< hint info >}}
+**Ten simple rules for biologists learning to program**   
+[Carey and Papin (2018)](http://doi.org/10.1371/journal.pcbi.1005871)
+
+A nice guide for folks trying to delve into the world of programming!
+{{< /hint >}}
