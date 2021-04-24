@@ -28,3 +28,8 @@ A nice blog article illustrating some classic pitfalls in floating-point arithme
 
 Wikipedia entry on the floating-point format.
 {{< /hint >}}
+{{< hint danger >}}
+[**Get Smart, Be Logical!** (2018)](https://blogs.mathworks.com/loren/2018/01/30/get-smart-be-logical/)
+
+A nice blog article emphasising the importance of logical indexing in MATLAB.
+{{< /hint >}}
