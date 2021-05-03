@@ -153,3 +153,5 @@ E			Loren: Art of MATLAB**		http://blogs.mathworks.com/loren/	"A very nice blog 
 E	Goldberg	1991	What Every Computer Scientist Should Know About Floating Point Arithmetic	ACM Computing Surveys	10.1145/103162.103163	"A highly cited classic on what every computer scientist, why everyone, must know about floating-point arithmetic!"
 E			Is Addition on a Computer Associative?**		http://blogs.mathworks.com/loren/2014/02/26/arithmetic-associativity-not-so-fast/	A nice blog article illustrating some classic pitfalls in floating-point arithmetic.
 E			Wikipedia: Double-precision Floating-point Format**		https://en.wikipedia.org/wiki/Double-precision_floating-point_format##Double-precision_examples	Wikipedia entry on the floating-point format.
+E	Loren Shure	2018	"Get Smart, Be Logical!"		https://blogs.mathworks.com/loren/2018/01/30/get-smart-be-logical/	A nice blog article emphasising the importance of logical indexing in MATLAB.
+1	Carey and Papin	2018	Ten simple rules for biologists learning to program		10.1371/journal.pcbi.1005871	A nice guide for folks trying to delve into the world of programming!
