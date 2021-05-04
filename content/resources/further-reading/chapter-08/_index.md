@@ -27,7 +27,7 @@ The classic review on FBA.
 {{< /hint >}}
 {{< hint info >}}
 **Flux balance analysis of biological systems: applications and challenges**   
-[Raman and Chandra (2009) _Briefings in bioinformatics_](http://doi.org/10.1093/bib/bbp011)
+[Raman and Chandra (2009) _Briefings in Bioinformatics_](http://doi.org/10.1093/bib/bbp011)
 
 A simple review on constraint-based modelling approaches, with an illustration of a simple FBA.
 {{< /hint >}}
