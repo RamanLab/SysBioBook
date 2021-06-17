@@ -49,3 +49,9 @@ An excellent review of technologies and methodologies for genome editing in synt
 
 A nice overview of multiple synthetic biology circuits.
 {{< /hint >}}
+{{< hint info >}}
+**The art of molecular compute: Whence and whither**   
+[Gangadharan and Raman (2021) _BioEssays_](http://doi.org/10.1002/bies.202100051)
+
+A detailed review of DNA computing,  highlighting key experiments across three different eras of molecular computation, beginning with molecular solutions, transitioning to logic circuits and ultimately, more complex molecular networks. 
+{{< /hint >}}
