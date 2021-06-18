@@ -23,7 +23,7 @@
 <link rel="manifest" href="/SysBioBook/manifest.json">
 <link rel="icon" href="/SysBioBook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/SysBioBook/book.min.ff12e6f676a04cc6e1c548b6da9fd164854a9daa9574d5e5a0a68fef3e325607.css" integrity="sha256-/xLm9nagTMbhxUi22p/RZIVKnaqVdNXloKaP7z4yVgc=">
-<script defer src="/SysBioBook/en.search.min.a15537e26bd37b19e5f148f02f5d5d8d14b114c2580e152af2de7192507ab873.js" integrity="sha256-oVU34mvTexnl8UjwL11djRSxFMJYDhUq8t5xklB6uHM="></script>
+<script defer src="/SysBioBook/en.search.min.55d2a7a43e03639bc77df7bb443ddc82fd82a11f105b588ca94f34eeb0236295.js" integrity="sha256-VdKnpD4DY5vHffe7RD3cgv2CoR8QW1iMqU807rAjYpU="></script>
 <link rel="alternate" type="application/rss+xml" href="//ramanlab.github.io/SysBioBook/resources/supplementary-exercises/chapter-06/index.xml" title="An Introduction to Computational Systems Biology" />
 <!--
 Made with Book Theme
@@ -1386,6 +1386,85 @@ https://github.com/alex-shpak/hugo-book
   Chapter 6: Parameter estimation
   <a class="anchor" href="#chapter-6-parameter-estimation">#</a>
 </h1>
+<ol>
+<li>
+<p>Solve the following ODE in MATLAB using <code>ode45</code> and report the value of 
+<link rel="stylesheet" href="/SysBioBook/katex/katex.min.css" />
+<script defer src="/SysBioBook/katex/katex.min.js"></script>
+<script defer src="/SysBioBook/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \(y(t=10)\)
+</span>
+. Report 4 significant digits of your answer.<br>
+<span>
+  \[
+    \frac{dy}{dt} = \frac{y&#43;t^2-2}{t&#43;1}; y(0) = 2\]
+</span>
+
+<strong>Ans: 69. 25</strong></p>
+</li>
+<li>
+<p>Using <code>fminsearch</code> in MATLAB, find the minimum of the following function.
+<span>
+  \[  
+   f(x,y) = x^2y - 2xy^2 &#43;3xy &#43;4\]
+</span>
+
+Use <span>
+  \([-1.2, 1]\)
+</span>
+ as the initial guess. Report 2 significant digits of all the values.</p>
+<ul>
+<li>Report the minimum value.<br>
+<strong>Ans: 3.5</strong></li>
+<li>Report the value of x<sub>min</sub>.<br>
+<strong>Ans: -1.0</strong></li>
+<li>Report the value of y<sub>min</sub>.<br>
+<strong>Ans: 0.5</strong></li>
+</ul>
+</li>
+<li>
+<p>I have a measured set of data points as given in the following table.  </p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">x</th>
+<th style="text-align:center">y</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">500</td>
+<td style="text-align:center">0.05</td>
+</tr>
+<tr>
+<td style="text-align:center">550</td>
+<td style="text-align:center">0.1</td>
+</tr>
+<tr>
+<td style="text-align:center">600</td>
+<td style="text-align:center">0.2</td>
+</tr>
+<tr>
+<td style="text-align:center">650</td>
+<td style="text-align:center">0.4</td>
+</tr>
+<tr>
+<td style="text-align:center">700</td>
+<td style="text-align:center">0.8</td>
+</tr>
+</tbody>
+</table>
+<p>It is known that y and x are related according to the equation: 
+<span>
+  \(y=A \exp(\frac{−B}{x})\)
+</span>
+. Which of the following values of the parameters fit the measured data points well?</p>
+<p>a. A = 1000, B = 5000<br>
+b. A = 900, B = 4500<br>
+c. A = 5000, B = 5500<br>
+<strong>Ans: a</strong></p>
+</li>
+</ol>
 </article>
  
       
