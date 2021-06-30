@@ -23,7 +23,7 @@
 <link rel="manifest" href="/SysBioBook/manifest.json">
 <link rel="icon" href="/SysBioBook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/SysBioBook/book.min.ff12e6f676a04cc6e1c548b6da9fd164854a9daa9574d5e5a0a68fef3e325607.css" integrity="sha256-/xLm9nagTMbhxUi22p/RZIVKnaqVdNXloKaP7z4yVgc=">
-<script defer src="/SysBioBook/en.search.min.3da48cc3a2ffb53e83ff25af668d558cf7029320b36de38079ff1e06b752b307.js" integrity="sha256-PaSMw6L/tT6D/yWvZo1VjPcCkyCzbeOAef8eBrdSswc="></script>
+<script defer src="/SysBioBook/en.search.min.afcc0e4f1ea36b0c8c0e141e59cd5176b7c78d59c16613dcd09f51565a0c2005.js" integrity="sha256-r8wOTx6jawyMDhQeWc1RdrfHjVnBZhPc0J9RVloMIAU="></script>
 <link rel="alternate" type="application/rss+xml" href="//ramanlab.github.io/SysBioBook/resources/supplementary-exercises/chapter-08/index.xml" title="An Introduction to Computational Systems Biology" />
 <!--
 Made with Book Theme
@@ -1386,6 +1386,122 @@ https://github.com/alex-shpak/hugo-book
   Chapter 8: Introduction to constraint-based modelling
   <a class="anchor" href="#chapter-8-introduction-to-constraint-based-modelling">#</a>
 </h1>
+<ol>
+<li>Match the constraints given in the table below with their physical significance.<br>
+a.  A – ii, B – i, C – iii<br>
+b.  A – iii, B – i, C – ii<br>
+c.  A – iii, B – ii, C – i<br>
+d.  A – i, B – ii, C – i</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>I</th>
+<th>II</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(A) Stoichiometry</td>
+<td>(i) Thermodynamic feasibility and equilibrium</td>
+</tr>
+<tr>
+<td>(B) Reversibility</td>
+<td>(ii) Turnover number of involved enzyme</td>
+</tr>
+<tr>
+<td>(C) Capacity</td>
+<td>(iii) Conservation of mass</td>
+</tr>
+</tbody>
+</table>
+<p>        <strong>Ans: b</strong></p>
+<ol start="2">
+<li>
+<p>Which of the following statements is/are correct?<br>
+a.  One flux balance equation is written for each metabolite present in the system.<br>
+b.  One flux balance equation is written for each reaction occurring in the system.<br>
+c.  Metabolites constitute the rows and reactions constitute the columns of the stoichiometric matrix.<br>
+d.  Generally in a biochemical system, we can find unique flux distribution for metabolic reactions.<br>
+<strong>Ans: a, c</strong></p>
+</li>
+<li>
+<p>Download the iAF1260 model from <a href="http://bigg.ucsd.edu/">BiGG database</a> and load it in MATLAB. A structure named ‘iAF1260’ will form in the workspace. Use <code>linprog</code> to find the maximum biomass value for this model.<br>
+<strong>Ans: 0.7367</strong></p>
+</li>
+<li>
+<p>The function <code>linprog</code> in MATLAB does minimization of the objective function by default. Since you want to use it for maximizing the growth rate, you would pass 
+<link rel="stylesheet" href="/SysBioBook/katex/katex.min.css" />
+<script defer src="/SysBioBook/katex/katex.min.js"></script>
+<script defer src="/SysBioBook/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \(-c^{T}v\)
+</span>
+ as the objective function. So, the optimum value returned by <code>linprog</code> is actually the minimum of <span>
+  \(-c^{T}v\)
+</span>
+. To obtain the required values of maximum biomass growth rate and the flux distribution, I say you should (i) multiply -1 to the optimum value and (ii) multiply -1 to all the flux values.<br>
+What do you think about my statements?<br>
+a.  Both (i) and (ii) are true<br>
+b.  Both (i) and (ii) are false<br>
+c.  (i) is false, (ii) is true<br>
+d.  (i) is true, (ii) is false<br>
+<strong>Ans: d</strong></p>
+</li>
+<li>
+<p>Match the following in the context of constraint based metabolic modelling :-<br>
+<em>r</em>: number of reactions, <em>m</em>: number of metabolites</p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>I</th>
+<th>II</th>
+<th>III</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(A.i) <em>m</em>&gt;<em>r</em></td>
+<td>(B.i) Unique solution</td>
+<td>(C.i) Least squares</td>
+</tr>
+<tr>
+<td>(A.ii) <em>r</em>&gt;<em>m</em></td>
+<td>(B.ii) Under-determined</td>
+<td>(C.ii) Many possible flux distributions</td>
+</tr>
+<tr>
+<td>(A.iii) <em>r</em>=<em>m</em></td>
+<td>(B.iii) Over-determined</td>
+<td>(C.iii) Trivial solution</td>
+</tr>
+</tbody>
+</table>
+<p>        a.  A.i – B.i – C.i;        A.ii – B.ii – C.ii;     A.iii – B.iii – C.iii<br>
+        b.  A.i – B.iii – C.i;  A.ii - B.ii – C.ii;     A.iii – B.i – C.iii<br>
+        c.  A.i – B.ii – C.i;       A.ii – B.i – C.iii;     A.iii – B.iii – C.ii<br>
+        d.  A.i – B.i – C.ii;       A.ii – B.iii – C.i;     A.iii – B.ii – C.iii<br>
+        <strong>Ans: b</strong></p>
+<ol start="6">
+<li>
+<p>The figure below depicts the metabolic network of a fictitious organism. It can grow on two substrates (A &amp; C). The pathways utilizing the two substrates are as shown in the figure and G is an indication of the biomass. A and C are only uptaken and not secreted, i.e., the exchange fluxes are only in the direction indicated in the figure. The cell tries to maximize the flux of G. Which of the following statements is/are true?</p>
+<p><img src="image.jpg" alt="Cell" /></p>
+<p>a.  This network is blocked when only A is uptaken. However, it can grow when C is provided and hence this network is “conditionally” blocked.<br>
+b.  This network is unconditionally blocked and will not show growth in the presence of any substrate.<br>
+c.  When FBA is done on this network, except the biomass flux, every other flux will have a non-zero value.<br>
+d.  When FBA is done on this network, all the fluxes will be 0.<br>
+<strong>Ans: b, d</strong></p>
+</li>
+<li>
+<p>If you conduct FVA for the case considered in question 6, what do you expect?<br>
+a.  vmin = vmax = 0 for all fluxes<br>
+b.  vmin = 0 and vmax ≠ 0 for all fluxes<br>
+c.  vmin ≠ 0 and vmax = 0 for all fluxes<br>
+d.  vmin ≠ 0 and vmax ≠ 0 for all fluxes<br>
+<strong>Ans: a</strong></p>
+</li>
+</ol>
 </article>
  
       
