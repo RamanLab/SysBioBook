@@ -23,7 +23,7 @@
 <link rel="manifest" href="/SysBioBook/manifest.json">
 <link rel="icon" href="/SysBioBook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/SysBioBook/book.min.ff12e6f676a04cc6e1c548b6da9fd164854a9daa9574d5e5a0a68fef3e325607.css" integrity="sha256-/xLm9nagTMbhxUi22p/RZIVKnaqVdNXloKaP7z4yVgc=">
-<script defer src="/SysBioBook/en.search.min.b9c8cc5aac4a954a2ecfff5f6866ba0156aefbaa9bde0352b442eb495b56b2af.js" integrity="sha256-ucjMWqxKlUouz/9faGa6AVau&#43;6qb3gNStELrSVtWsq8="></script>
+<script defer src="/SysBioBook/en.search.min.9e9816b68546e5d529427e657aee128731e849360723a9fc59805d423865bf0e.js" integrity="sha256-npgWtoVG5dUpQn5leu4ShzHoSTYHI6n8WYBdQjhlvw4="></script>
 <link rel="alternate" type="application/rss+xml" href="//ramanlab.github.io/SysBioBook/resources/supplementary-exercises/chapter-01/index.xml" title="An Introduction to Computational Systems Biology" />
 <!--
 Made with Book Theme
@@ -1386,6 +1386,192 @@ https://github.com/alex-shpak/hugo-book
   Chapter 1: Introduction to modelling
   <a class="anchor" href="#chapter-1-introduction-to-modelling">#</a>
 </h1>
+<ol>
+<li>While studying the metabolic pathways of a cell, the following four reactions were considered to play an important role in cell metabolism,</li>
+</ol>
+<pre>
+R1: &rightarrow; A
+R2: A  &rightarrow; B
+R3: A + B  &rightarrow; C
+R4: C  &rightarrow; 
+</pre>
+<p>But to do computational analyses, these reactions have to be represented mathematically. Can you represent these reactions using a matrix?<br>
+Hint: The matrix will have each column representing each reaction and each rows metabolite. If a metabolite m1 is consumed in R1, then the value corresponding to (m1, R1) will be -1. If m2 is produced in R1, then (m2, R1) will be +1. If m3 does not involve in R1, then (m3, R1) will be 0.<br>
+a.  
+<link rel="stylesheet" href="/SysBioBook/katex/katex.min.css" />
+<script defer src="/SysBioBook/katex/katex.min.js"></script>
+<script defer src="/SysBioBook/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \(    \begin{bmatrix}
+    1 &amp; -1 &amp; -1 &amp; 0 \\
+    0 &amp; 1 &amp; -1 &amp; 0 \\
+    0 &amp; 0 &amp; 1 &amp; -1
+    \end{bmatrix} \)
+</span>
+<br>
+b.  <span>
+  \(    \begin{bmatrix}
+    1 &amp; -1 &amp; 0 &amp; 0 \\
+    0 &amp; 1 &amp; 0 &amp; 0 \\
+    1 &amp; 1 &amp; 1 &amp; -1
+    \end{bmatrix} \)
+</span>
+<br>
+c.  <span>
+  \(    \begin{bmatrix}
+    -1 &amp; -1 &amp; -1 &amp; 1 \\
+    0 &amp; 1 &amp; 1 &amp; 0 \\
+    0 &amp; 0 &amp; -1 &amp; 1
+    \end{bmatrix} \)
+</span>
+<br>
+d. <span>
+  \(    \begin{bmatrix}
+    0 &amp; -1 &amp; -1 &amp; 0 \\
+    1 &amp; -1 &amp; 1 &amp; 0 \\
+    1 &amp; 0 &amp; 1 &amp; 0
+    \end{bmatrix} \)
+</span>
+</p>
+<p><strong>Ans: <span>
+  \(    \begin{bmatrix}
+    1 &amp; -1 &amp; -1 &amp; 0 \\
+    0 &amp; 1 &amp; -1 &amp; 0 \\
+    0 &amp; 0 &amp; 1 &amp; -1
+    \end{bmatrix} \)
+</span>
+</strong></p>
+<ol start="2">
+<li>In an experiment, the following data was obtained.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Conc. of substrate</th>
+<th>Conc. of product</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10</td>
+</tr>
+<tr>
+<td>3</td>
+<td>20</td>
+</tr>
+<tr>
+<td>4</td>
+<td>25</td>
+</tr>
+<tr>
+<td>5</td>
+<td>25</td>
+</tr>
+<tr>
+<td>6</td>
+<td>30</td>
+</tr>
+<tr>
+<td>7</td>
+<td>40</td>
+</tr>
+<tr>
+<td>8</td>
+<td>60</td>
+</tr>
+<tr>
+<td>9</td>
+<td>60</td>
+</tr>
+<tr>
+<td>10</td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
+<p>This data was plotted on a graph, and a 6th-degree polynomial equation gave a perfect fit with an <span>
+  \( R^2 \)
+</span>
+ value of 0.9933.</p>
+<p><img src="graph_fitting.png" width="550" height="300" /></p>
+<p>Then they tried to predict the product concentration further by increasing the substrate concentration. The predicted values significantly differed from the experimental values. What might be the reason?<br>
+a.  This happens for no reason.<br>
+b.  The model is underfitting. Hence a better model with a higher <span>
+  \(R^2\)
+</span>
+ value must be selected.<br>
+c.  The model is overfitting. Therefore, a better model can be chosen even though the <span>
+  \(R^2\)
+</span>
+ value is less than that of the current model.<br>
+d.  None of the above.</p>
+<p><strong>Ans: c</strong></p>
+<ol start="3">
+<li>What is the name of the following circuit?</li>
+</ol>
+<p><img src="repressilator.png" width="350" height="200" /></p>
+<p>a.  Oscillator<br>
+b.  Repressilator<br>
+c.  Toggle Switch<br>
+d.  Amplifier</p>
+<p><strong>Ans: b</strong></p>
+<ol start="4">
+<li>The simple biological circuit given below is called a toggle switch.</li>
+</ol>
+<p><img src="toggle_switch_circuits.png" alt="switch" /></p>
+<p>A toggle switch consists of two promoters (say P1 and P2) and two repressors (say R1 and R2). R2 represses P1 and R1 represses P2. There are two inducers I1 and I2, inducing P1 and P2, respectively.<br>
+Then based on the above biological circuit, which of the following are true? More than one statement is true.<br>
+a.  The presence of both IPTG and heat leads to partial GFP production.<br>
+b.  The presence of only heat leads to complete GFP production.<br>
+c.  The presence of only IPTG leads to complete GFP production.<br>
+d.  The presence of only heat does not lead to GFP production.<br>
+e.  The presence of only IPTG does not lead to GFP production.</p>
+<p><strong>Ans: a, c, d</strong></p>
+<ol start="5">
+<li>The below ODE equations represent a simple SIR model of an X disease.</li>
+</ol>
+<p><span>
+  \( \frac{dS}{dt} = - \frac{\beta SI}{N} \)
+</span>
+<br>
+<span>
+  \( \frac{dI}{dt} = \frac{\beta SI}{N} - \gamma I \)
+</span>
+<br>
+<span>
+  \( \frac{dR}{dt} = \gamma I \)
+</span>
+</p>
+<p>Where N – total population, S, I, R – people susceptible, infected, recovered, respectively.<br>
+β – the rate of infection and γ - the rate of recovery.<br>
+What are all the assumptions made to generate this model? More than one statement may be correct.<br>
+a.  The total population varies with time.<br>
+b.  The total population is fixed throughout.<br>
+c.  There are only three categories of people in this population, susceptible, infected, and recovered.<br>
+d.  The infected people would not infect the susceptible.<br>
+e.  The recovered people cannot be infected.</p>
+<p><strong>Ans: b, c, e</strong></p>
+<ol start="6">
+<li>The rate determining step of Michaelis-Menten kinetics is:<br>
+a.  The complex dissociation step to produce products<br>
+b.  The complex formation step<br>
+c.  The product formation step<br>
+d.  None of the above</li>
+</ol>
+<p><strong>Ans: a</strong></p>
+<ol start="7">
+<li>What is/are the correct interpretations of the image below?</li>
+</ol>
+<p><img src="rxn_graph.png" alt="rxn" /></p>
+<p>a.  The reaction takes place in the cytosol<br>
+b.  ATP is required for the reaction to proceed<br>
+c.  The reaction is catalysed by pyruvate kinase<br>
+d.  All of the above</p>
+<p><strong>Ans: a, c</strong></p>
 </article>
  
       
