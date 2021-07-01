@@ -23,7 +23,7 @@
 <link rel="manifest" href="/SysBioBook/manifest.json">
 <link rel="icon" href="/SysBioBook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/SysBioBook/book.min.ff12e6f676a04cc6e1c548b6da9fd164854a9daa9574d5e5a0a68fef3e325607.css" integrity="sha256-/xLm9nagTMbhxUi22p/RZIVKnaqVdNXloKaP7z4yVgc=">
-<script defer src="/SysBioBook/en.search.min.afcc0e4f1ea36b0c8c0e141e59cd5176b7c78d59c16613dcd09f51565a0c2005.js" integrity="sha256-r8wOTx6jawyMDhQeWc1RdrfHjVnBZhPc0J9RVloMIAU="></script>
+<script defer src="/SysBioBook/en.search.min.b9c8cc5aac4a954a2ecfff5f6866ba0156aefbaa9bde0352b442eb495b56b2af.js" integrity="sha256-ucjMWqxKlUouz/9faGa6AVau&#43;6qb3gNStELrSVtWsq8="></script>
 <link rel="alternate" type="application/rss+xml" href="//ramanlab.github.io/SysBioBook/resources/supplementary-exercises/chapter-10/index.xml" title="An Introduction to Computational Systems Biology" />
 <!--
 Made with Book Theme
@@ -1386,6 +1386,71 @@ https://github.com/alex-shpak/hugo-book
   Chapter 10: Perturbations to metabolic networks
   <a class="anchor" href="#chapter-10-perturbations-to-metabolic-networks">#</a>
 </h1>
+<ol>
+<li>
+<p>Consider the following reaction sequence and choose the correct statement(s) about synthetic and single lethals.
+
+<link rel="stylesheet" href="/SysBioBook/katex/katex.min.css" />
+<script defer src="/SysBioBook/katex/katex.min.js"></script>
+<script defer src="/SysBioBook/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \[    R1: A &#43; B  \rightarrow C    
+    \]
+</span>
+</p>
+<span>
+  \[    R2: C &#43;A  \rightarrow D  
+    \]
+</span>
+
+<span>
+  \[    R3: B &#43; D  \rightarrow E &#43; F  
+    \]
+</span>
+
+<span>
+  \[    R4: A &#43; D  \rightarrow E &#43; F     
+    \]
+</span>
+
+<span>
+  \[    R5: E &#43; F \rightarrow Biomass  
+    \]
+</span>
+
+<p>a.  R3 and R4 is a synthetic lethal pair<br>
+b.  R2 and R4 is a synthetic lethal pair<br>
+c.  R3 is a single lethal<br>
+d.  R4 is a single lethal</p>
+<p><strong>Ans: a, b</strong></p>
+<p>Download the <em>Escherichia coli</em> str. K-12 substr. MG1655 model <code>‘iAF1260.mat’</code> from <a href="http://bigg.ucsd.edu/models/iAF1260">http://bigg.ucsd.edu/models/iAF1260</a>. Load and analyze the model in MATLAB.</p>
+</li>
+<li>
+<p>What is the number of essential reactions (growth rate upon deletion results in &lt; 5% of  the wildtype growth) observed in the anaerobic <code>iAF1260</code> model?</p>
+<p><strong>Ans: 292</strong></p>
+</li>
+<li>
+<p>Perform a knockout of the Pyruvate Dehydrogenase (PDH) reaction in the anaerobic  model of <code>iAF1260</code>. What is the maximum acetate production flux of the knockout strain  (The biomass flux should at least 90% of the wildtype under anaerobic condition)?</p>
+<p><strong>Ans: 8.26 mmol/gDW/h</strong></p>
+</li>
+<li>
+<p>Which of the following can help to identify a potential drug target for a bacterial disease affecting humans?<br>
+a. A gene that does not change the biomass flux of the bacterium when knocked out.<br>
+b. A gene that does that significantly reduces the biomass flux of the bacterium when knocked out.<br>
+c. A bacterial protein involved in biomass production of the bacterium and having a structure different from any human proteins.<br>
+d.A bacterial protein involved in biomass production of the bacterium and having a structure very similar to a human protein.</p>
+<p><strong>Ans: b, c</strong></p>
+</li>
+<li>
+<p>Consider the MATLAB code:<br>
+<code>[grRatio, grRateKO] = doubleGeneDeletion(model)</code>.
+The MATLAB command <code>sum(grRatio&lt;0.05)</code> gives:</p>
+<p>a.The sum of the growth rates that are less than 5% of wild-type growth rate.<br>
+b.The number of reactions for which the growth rate is 5% of wild-type growth rate.<br>
+c.The number of gene-pair deletions for which the growth ratio is less than 0.05.<br>
+d.The number of gene-pair deletions for which the growth rate of the deletion strain is less than 5% of the wild-type growth rate.</p>
+<p><strong>Ans: c, d</strong></p>
+</li>
+</ol>
 </article>
  
       
