@@ -23,7 +23,7 @@
 <link rel="manifest" href="/SysBioBook/manifest.json">
 <link rel="icon" href="/SysBioBook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/SysBioBook/book.min.ff12e6f676a04cc6e1c548b6da9fd164854a9daa9574d5e5a0a68fef3e325607.css" integrity="sha256-/xLm9nagTMbhxUi22p/RZIVKnaqVdNXloKaP7z4yVgc=">
-<script defer src="/SysBioBook/en.search.min.9e9816b68546e5d529427e657aee128731e849360723a9fc59805d423865bf0e.js" integrity="sha256-npgWtoVG5dUpQn5leu4ShzHoSTYHI6n8WYBdQjhlvw4="></script>
+<script defer src="/SysBioBook/en.search.min.2f1adc97947d2d9f60d6fd0c8307c51d79e74062dc1874d9a31862466e164ec5.js" integrity="sha256-Lxrcl5R9LZ9g1v0MgwfFHXnnQGLcGHTZoxhiRm4WTsU="></script>
 <link rel="alternate" type="application/rss+xml" href="//ramanlab.github.io/SysBioBook/resources/supplementary-exercises/chapter-02/index.xml" title="An Introduction to Computational Systems Biology" />
 <!--
 Made with Book Theme
@@ -1387,13 +1387,14 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#chapter-2-introduction-to-graph-theory">#</a>
 </h1>
 <ol>
-<li>A previous class of students had analyzed some data and constructed a small network. All they have left behind for the next batch is an adjacency matrix, given below.</li>
-</ol>
+<li>
+<p>A previous class of students had analyzed some data and constructed a small network. All they have left behind for the next batch is an adjacency matrix, given below.<br>
 
 <link rel="stylesheet" href="/SysBioBook/katex/katex.min.css" />
 <script defer src="/SysBioBook/katex/katex.min.js"></script>
 <script defer src="/SysBioBook/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
-  \(    \begin{bmatrix}
+  \(
+    \begin{bmatrix}
     0 &amp; 3 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\
     0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\
     0 &amp; 0 &amp; 0 &amp; 1 &amp; 5 &amp; 0 &amp; 0 \\
@@ -1401,50 +1402,48 @@ https://github.com/alex-shpak/hugo-book
     0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 2 &amp; 0 \\
     0 &amp; 0 &amp; 0 &amp; 3 &amp; 0 &amp; 0 &amp; 0 \\
     0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0
-    \end{bmatrix} \)
+    \end{bmatrix} \)
 </span>
-
-<p>What do you think the network represents?<br>
+<br>
+What do you think the network represents?<br>
 a.  A weighted, undirected, sparse network.<br>
 b.  A weighted, directed, sparse network.<br>
 c.  An unweighted, undirected, sparse network.<br>
 d.  An unweighted, directed, sparse network.<br>
-e.  This information cannot be obtained from the adjacency matrix.</p>
-<p><strong>Ans: b</strong></p>
-<ol start="2">
-<li>
-<p>Which of the following statements is/are TRUE for undirected graphs?</p>
-<p><strong>A: Number of odd degree vertices is even.</strong><br>
-<strong>B: Sum of degrees of all vertices is even.</strong></p>
+e.  This information cannot be obtained from the adjacency matrix.<br>
+<strong>Ans: b</strong></p>
 </li>
-</ol>
-<p>a.  A only<br>
+<li>
+<p>Which of the following statements is/are TRUE for undirected graphs?<br>
+<strong>A: Number of odd degree vertices is even.</strong><br>
+<strong>B: Sum of degrees of all vertices is even.</strong><br>
+a.  A only<br>
 b.  B only<br>
 c.  Both A and B<br>
-d.  Neither A nor B</p>
-<p><strong>Ans: c</strong></p>
-<ol start="3">
-<li>I was a part of a team whose job was to study a biological network we recently constructed. We felt that properties such as the clustering coefficient, the diameter of the network, the characteristic pathlength all meant something special about the network. Still, we did not know how to verify it. I have the following four options in mind. Help me get a good name amongst my mates by choosing the correct method for me.<br>
+d.  Neither A nor B<br>
+<strong>Ans: c</strong></p>
+</li>
+<li>
+<p>I was a part of a team whose job was to study a biological network we recently constructed. We felt that properties such as the clustering coefficient, the diameter of the network, the characteristic pathlength all meant something special about the network. Still, we did not know how to verify it. I have the following four options in mind. Help me get a good name amongst my mates by choosing the correct method for me.<br>
 a.  Build the network again from scratch, and if we get the network with the same properties, they are unique.<br>
 b.  Convince teammates; no verification required.<br>
 c.  Generate many random networks with the same no. of nodes and edges, check if our network properties are very distinct from 95-100% of random networks generated.<br>
-d.  Both a and c.</li>
-</ol>
-<p><strong>Ans: c</strong></p>
-<ol start="4">
-<li>The degree of all nodes would be the same in which of the following networks? More than one statement may be true.<br>
+d.  Both a and c.<br>
+<strong>Ans: c</strong></p>
+</li>
+<li>
+<p>The degree of all nodes would be the same in which of the following networks? More than one statement may be true.<br>
 a.  Hypergraphs.<br>
 b.  Small-world (ring lattice) networks.<br>
 c.  Regular ring lattices.<br>
 d.  Complete graphs.<br>
-e.  An Erdős–Rényi random network with n nodes and the probability of connecting edges as 1.</li>
-</ol>
-<p><strong>Ans: a, c, d, e</strong></p>
-<ol start="5">
-<li>Answer the following questions from the following graph</li>
-</ol>
-<p><img src="network.png" alt="network" /></p>
-<p>i)  Degree of node 5:<br>
+e.  An Erdős–Rényi random network with n nodes and the probability of connecting edges as 1.<br>
+<strong>Ans: a, c, d, e</strong></p>
+</li>
+<li>
+<p>Answer the following questions from the following graph<br>
+<img src="network.png" alt="network" /><br>
+i)  Degree of node 5:<br>
 <strong>Ans: 3</strong><br>
 ii) Number of connected components:<br>
 <strong>Ans: 1</strong><br>
@@ -1454,24 +1453,25 @@ iv) Average clustering coefficient of the network:<br>
 <strong>Ans: 0.277</strong><br>
 v)  Diameter of a network:<br>
 <strong>Ans: 3</strong></p>
-<ol start="6">
-<li>Which of the following is/are NOT a node property?
+</li>
+<li>
+<p>Which of the following is/are NOT a node property?
 a.  Degree<br>
 b.  Clustering coefficient<br>
 c.  Betweenness centrality<br>
-d.  Characteristic path length</li>
-</ol>
-<p><strong>Ans: d</strong></p>
-<ol start="7">
-<li>The local clustering coefficient of a node within a clique is:<br>
+d.  Characteristic path length<br>
+<strong>Ans: d</strong></p>
+</li>
+<li>
+<p>The local clustering coefficient of a node within a clique is:<br>
 a.  Infinite<br>
 b.  1<br>
 c.  0<br>
-d.  None of the above</li>
-</ol>
-<p><strong>Ans: b</strong></p>
-<ol start="8">
-<li>A graph <span>
+d.  None of the above<br>
+<strong>Ans: b</strong></p>
+</li>
+<li>
+<p>A graph <span>
   \(G(V, E)\)
 </span>
  is constructed such that each node is a metabolite and the edges represent reactions by which one metabolite can be converted to another. Every metabolite can be converted into any other metabolite in the graph through a set of reactions. What type of a graph is <span>
@@ -1480,25 +1480,26 @@ d.  None of the above</li>
 ?<br>
 a.  Sparse<br>
 b.  Complete<br>
-c.  Strongly connected</li>
-</ol>
-<p><strong>Ans: c</strong></p>
-<ol start="9">
-<li>When you delete the node with the highest betweenness centrality, the characteristic path length<br>
+c.  Strongly connected<br>
+<strong>Ans: c</strong></p>
+</li>
+<li>
+<p>When you delete the node with the highest betweenness centrality, the characteristic path length<br>
 a.  decreases<br>
 b.  increases<br>
 c.  does not change<br>
-d.  cannot be determined</li>
-</ol>
-<p><strong>Ans: b</strong></p>
-<ol start="10">
-<li>Preferential attachment is a characteristic of<br>
+d.  cannot be determined<br>
+<strong>Ans: b</strong></p>
+</li>
+<li>
+<p>Preferential attachment is a characteristic of<br>
 a.  Random network<br>
 b.  Small world network<br>
 c.  Power-law network<br>
-d.  All of the above</li>
+d.  All of the above<br>
+<strong>Ans: c</strong></p>
+</li>
 </ol>
-<p><strong>Ans: c</strong></p>
 </article>
  
       

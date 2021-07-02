@@ -23,7 +23,7 @@
 <link rel="manifest" href="/SysBioBook/manifest.json">
 <link rel="icon" href="/SysBioBook/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/SysBioBook/book.min.ff12e6f676a04cc6e1c548b6da9fd164854a9daa9574d5e5a0a68fef3e325607.css" integrity="sha256-/xLm9nagTMbhxUi22p/RZIVKnaqVdNXloKaP7z4yVgc=">
-<script defer src="/SysBioBook/en.search.min.9e9816b68546e5d529427e657aee128731e849360723a9fc59805d423865bf0e.js" integrity="sha256-npgWtoVG5dUpQn5leu4ShzHoSTYHI6n8WYBdQjhlvw4="></script>
+<script defer src="/SysBioBook/en.search.min.2f1adc97947d2d9f60d6fd0c8307c51d79e74062dc1874d9a31862466e164ec5.js" integrity="sha256-Lxrcl5R9LZ9g1v0MgwfFHXnnQGLcGHTZoxhiRm4WTsU="></script>
 <link rel="alternate" type="application/rss+xml" href="//ramanlab.github.io/SysBioBook/resources/supplementary-exercises/chapter-03/index.xml" title="An Introduction to Computational Systems Biology" />
 <!--
 Made with Book Theme
@@ -1387,59 +1387,59 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#chapter-3-structure-of-networks">#</a>
 </h1>
 <ol>
-<li>The ______ centrality of a node N1, is the reciprocal of the sum of the shortest distances between N1 and all other nodes.<br>
+<li>
+<p>The ______ centrality of a node N1, is the reciprocal of the sum of the shortest distances between N1 and all other nodes.<br>
 a.  Closeness<br>
 b.  Betweenness<br>
 c.  Degree<br>
-d.  None of the above</li>
-</ol>
-<p><strong>Ans: a</strong></p>
-<ol start="2">
-<li>What is the command for finding the degrees of each node in the network, A is the adjacency matrix?<br>
+d.  None of the above<br>
+<strong>Ans: a</strong></p>
+</li>
+<li>
+<p>What is the command for finding the degrees of each node in the network, A is the adjacency matrix?<br>
 a.  <code>degrees = sum(A)</code><br>
 b.  <code>degrees = nnz(A)</code><br>
 c.  <code>degrees = nonzeros(A)</code><br>
-d.  None.</li>
-</ol>
-<p><strong>Ans: a</strong></p>
-<ol start="3">
-<li>A complex biological graph is typically unaffected by random perturbations because…<br>
+d.  None.<br>
+<strong>Ans: a</strong></p>
+</li>
+<li>
+<p>A complex biological graph is typically unaffected by random perturbations because…<br>
 a.  Random perturbations cancel each other.<br>
 b.  Random perturbations always attack peripheral nodes.<br>
 c.  Random perturbations rarely affect essential nodes in a scale-free network.<br>
-d.  There is no exact reason.</li>
-</ol>
-<p><strong>Ans: c</strong></p>
-<ol start="4">
-<li>Pick the best suitable reason.<br>
+d.  There is no exact reason.<br>
+<strong>Ans: c</strong></p>
+</li>
+<li>
+<p>Pick the best suitable reason.<br>
 A complete undirected graph has zero network motifs because… (more than one reason might be true)<br>
 a.  Undirected graphs do not have motifs.<br>
 b.  A complete graph is too sparse to have motifs.<br>
 c.  Every node is connected to one another, and hence no rewiring is possible.<br>
-d.  None of the motifs are statistically significant.</li>
-</ol>
-<p><strong>Ans: c, d</strong></p>
-<ol start="5">
-<li>In a neural network from the brain to ear, all signals from the brain to ear and vice versa should pass through a neuron X. What would this mean?<br>
+d.  None of the motifs are statistically significant.<br>
+<strong>Ans: c, d</strong></p>
+</li>
+<li>
+<p>In a neural network from the brain to ear, all signals from the brain to ear and vice versa should pass through a neuron X. What would this mean?<br>
 a.  X will have the highest clustering coefficient.<br>
 b.  X is the highest degree node in the neural network.<br>
 c.  X will have the highest betweenness centrality.<br>
-d.  All the above is true.</li>
-</ol>
-<p><strong>Ans: c</strong></p>
-<ol start="6">
-<li>We know that a network model of a biological system helps us to understand the system. But how is rewiring the network helpful? More than one statement might be true.<br>
+d.  All the above is true.<br>
+<strong>Ans: c</strong></p>
+</li>
+<li>
+<p>We know that a network model of a biological system helps us to understand the system. But how is rewiring the network helpful? More than one statement might be true.<br>
 a.  It helps us to distinguish our network from random networks that can be arrived at by chance.<br>
 b.  The rewired network should show the same properties as the original network. Only then our network is correct.<br>
 c.  Rewiring is done to study the stability of the network.<br>
-d.  It helps us to study the statistical significance of our network parameters.</li>
-</ol>
-<p><strong>Ans: a, d</strong></p>
-<ol start="7">
-<li>The information about a network is attached as a <a href="bio-diseasome.mtx">text file</a>, which can be uploaded into MATLAB using the command <code>readmatrix(filename, 'FileType', 'text')</code>.<br>
-Answer the following based on this network.</li>
-</ol>
-<p>i)  What is the maximum degree of a node in this network?<br>
+d.  It helps us to study the statistical significance of our network parameters.<br>
+<strong>Ans: a, d</strong></p>
+</li>
+<li>
+<p>The information about a network is attached as a <a href="bio-diseasome.mtx">text file</a>, which can be uploaded into MATLAB using the command <code>readmatrix(filename, 'FileType', 'text')</code>.<br>
+Answer the following based on this network.<br>
+i)  What is the maximum degree of a node in this network?<br>
 <strong>Ans: 50</strong><br>
 ii) How many nodes have a degree of 26?<br>
 <strong>Ans: 2</strong><br>
@@ -1447,6 +1447,33 @@ iii)    How many nodes have all their neighboring nodes interacting with one ano
 <strong>Ans: 266</strong><br>
 iv) What is the characteristic pathlength of this network? Round off to two decimal points.<br>
 <strong>Ans: 6.50 to 6.51</strong></p>
+</li>
+<li>
+<p>Which of the following gene networks are directed graphs?<br>
+a.  Gene-regulatory networks<br>
+b.  Co-expression networks<br>
+c.  Gene interaction networks<br>
+d.  Transcriptional regulatory networks<br>
+e.  Gene expression network<br>
+<strong>Ans: a, d</strong></p>
+</li>
+<li>
+<p>Construct a regular lattice in MATLAB with 100 nodes and each node having 10 neighbors. What is the characteristic pathlength of the network? Round off the answer to 2 decimal points.<br>
+<strong>Ans: 5.4 to 5.5</strong></p>
+</li>
+<li>
+<p>Randomly remove 120 nodes from the regular lattice in <strong>Question 9</strong>. What will be the mean clustering coefficient of the network? Round off the answer to 2 decimal points.<br>
+<strong>Ans: 0.3 to 0.44</strong></p>
+</li>
+<li>
+<p>If a network has metabolites and reactions as nodes, with edges between metabolites and reactions, reactions and metabolites it is a _________.<br>
+a.  Substrate graph<br>
+b.  Hypergraph<br>
+c.  Bipartite graph<br>
+d.  Reaction graph<br>
+<strong>Ans: c</strong></p>
+</li>
+</ol>
 </article>
  
       
