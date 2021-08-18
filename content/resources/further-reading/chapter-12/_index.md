@@ -50,6 +50,12 @@ An excellent review of technologies and methodologies for genome editing in synt
 A nice overview of multiple synthetic biology circuits.
 {{< /hint >}}
 {{< hint info >}}
+**Synthetic biology: applications come of age**   
+[Khalil and Collins (2010) _Nature Reviews Genetics_](http://doi.org/10.1038/nrg2775)
+
+A nice overview of a large number of applications of synthetic biology, from drug synthesis to biofuels to therapies.
+{{< /hint >}}
+{{< hint info >}}
 **The art of molecular computing: Whence and whither**   
 [Gangadharan and Raman (2021) _BioEssays_](http://doi.org/10.1002/bies.202100051)
 
