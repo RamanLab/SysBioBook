@@ -61,5 +61,11 @@ _This is a fantastic book.  It offers an elegant introduction to both classical 
 
 ## Cover Image
 
-![](/SysBioBook/logo.png) A special word of thanks to the super-talented and extremely creative [Gaurav Bilolikar](https://twitter.com/gbilolikar) for the attractive cover image. A very artistic rendering of cellular networks, making it very apt for this book's cover.
+<!-- ![](/SysBioBook/logo.png "This is the title attribute {width='100' height='75' style='border: 1px solid red;`}")   -->
+
+{{< figure src="/SysBioBook/logo.png" alt="cover image" width="100px" >}}
+
+
+
+A special word of thanks to the super-talented and extremely creative [Gaurav Bilolikar](https://twitter.com/gbilolikar) for the attractive cover image. A very artistic rendering of cellular networks, making it very apt for this book's cover.
 
