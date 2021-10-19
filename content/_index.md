@@ -57,3 +57,9 @@ _This is a very comprehensive read that provides a solid base in computational b
 _This is a fantastic book.  It offers an elegant introduction to both classical and modern concepts in computational biology.  To the uninitiated, it is a terrific first read, bringing alive the glory of the past and the promise of the future.  To the interested, it handholds and offers a springboard to dive deep.  To the practitioner, it serves as a valuable resource bringing together in a panoramic view many diverse streams that adorn the landscape._
 
 -- [Narendra M. Dixit](https://chemeng.iisc.ac.in/chemeweb/faculty_narendra.htm), Professor, [Indian Institute of Science](https://www.iisc.ac.in/)
+
+
+## Cover Image
+
+![](/SysBioBook/logo.png) A special word of thanks to the super-talented and extremely creative [Gaurav Bilolikar](https://twitter.com/gbilolikar) for the attractive cover image. A very artistic rendering of cellular networks, making it very apt for this book's cover.
+
