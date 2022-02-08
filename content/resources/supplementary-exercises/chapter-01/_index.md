@@ -113,3 +113,11 @@ b.  ATP is required for the reaction to proceed
 c.  The reaction is catalysed by pyruvate kinase  
 d.  All of the above  
 **Ans: a, c**
+
+8.  What factors are you likely to consider to create a simple model to obtain the rate of evaporation of water kept in a container?
+a. Micro impurities  
+b. Wind speed  
+c. Temperature  
+d. Surface area of water exposed to air  
+e. Volume of the water placed inside the container  
+**Ans: b, c, d**
