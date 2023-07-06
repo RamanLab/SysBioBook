@@ -11,6 +11,5 @@ Despite my best efforts and those of my colleagues and students who have careful
 
 # Errata
 
-* p. 163, Chapter 7: First line below equation 7.3c: _`composes`_ should read _`compose`_
 * p. 176, Chapter 8: In the footnote, `CH3` should read `CH₃`
 * p. 278, Chapter 12: `Elowitz and Liebler` should read `Elowitz and Leibler [ref.]`. The reference is Elowitz, M., Leibler, S. A synthetic oscillatory network of transcriptional regulators. [_Nature_ **403**:335–338 (2000)](https://doi.org/10.1038/35002125)
